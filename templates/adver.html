@@ -34,7 +34,7 @@
         </tr>
         {% for array in caracteristics %}
         <tr>
-          <td><input type="radio" id="{{loop.index0}}" name="carac" onchange="test({{loop.index0}})"></td>
+          <td><input type="radio" id="{{loop.index0}}" name="carac" onchange="choose('caracteristics', {{loop.index0}})"></td>
           <td><label for="{{loop.index0}}">{{array['name']}}</label></td>
           <td><label for="{{loop.index0}}">{% for name, value in array['caracs'].items() %} {{name|capitalize}}: {{value}},{% endfor %}</label></td>
           <td><label for="{{loop.index0}}">{% for name, value in array['power_level'].items() %} {{name|capitalize}}: {{value}},{% endfor %}</label></td>
@@ -44,45 +44,84 @@
       </table>
       
     </fieldset>
+
     <fieldset>
-      <input type="checkbox" id="c1" name="carac" ><label for="c1">Scales</label>
-      <input type="checkbox" id="c2" name="carac"><label for="c2">Horns</label>
-    </fieldset>
+      <table>
+        <tr>
+          <th></th>
+          <th>Name</th>
+          <th>Caracteristics</th>
+          <th>Power levels</th>
+        </tr>
+
+        {% for array in skills %}
+        <tr>
+          <td><input type="checkbox" id="{{loop.index0}}" name="carac" onchange="toogle('skills', {{loop.index0}})"></td>
+          <td><label for="{{loop.index0}}">{{array['name']}}</label></td>
+          <td><label for="{{loop.index0}}">{% for name, value in array['skills'].items() %} {{name|capitalize}}: {{value}},{% endfor %}</label></td>
+          <td><label for="{{loop.index0}}">{% for name, value in array['power_level'].items() %} {{name|capitalize}}: {{value}},{% endfor %}</label></td>
+        </tr>
+        {% endfor %}
+      </table>
+      
   </form>
   
-  <p id="test">0</p>
 
   <script type="text/javascript">
     const json_data = '{{data|safe}}';
     const data = JSON.parse(json_data);
-
-    var previous;
     
-    function test(i){
+    var choice = {};
+    
+    function choose(type, i){
+      var caracs = data[type][i];
+      choice[type] = caracs; 
       
-      var caracs = data['caracteristics'][i]['caracs'];
+      compute()
+    };
+
+    function toogle(type, i){
+      console.log(choice)
+      var key = type + i
+      console.log(key)
+      console.log(key in choice)
+      if (!( type + i in choice )) delete choice[key];
+      else choice[key] = data[type][i];
+      
+      compute()
+    };
+    
+    function compute(){
+      var result = {"power_level": {"combat": 0, "social": 0, "general": 0}};
+
+      for (id in choice){
+        for (item in choice[id]){
+          values = choice[id][item];
+          if (item == 'caracs'){
+            result['caracteristics'] = values 
+          } else if (item == 'power_level')
+            for (name in values)
+              result["power_level"][name] += values[name];
+          
+        };
+        
+        // Affichage
+        
+      var caracs = result['caracteristics'];
       var text;
       for (var id in caracs){
-        var text = document.querySelector('.nb.' + id);
+        text = document.querySelector('.nb.' + id);
         text.textContent = caracs[id]; 
       };
 
-      var level = data['caracteristics'][i]['power_level'];
-      console.log(level)
+      var level = result['power_level'];
       
+        //console.log(level);
       for (var id in level){
-        var level_text = document.querySelector('.nb.' + id);
-        var value = level[id]; 
-        console.log(id)
-        console.log(value)
-        if (typeof previous != 'undefined') {
-          value -= data['caracteristics'][previous]['power_level'][id]
-        };
-        console.log(value)
-        level_text.textContent = parseInt(level_text.textContent) + value;
+        text = document.querySelector('.nb.' + id);
+        text.textContent = level[id]; 
       };
-      
-      previous = i
+      };
     };
     
     

@@ -9,8 +9,8 @@ with open('data.json') as f:
 
 @app.route("/")
 def hello():
-    return render_template('adver.html', caracteristics=data['caracteristics'], data=json.dumps(data, separators=(',', ':'))
-    )
+    test = {'a': 'b'}
+    return render_template('adver.html', data=json.dumps(data, separators=(',', ':')), **data)
 
 if __name__ == "__main__":
     app.run(debug=True)
