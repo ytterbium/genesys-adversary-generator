@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="static/style.css">
+  <!--<link rel="stylesheet" href="https://fontlibrary.org/face/bebas" type="text/css"/>
+  <link rel="stylesheet" href="https://fontlibrary.org/face/bebusneuebold" type="text/css"/>-->
+</head>
+
+<body>
+
+  <div id="card">
+    {% include 'power_level.svg' %}
+
+    {% include "caracteristics.svg" %} 
+
+    {% include "defense.svg" %} 
+    </div>
+  
+  <form id="type">
+    <fieldset>
+    <input name="type" type="radio" id="minion"><label for="minion">Minion</label>
+    <input name="type" type="radio" id="rival"><label for="rival">Rival</label>
+    <input name="type" type="radio" id="nemesis"><label for="nemesis">Nemesis</label>
+    </fieldset>
+  
+    <fieldset>
+      <table>
+        <tr>
+          <th></th>
+          <th>Name</th>
+          <th>Caracteristics</th>
+          <th>Power levels</th>
+          <th>Exemples</th>
+        </tr>
+        {% for array in caracteristics %}
+        <tr>
+          <td><input type="radio" id="{{loop.index0}}" name="carac" onchange="test({{loop.index0}})"></td>
+          <td><label for="{{loop.index0}}">{{array['name']}}</label></td>
+          <td><label for="{{loop.index0}}">{% for name, value in array['caracs'].items() %} {{name|capitalize}}: {{value}},{% endfor %}</label></td>
+          <td><label for="{{loop.index0}}">{% for name, value in array['power_level'].items() %} {{name|capitalize}}: {{value}},{% endfor %}</label></td>
+          <td><label for="{{loop.index0}}">{{array['ex']}}</label></td>
+        </tr>
+        {% endfor %}
+      </table>
+      
+    </fieldset>
+    <fieldset>
+      <input type="checkbox" id="c1" name="carac" ><label for="c1">Scales</label>
+      <input type="checkbox" id="c2" name="carac"><label for="c2">Horns</label>
+    </fieldset>
+  </form>
+  
+  <p id="test">0</p>
+
+  <script type="text/javascript">
+    const json_data = '{{data|safe}}';
+    const data = JSON.parse(json_data);
+
+    var previous;
+    
+    function test(i){
+      
+      var caracs = data['caracteristics'][i]['caracs'];
+      var text;
+      for (var id in caracs){
+        var text = document.querySelector('.nb.' + id);
+        text.textContent = caracs[id]; 
+      };
+
+      var level = data['caracteristics'][i]['power_level'];
+      console.log(level)
+      
+      for (var id in level){
+        var level_text = document.querySelector('.nb.' + id);
+        var value = level[id]; 
+        console.log(id)
+        console.log(value)
+        if (typeof previous != 'undefined') {
+          value -= data['caracteristics'][previous]['power_level'][id]
+        };
+        console.log(value)
+        level_text.textContent = parseInt(level_text.textContent) + value;
+      };
+      
+      previous = i
+    };
+    
+    
+  </script>
+</body>
+
+

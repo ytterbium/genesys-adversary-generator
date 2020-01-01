@@ -1,0 +1,31 @@
+<!-- Created with Inkscape (http://www.inkscape.org/)
+<?xml-stylesheet type="text/css" href="style.css"?> -->
+<svg width="144.6mm" height="21.6mm" version="1.1" viewBox="0 0 72.8 10.8" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(-17.7 -88.6)">
+   <path d="m90.5 95.7c0 2.07-2.4 3.74-5.38 3.74h-62.1c-2.98 0-5.38-1.67-5.38-3.74 0 0 72.8-0.0074 72.8 0z" class="deco" />
+  <path d="m56 92.3-0.783 0.772v5.66h9.55v-5.66l-0.781-0.774h-0.334c-0.0631 1.97-1.68 3.55-3.66 3.55-1.98 0-3.6-1.58-3.66-3.55zm0.942 0c0.0623 1.64 1.4 2.94 3.05 2.94 1.65 0 2.99-1.3 3.05-2.94z" class="polygon" />
+  <text x="59.960239" y="98.098557" class="carac">cunning</text>
+  <circle cx="60" cy="92.2" r="3.29" class="circle"/>
+  <text x="60.036789" y="93.781181" class="nb cunning">0</text>
+  <path d="m79.8 92.3-0.783 0.772v5.66h9.55v-5.66l-0.781-0.774h-0.334c-0.0631 1.97-1.68 3.55-3.66 3.55-1.98 0-3.6-1.58-3.66-3.55zm0.942 0c0.0623 1.64 1.4 2.94 3.05 2.94 1.65 0 2.99-1.3 3.05-2.94z" class="polygon" />
+  <text x="83.692497" y="98.098557" class="carac">presence</text>
+  <circle cx="83.8" cy="92.2" r="3.29" class="circle" />
+  <text x="83.769043" y="93.781181" class="nb presence">0</text>
+  <path d="m20.4 92.3-0.783 0.772v5.66h9.55v-5.66l-0.781-0.774h-0.334c-0.0631 1.97-1.68 3.55-3.66 3.55-1.98 0-3.6-1.58-3.66-3.55zm0.942 0c0.0623 1.64 1.4 2.94 3.05 2.94 1.65 0 2.99-1.3 3.05-2.94z" class="polygon" />
+  <text x="24.361855" y="98.098557" class="carac">Brawn</text>
+  <circle cx="24.4" cy="92.2" r="3.29" class="circle" />
+  <text x="24.438404" y="93.781181" class="nb brawn">0</text>
+  <path d="m67.9 92.3-0.783 0.772v5.66h9.55v-5.66l-0.781-0.774h-0.334c-0.0631 1.97-1.68 3.55-3.66 3.55-1.98 0-3.6-1.58-3.66-3.55zm0.942 0c0.0623 1.64 1.4 2.94 3.05 2.94 1.65 0 2.99-1.3 3.05-2.94z" class="polygon" />
+  <text x="71.826363" y="98.098557" class="carac">willpower</text>
+  <circle cx="71.9" cy="92.2" r="3.29" class="circle" />
+  <text x="71.902916" y="93.781181" class="nb willpower">0</text>
+  <path d="m44.2 92.3-0.783 0.772v5.66h9.55v-5.66l-0.781-0.774h-0.334c-0.0631 1.97-1.68 3.55-3.66 3.55-1.98 0-3.6-1.58-3.66-3.55zm0.942 0c0.0623 1.64 1.4 2.94 3.05 2.94 1.65 0 2.99-1.3 3.05-2.94z" class="polygon" />
+  <text x="48.094109" y="98.098557" class="carac">intellect</text>
+  <circle cx="48.2" cy="92.2" r="3.29" class="circle" />
+  <text x="48.170662" y="93.781181" class="nb intellect">0</text>
+  <path d="m32.3 92.3-0.783 0.772v5.66h9.55v-5.66l-0.781-0.774h-0.334c-0.0631 1.97-1.68 3.55-3.66 3.55-1.98 0-3.6-1.58-3.66-3.55zm0.942 0c0.0623 1.64 1.4 2.94 3.05 2.94 1.65 0 2.99-1.3 3.05-2.94z" class="polygon" />
+  <text x="36.227982" y="98.098557" class="carac">agility</text>
+  <circle cx="36.3" cy="92.2" r="3.29" class="circle" />
+  <text x="36.304531" y="93.781181" class="nb agility">0</text>
+ </g>
+</svg>

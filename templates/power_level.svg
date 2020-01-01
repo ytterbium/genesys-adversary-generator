@@ -1,0 +1,16 @@
+<!-- Created with Inkscape (http://www.inkscape.org/)
+<?xml-stylesheet type="text/css" href="style.css"?> -->
+<svg width="73.2mm" height="13.26mm" version="1.1" viewBox="0 0 36.6 6.63" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(-52.5 -75.4)">
+  <path d="m89 79.5c0 1.44-1.2 2.59-2.7 2.59h-31.2c-1.5 0-2.7-1.16-2.7-2.59 0 0 36.6-5e-3 36.6 0z" class="deco"/>
+  <path d="m55.4 75.6-1.65 1.65v2.27l1.65 1.65h30.7l1.65-1.65v-2.27l-1.65-1.65z" style="fill:#fff;stroke-width:.414;stroke:#26548b"/>
+  <text x="84.30706" y="80.026825" class="nb general">0</text>
+  <text x="73.251755" y="80.026825" class="nb social">0</text>
+  <text x="62.196461" y="80.026825" class="nb combat">0</text>
+  <path d="m59.3 80h-1.86-1.86l1.86-3.22 0.93 1.61z" style="fill:#ca2824;"/>
+  <rect transform="rotate(45)" x="110" y="-2.08" width="2.62" height="2.62" style="fill:#006b2f;"/>
+  <circle cx="68.5" cy="78.4" r="1.85" style="fill:#264d84;"/>
+  <path d="m65.2 75.8v5.18" class="sep"/>
+  <path d="m76.3 75.8v5.24" class="sep"/>
+ </g>
+</svg>

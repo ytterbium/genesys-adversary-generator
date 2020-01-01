@@ -1,0 +1,61 @@
+
+svg text.nb {
+ font-family:'Bebas Neue';
+ font-size:4.6px;
+ font-weight:bold;
+ stroke-width:.265;
+ text-align:center;
+ text-anchor:middle 
+}
+
+.sep {
+  fill:none;stroke-width:.127;stroke:#8793b5;
+}
+
+.deco {
+  fill:#f79d38;paint-order:markers fill stroke;
+}
+
+.carac {
+  fill:#ffffff;font-family:'Bebas Neue';font-size:2.47px;stroke-width:.265;text-align:center;text-anchor:middle ;
+}
+
+.circle {
+ fill:#fff;stroke-width:.596;stroke:#26548b ;
+}
+
+.polygon {
+  fill:#26548b;paint-order:markers fill stroke;stroke-width:.238;stroke:#8793b5;
+}
+
+svg {
+  display: block; 
+}
+
+svg.level {
+  margin-left: auto;
+}
+
+svg.caracteristic {
+  margin: 20px;
+}
+svg.defense {
+  margin: auto;
+}
+
+#card {
+  display: inline-block;
+  position: fixed;
+  right: 0;
+}
+ table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+#type {
+  display: inline-block;
+}
