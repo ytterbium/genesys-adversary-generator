@@ -14,6 +14,8 @@
     {% include "caracteristics.svg" %} 
 
     {% include "defense.svg" %} 
+
+    <p><span class="section">Skills: </span><span class="skills"></span></p>
     </div>
   
   <form id="type">
@@ -34,11 +36,11 @@
         </tr>
         {% for array in caracteristics %}
         <tr>
-          <td><input type="radio" id="{{loop.index0}}" name="carac" onchange="choose('caracteristics', {{loop.index0}})"></td>
-          <td><label for="{{loop.index0}}">{{array['name']}}</label></td>
-          <td><label for="{{loop.index0}}">{% for name, value in array['caracs'].items() %} {{name|capitalize}}: {{value}},{% endfor %}</label></td>
-          <td><label for="{{loop.index0}}">{% for name, value in array['power_level'].items() %} {{name|capitalize}}: {{value}},{% endfor %}</label></td>
-          <td><label for="{{loop.index0}}">{{array['ex']}}</label></td>
+          <td><input type="radio" id="caracteristics{{loop.index0}}" name="caracteristics" onchange="update()" value="{{loop.index0}}"></td>
+          <td><label for="caracteristics{{loop.index0}}">{{array['name']}}</label></td>
+          <td><label for="caracteristics{{loop.index0}}">{% for name, value in array['caracs'].items() %} {{name|capitalize ~ ': ' ~ value}}{{", " if not loop.last}}{% endfor %}</label></td>
+          <td><label for="caracteristics{{loop.index0}}">{% for name, value in array['power_level'].items() %} {{name|capitalize ~ ': ' ~ value}}{{", " if not loop.last}}{% endfor %}</label></td>
+          <td><label for="caracteristics{{loop.index0}}">{{array['ex']}}</label></td>
         </tr>
         {% endfor %}
       </table>
@@ -56,10 +58,14 @@
 
         {% for array in skills %}
         <tr>
-          <td><input type="checkbox" id="{{loop.index0}}" name="carac" onchange="toogle('skills', {{loop.index0}})"></td>
-          <td><label for="{{loop.index0}}">{{array['name']}}</label></td>
-          <td><label for="{{loop.index0}}">{% for name, value in array['skills'].items() %} {{name|capitalize}}: {{value}},{% endfor %}</label></td>
-          <td><label for="{{loop.index0}}">{% for name, value in array['power_level'].items() %} {{name|capitalize}}: {{value}},{% endfor %}</label></td>
+          <td><input type="checkbox" id="skills{{loop.index0}}" name="skills" onchange="update()" value="{{loop.index0}}"></td>
+          <td><label for="skills{{loop.index0}}">{{array['name']}}</label></td>
+          <td><label for="skills{{loop.index0}}">
+          {% for name, value in array['skills'].items() %}{{name|capitalize ~ ': ' ~ value}}{{", " if not loop.last}}{% endfor %}
+          </label></td>
+          <td><label for="skills{{loop.index0}}">
+          {% for name, value in array['power_level'].items() %}{{name|capitalize ~ ': ' ~ value}}{{", " if not loop.last}}{% endfor %}
+          </label></td>
         </tr>
         {% endfor %}
       </table>
@@ -71,37 +77,33 @@
     const json_data = '{{data|safe}}';
     const data = JSON.parse(json_data);
     
-    var choice = {};
     
-    function choose(type, i){
-      var caracs = data[type][i];
-      choice[type] = caracs; 
-      
-      compute()
-    };
-
-    function toogle(type, i){
-      console.log(choice)
-      var key = type + i
-      console.log(key)
-      console.log(key in choice)
-      if (!( type + i in choice )) delete choice[key];
-      else choice[key] = data[type][i];
-      
-      compute()
-    };
+    function update(){
+    var choices = {};
     
-    function compute(){
-      var result = {"power_level": {"combat": 0, "social": 0, "general": 0}};
+    var inputs = document.querySelectorAll('table input')
+    for (var i=0, n=inputs.length, input; i < n; i++){
+      input = inputs[i];
+      if (input.checked) 
+        choices[input.name + input.value] = data[input.name][input.value];
+    }
 
-      for (id in choice){
-        for (item in choice[id]){
-          values = choice[id][item];
+      result = {"power_level": {"combat": 0, "social": 0, "general": 0}, "skills": {}};
+
+      for (var id in choices){
+        for (var item in choices[id]){
+          values = choices[id][item];
+
           if (item == 'caracs'){
             result['caracteristics'] = values 
           } else if (item == 'power_level')
-            for (name in values)
+            for (var name in values)
               result["power_level"][name] += values[name];
+          else if (item == 'skills')
+            for (var name in values){
+              prev = (name in result["skills"]) ? result["skills"][name] : 0;
+              result["skills"][name] = Math.max(prev, values[name]);
+            };
           
         };
         
@@ -121,7 +123,18 @@
         text = document.querySelector('.nb.' + id);
         text.textContent = level[id]; 
       };
+      
+      text = document.querySelector('.skills');
+        var skill_array = [];
+        var skills = result['skills'];
+        if (skills == {}) 
+          text.textContent = '';
+        for (name in skills)
+          skill_array.push(name + ' ' + skills[name]);
+        text.textContent = skill_array.sort().join(', ');
+
       };
+
     };
     
     

@@ -59,3 +59,11 @@ table, th, td {
 #type {
   display: inline-block;
 }
+
+.section {
+ font-weight:bold; 
+}
+
+.skills {
+    text-transform: capitalize;
+}
