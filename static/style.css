@@ -8,6 +8,14 @@ svg text.nb {
  text-anchor:middle 
 }
 
+svg text.ranged_defense {
+ text-anchor:start; 
+}
+
+svg text.melee_defense {
+ text-anchor:end; 
+}
+
 .sep {
   fill:none;stroke-width:.127;stroke:#8793b5;
 }
@@ -43,10 +51,20 @@ svg.defense {
   margin: auto;
 }
 
+body {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
 #card {
-  display: inline-block;
-  position: fixed;
-  right: 0;
+  position: sticky;
+  top: 20px;
+  max-width: 600px;
+}
+
+#defense{
+  display: flex;
+  justify-content: space-around;
 }
  table {
   border-collapse: collapse;
@@ -67,3 +85,27 @@ table, th, td {
 .skills {
     text-transform: capitalize;
 }
+
+.symbol.combat::before {
+  content: url(combat.svg); 
+}
+.symbol.social::before {
+  content: url(social.svg); 
+}
+.symbol.general::before {
+  content: url(general.svg); 
+}
+.symbol::before {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 2px;
+}
+
+.symbol{
+  margin-right: 5px;
+}
+
+.desc {
+  font-size: smaller;
+}
+

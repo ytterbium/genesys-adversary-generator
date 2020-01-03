@@ -1,0 +1,10 @@
+<!-- Created with Inkscape (http://www.inkscape.org/)
+<?xml-stylesheet type="text/css" href="style.css"?> -->
+<svg width="32.6mm" height="14.72mm" version="1.1" viewBox="0 0 16.3 7.36" xmlns="http://www.w3.org/2000/svg" class="st">
+ <g transform="translate(-72.2 -102)">
+  <path d="m72.3 102v1.54l1.43 1.43h13.2l1.43-1.43v-1.54z" style="fill:#902122;"/>
+  <text transform="skewX(-15)" x="108.15788" y="104.30579" class="carac">Strain THRESHOLD</text>
+  <text x="80.355019" y="108.47731" class="nb strain_threshold">0</text>
+  <path d="m72.3 102v4.48l2.64 2.64h10.7l2.64-2.64v-4.48z" style="fill:none;stroke-width:.248;stroke:#fbdcb6"/>
+ </g>
+</svg>

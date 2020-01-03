@@ -1,10 +1,11 @@
-<!-- Created with Inkscape (http://www.inkscape.org/)
-<?xml-stylesheet type="text/css" href="style.css"?> -->
-<svg width="32.6mm" height="14.72mm" version="1.1" viewBox="0 0 16.3 7.36" xmlns="http://www.w3.org/2000/svg">
- <g transform="translate(-72.2 -102)">
-  <path d="m72.3 102v1.54l1.43 1.43h13.2l1.43-1.43v-1.54z" style="fill:#902122;"/>
-  <text transform="skewX(-15)" x="108.15788" y="104.30579" class="carac">WOUND THRESHOLD</text>
-  <text x="80.355019" y="108.47731" class="nb">5</text>
-  <path d="m72.3 102v4.48l2.64 2.64h10.7l2.64-2.64v-4.48z" style="fill:none;stroke-width:.248;stroke:#fbdcb6"/>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="32.6mm" height="14.7mm" version="1.1" viewBox="0 0 16.263 7.3628" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(-23.909 -114.26)">
+  <path d="m32.04 121.62v-4.8004" style="fill:none;stroke-width:.52917;stroke:#902122"/>
+  <path d="m24.062 114.38v1.5441l1.433 1.4325h13.158l1.4325-1.4325v-1.5441z" style="fill:#902122;"/>
+  <text transform="skewX(-15.041)" x="63.215553" y="116.73133" class="carac">M/R DEFENSE</text>
+  <path d="m24.033 114.38v4.4798l2.6355 2.6355h10.745l2.6355-2.6355v-4.4798z" style="fill:none;stroke-width:.24752;stroke:#fbdcb6"/>
+  <text x="34.123478" y="120.90285" class="nb ranged_defense">0</text>
+  <text x="30.9652" y="120.90285" class="nb melee_defense">0</text>
  </g>
 </svg>

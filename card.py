@@ -10,7 +10,9 @@ with open('data.json') as f:
 @app.route("/")
 def hello():
     test = {'a': 'b'}
-    return render_template('adver.html', data=json.dumps(data, separators=(',', ':')), **data)
+    print(data['defense'], 'r')
+    data_json = json.dumps(data, separators=(',', ':')).replace("'", "\\'").replace('\\"', '\\\\"') # correct escaping of quotations
+    return render_template('adver.html', data=data_json, **data)
 
 if __name__ == "__main__":
     app.run(debug=True)
