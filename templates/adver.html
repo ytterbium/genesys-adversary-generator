@@ -174,8 +174,7 @@
           </tr>
           </thead>
           {% for array in equipment %}
-          {% set loop_outer = loop%}
-          {% set id = 'equipment' ~ loop.index0 %}
+          {% set loop_outer, id = loop, 'equipment' ~ loop.index0 %}
           <tbody class="row" onclick="click({{id}});">
           <tr>
             <td rowspan=2 class="select"><input type="radio" id="equipment{{loop.index0}}" name="equipment" onchange="update()" value="{{loop.index0}}"></td>
