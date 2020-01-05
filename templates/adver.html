@@ -7,192 +7,194 @@
 </head>
 
 <body>
-
-  <div>
-    <div id="card">
-      <header>
-        <p id="name">Name<p>
-      {% include 'power_level.svg' %}
+  <article>
+    <div>
+      <div id="card">
+        <header>
+          <p id="name">Name<p>
+              {% include 'power_level.svg' %}
         </header> 
-      {% include "caracteristics.svg" %} 
+        {% include "caracteristics.svg" %} 
 
-      <div id="defense">
-        {% include "soak.svg" %}
-        {% include "wt.svg" %}
-        {% include "st.svg" %}
-        {% include "defense.svg" %}
-      </div> 
-      <p><span class="section">Skills: </span><span class="skills">None.</span></p>
-      <p><span class="section">Talents: </span><span class="talents">None.</span></p>
-      <p><span class="section">Abilities: </span><span class="abilities">None.</span></p>
-      <p><span class="section">Weapons: </span><span class="weapons">None.</span></p>
-      <p><span class="section">Equipment: </span><span class="equipment">None.</span></p>
+        <div id="defense">
+          {% include "soak.svg" %}
+          {% include "wt.svg" %}
+          {% include "st.svg" %}
+          {% include "defense.svg" %}
+        </div> 
+        <p><span class="section">Skills: </span><span class="skills">None.</span></p>
+        <p><span class="section">Talents: </span><span class="talents">None.</span></p>
+        <p><span class="section">Abilities: </span><span class="abilities">None.</span></p>
+        <p><span class="section">Weapons: </span><span class="weapons">None.</span></p>
+        <p><span class="section">Equipment: </span><span class="equipment">None.</span></p>
+      </div>
     </div>
-  </div>
-  
-  <div id="main_box">
-    <form id="type">
-      <fieldset>
-        <input name="type" type="radio" onchange="update()" id="minion" value="minion"><label for="minion">Minion</label>
-        <input name="type" type="radio" onchange="update()" id="rival" value="rival" checked><label for="rival">Rival</label>
-        <input name="type" type="radio" onchange="update()" id="nemesis" value="nemesis"><label for="nemesis">Nemesis</label>
-        <div id="filler"></div>
-        <input name="name" type="text" placeholder="Name" oninput="update_name()">
-      </fieldset>
 
-      <fieldset>
-        <legend>Characteristic arrays</legend>
-        <table>
-          <tr>
-            <th></th>
-            <th>Name</th>
-            <th>Caracteristics</th>
-            <th colspan="6">Power levels</th>
-            <th>Examples</th>
-          </tr>
-          {% for array in caracteristics %}
-          {% set loop_outer, id = loop, "caracteristics" ~ loop.index0 %}
-          <tr onclick="click_row('{{id}}')">
-            <td class="select"><input type="radio" id="caracteristics{{loop.index0}}" name="caracteristics" onchange="update()" value="{{loop.index0}}"></td>
-            <td><label for="caracteristics{{loop.index0}}">{{array['name']}}</label></td>
-            <td><label for="caracteristics{{loop.index0}}">{% for name, value in array['caracs'].items() %} {{name|capitalize ~ ': ' ~ value}}{{", " if not loop.last}}{% endfor %}</label></td>
-            {% for name, value in array['power_level'].items() %}<td class="icon"><label for="{{id}}"><img src="static/{{name}}.svg" /></label></td>
-            <td class="level"><label for="{{id}}">{{value}}</label></td>{% endfor %} 
-            <td><label for="{{id}}">{{array['ex']}}</label></td>
-          </tr>
-          {% endfor %}
-        </table>
-
-      </fieldset>
-
-      <fieldset>
-        <legend>Soak, defense, and wound and strain thresholds</legend>
-        <table>
-          <tr>
-            <th></th>
-            <th>Name</th>
-            <th>Derived attribute</th>
-            <th colspan="6">Power levels</th>
-            <th>Examples</th>
-          </tr> 
-          {% for array in defense %}
-          {% set loop_outer, id = loop, "defense" ~ loop.index0 %}
-          <tr onclick="click_row('{{id}}')">
-            <td class="select"><input type="checkbox" id="defense{{loop.index0}}" name="defense" onchange="update()" value="{{loop.index0}}"></td>
-            <td><label for="defense{{loop.index0}}">{{array['name']}}</label></td>
-            <td><label for="defense{{loop.index0}}">
-              {% for name, value in array['defense'].items() %}{{'{:+} '.format(value) ~ name}}{{", " if not loop.last}}{% endfor %}
-              </label></td> 
-            {% for name, value in array['power_level'].items() %}<td class="icon"><label for="defense{{loop_outer.index0}}"><img src="static/{{name}}.svg" /></label></td>
-              <td class="level"><label for="defense{{loop_outer.index0}}">{{value}}</label></td>{% endfor %} 
-            <td><label for="defense{{loop.index0}}">{{array['ex']}}</label></td>
-          </tr>
-          {% endfor %}
-        </table>
+    <div id="main_box">
+      <form id="type">
+        <fieldset>
+          <input name="type" type="radio" onchange="update()" id="minion" value="minion"><label for="minion">Minion</label>
+          <input name="type" type="radio" onchange="update()" id="rival" value="rival" checked><label for="rival">Rival</label>
+          <input name="type" type="radio" onchange="update()" id="nemesis" value="nemesis"><label for="nemesis">Nemesis</label>
+          <div id="filler"></div>
+          <input name="name" type="text" placeholder="Name" oninput="update_name()">
         </fieldset>
 
-      <fieldset>
-        <legend>Skill packages</legend>
-        <table>
-          <tr>
-            <th></th>
-            <th>Name</th>
-            <th>Skills</th>
-            <th colspan="6">Power levels</th>
-          </tr>
+        <fieldset>
+          <legend>Characteristic arrays</legend>
+          <table>
+            <tr>
+              <th></th>
+              <th>Name</th>
+              <th>Caracteristics</th>
+              <th colspan="6">Power levels</th>
+              <th>Examples</th>
+            </tr>
+            {% for array in caracteristics %}
+            {% set loop_outer, id = loop, "caracteristics" ~ loop.index0 %}
+            <tr onclick="click_row('{{id}}')">
+              <td class="select"><input type="radio" id="caracteristics{{loop.index0}}" name="caracteristics" onchange="update()" value="{{loop.index0}}"></td>
+              <td><label for="caracteristics{{loop.index0}}">{{array['name']}}</label></td>
+              <td><label for="caracteristics{{loop.index0}}">{% for name, value in array['caracs'].items() %} {{name|capitalize ~ ': ' ~ value}}{{", " if not loop.last}}{% endfor %}</label></td>
+              {% for name, value in array['power_level'].items() %}<td class="icon"><label for="{{id}}"><img src="static/{{name}}.svg" /></label></td>
+              <td class="level"><label for="{{id}}">{{value}}</label></td>{% endfor %} 
+              <td><label for="{{id}}">{{array['ex']}}</label></td>
+            </tr>
+            {% endfor %}
+          </table>
 
-{% for array in skills %}
-          {% set loop_outer, id = loop, "skills" ~ loop.index0 %}
-          <tr onclick="click_row('{{id}}')">
-  <td class="select"><input type="checkbox" id="skills{{loop.index0}}" name="skills" onchange="update()" value="{{loop.index0}}"></td>
-  <td><label for="skills{{loop.index0}}">{{array['name']}}</label></td>
-  <td><label for="skills{{loop.index0}}">
-  {% for name, value in array['skills'].items() %}{{name|capitalize ~ ': ' ~ value}}{{", " if not loop.last}}{% endfor %}
-    </label></td> 
-    {% for name, value in array['power_level'].items() %}<td class="icon"><label for="skills{{loop_outer.index0}}"><img src="static/{{name}}.svg" /></label></td><td class="level"><label for="skills{{loop_outer.index0}}">{{value}}</label></td>{% endfor %} 
-</tr>
-{% endfor %}
-        </table>
         </fieldset>
 
-      <fieldset>
-        <legend>Adversary talents</legend>
-        <table>
-          <tr>
-            <th></th>
-            <th>Talent</th>
-            <th colspan="6">Power levels</th>
-          </tr>
+        <fieldset>
+          <legend>Soak, defense, and wound and strain thresholds</legend>
+          <table>
+            <tr>
+              <th></th>
+              <th>Name</th>
+              <th>Derived attribute</th>
+              <th colspan="6">Power levels</th>
+              <th>Examples</th>
+            </tr> 
+            {% for array in defense %}
+            {% set loop_outer, id = loop, "defense" ~ loop.index0 %}
+            <tr onclick="click_row('{{id}}')">
+              <td class="select"><input type="checkbox" id="defense{{loop.index0}}" name="defense" onchange="update()" value="{{loop.index0}}"></td>
+              <td><label for="defense{{loop.index0}}">{{array['name']}}</label></td>
+              <td><label for="defense{{loop.index0}}">
+                  {% for name, value in array['defense'].items() %}{{'{:+} '.format(value) ~ name}}{{", " if not loop.last}}{% endfor %}
+                </label></td> 
+                {% for name, value in array['power_level'].items() %}<td class="icon"><label for="defense{{loop_outer.index0}}"><img src="static/{{name}}.svg" /></label></td>
+                <td class="level"><label for="defense{{loop_outer.index0}}">{{value}}</label></td>{% endfor %} 
+                <td><label for="defense{{loop.index0}}">{{array['ex']}}</label></td>
+            </tr>
+            {% endfor %}
+          </table>
+        </fieldset>
 
-          {% for array in talents %}
-          {% set loop_outer, id = loop, "talents" ~ loop.index0 %}
+        <fieldset>
+          <legend>Skill packages</legend>
+          <table>
+            <tr>
+              <th></th>
+              <th>Name</th>
+              <th>Skills</th>
+              <th colspan="6">Power levels</th>
+            </tr>
 
-          <tr onclick="click_row('{{id}}')">
-            <td class="select"><input type="checkbox" id="talents{{loop.index0}}" name="talents" onchange="update()" value="{{loop.index0}}"></td>
-            <td><label for="talents{{loop.index0}}">{{array['talent']}}</label></td>
-            {% for name, value in array['power_level'].items() %}<td class="icon"><label for="talents{{loop_outer.index0}}"><img src="static/{{name}}.svg" /></label></td><td class="level"><label for="talents{{loop_outer.index0}}">{{value}}</label></td>{% endfor %} 
-          </tr>
-          {% endfor %}
-        </table>
-      </fieldset>
-      <fieldset>
-        <legend>Adversary special abilities</legend>
-        <table>
-          <tr>
-            <th></th>
-            <th>Special ability</th>
-            <th>Description</th>
-            <th colspan="6">Power levels</th>
-            <th>Examples</th>
-          </tr>
+            {% for array in skills %}
+            {% set loop_outer, id = loop, "skills" ~ loop.index0 %}
+            <tr onclick="click_row('{{id}}')">
+              <td class="select"><input type="checkbox" id="skills{{loop.index0}}" name="skills" onchange="update()" value="{{loop.index0}}"></td>
+              <td><label for="skills{{loop.index0}}">{{array['name']}}</label></td>
+              <td><label for="skills{{loop.index0}}">
+                  {% for name, value in array['skills'].items() %}{{name|capitalize ~ ': ' ~ value}}{{", " if not loop.last}}{% endfor %}
+                </label></td> 
+                {% for name, value in array['power_level'].items() %}<td class="icon"><label for="skills{{loop_outer.index0}}"><img src="static/{{name}}.svg" /></label></td><td class="level"><label for="skills{{loop_outer.index0}}">{{value}}</label></td>{% endfor %} 
+            </tr>
+            {% endfor %}
+          </table>
+        </fieldset>
 
-          {% for array in abilities %}
-          {% set loop_outer, id = loop, "abilities" ~ loop.index0 %}
-          <tr onclick="click_row('{{id}}')">
-            <td class="select"><input type="checkbox" id="abilities{{loop.index0}}" name="abilities" onchange="update()" value="{{loop.index0}}"></td>
-            <td><label for="abilities{{loop.index0}}">{{array['ability']}}</label></td>
-            <td><label for="abilities{{loop.index0}}">{{array['desc']}}</label></td>
-            {% for name, value in array['power_level'].items() %}<td class="icon"><label for="talents{{loop_outer.index0}}"><img src="static/{{name}}.svg" /></label></td><td class="level"><label for="abilities{{loop_outer.index0}}">{{value}}</label></td>{% endfor %} 
-            <td><label for="abilities{{loop.index0}}">{{array['ex']}}</label></td>
-          </tr>
-          {% endfor %}
-        </table>
+        <fieldset>
+          <legend>Adversary talents</legend>
+          <table>
+            <tr>
+              <th></th>
+              <th>Talent</th>
+              <th colspan="6">Power levels</th>
+            </tr>
+
+            {% for array in talents %}
+            {% set loop_outer, id = loop, "talents" ~ loop.index0 %}
+
+            <tr onclick="click_row('{{id}}')">
+              <td class="select"><input type="checkbox" id="talents{{loop.index0}}" name="talents" onchange="update()" value="{{loop.index0}}"></td>
+              <td><label for="talents{{loop.index0}}">{{array['talent']}}</label></td>
+              {% for name, value in array['power_level'].items() %}<td class="icon"><label for="talents{{loop_outer.index0}}"><img src="static/{{name}}.svg" /></label></td><td class="level"><label for="talents{{loop_outer.index0}}">{{value}}</label></td>{% endfor %} 
+            </tr>
+            {% endfor %}
+          </table>
         </fieldset>
         <fieldset>
-        <legend>Equipment arrays</legend>
-        <table>
-          <thead>
-          <tr>
-            <th rowspan=2></th>
-            <th rowspan=2>Name</th>
-            <th rowspan=2>Description</th>
-            <th rowspan=1>Weapons</th>
-            <th rowspan=2 colspan="6">Power levels</th>
-          </tr>
-          <tr>
-            <th rowspan=1>Equipment</th>
-          </tr>
-          </thead>
-          {% for array in equipment %}
-          {% set loop_outer, id = loop, 'equipment' ~ loop.index0 %}
-          <tbody class="row" onclick="click({{id}});">
-          <tr>
-            <td rowspan=2 class="select"><input type="radio" id="equipment{{loop.index0}}" name="equipment" onchange="update()" value="{{loop.index0}}"></td>
-            <td rowspan=2><label for="equipment{{loop.index0}}">{{array['name']}}</label></td>
-            <td rowspan=2><label for="equipment{{loop.index0}}">{{array['desc']}}</label></td>
-            <td rowspan=1><label for="equipment{{loop.index0}}">{{array['weapons']}}</label></td>
-            {% for name, value in array['power_level'].items() %}<td rowspan=2 class="icon"><label for="equipment{{loop_outer.index0}}"><img src="static/{{name}}.svg" /></label></td><td rowspan=2 class="level"><label for="equipment{{loop_outer.index0}}">{{value}}</label></td>{% endfor %} 
-          </tr>
-          <tr>
-            <td rowspan=1><label for="equipment{{loop.index0}}">{{array['equipment']}}</label></td>
-          </tr>
-          </tbody>
-          {% endfor %}
-        </table>
+          <legend>Adversary special abilities</legend>
+          <table>
+            <tr>
+              <th></th>
+              <th>Special ability</th>
+              <th>Description</th>
+              <th colspan="6">Power levels</th>
+              <th>Examples</th>
+            </tr>
 
-      </fieldset>
-    </form>
-  </div>
+            {% for array in abilities %}
+            {% set loop_outer, id = loop, "abilities" ~ loop.index0 %}
+            <tr onclick="click_row('{{id}}')">
+              <td class="select"><input type="checkbox" id="abilities{{loop.index0}}" name="abilities" onchange="update()" value="{{loop.index0}}"></td>
+              <td><label for="abilities{{loop.index0}}">{{array['ability']}}</label></td>
+              <td><label for="abilities{{loop.index0}}">{{array['desc']}}</label></td>
+              {% for name, value in array['power_level'].items() %}<td class="icon"><label for="talents{{loop_outer.index0}}"><img src="static/{{name}}.svg" /></label></td><td class="level"><label for="abilities{{loop_outer.index0}}">{{value}}</label></td>{% endfor %} 
+              <td><label for="abilities{{loop.index0}}">{{array['ex']}}</label></td>
+            </tr>
+            {% endfor %}
+          </table>
+        </fieldset>
+        <fieldset>
+          <legend>Equipment arrays</legend>
+          <table>
+            <thead>
+              <tr>
+                <th rowspan=2></th>
+                <th rowspan=2>Name</th>
+                <th rowspan=2>Description</th>
+                <th rowspan=1>Weapons</th>
+                <th rowspan=2 colspan="6">Power levels</th>
+              </tr>
+              <tr>
+                <th rowspan=1>Equipment</th>
+              </tr>
+            </thead>
+            {% for array in equipment %}
+            {% set loop_outer, id = loop, 'equipment' ~ loop.index0 %}
+            <tbody class="row" onclick="click({{id}});">
+              <tr>
+                <td rowspan=2 class="select"><input type="radio" id="equipment{{loop.index0}}" name="equipment" onchange="update()" value="{{loop.index0}}"></td>
+                <td rowspan=2><label for="equipment{{loop.index0}}">{{array['name']}}</label></td>
+                <td rowspan=2><label for="equipment{{loop.index0}}">{{array['desc']}}</label></td>
+                <td rowspan=1><label for="equipment{{loop.index0}}">{{array['weapons']}}</label></td>
+                {% for name, value in array['power_level'].items() %}<td rowspan=2 class="icon"><label for="equipment{{loop_outer.index0}}"><img src="static/{{name}}.svg" /></label></td><td rowspan=2 class="level"><label for="equipment{{loop_outer.index0}}">{{value}}</label></td>{% endfor %} 
+              </tr>
+              <tr>
+                <td rowspan=1><label for="equipment{{loop.index0}}">{{array['equipment']}}</label></td>
+              </tr>
+            </tbody>
+            {% endfor %}
+          </table>
+
+        </fieldset>
+      </form>
+    </div>
+  </article>
+  <footer><a href="https://github.com/ytterbium/genesys-adversary-generator">Source code (license GPLv2+)</a></footer>
   
 
   <script type="text/javascript">

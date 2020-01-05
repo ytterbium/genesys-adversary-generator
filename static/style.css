@@ -67,12 +67,24 @@ svg.defense {
 }
 
 body {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
   background: #FAF6F2;
   font-family: "genesys", serif;
   /*font-family: 'Minion Pro', serif;*/
+}
+
+article{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+footer{
+  font-size:smaller;
+  text-align: center;
+}
+
+a {
+  color:black;
 }
 #card {
   position: sticky;
