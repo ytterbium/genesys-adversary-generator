@@ -1,4 +1,21 @@
 
+@font-face {
+    font-family:"Bebas Neue";
+    font-weight: normal;
+    src: local("Bebas Neue"),
+        url("fonts/BebasNeue Regular.otf")
+}
+
+@font-face {
+    font-family:"Bebase Neue";
+    font-weight: bold;
+    src: local("Bebas Neue Bold"),
+        url("fonts/BebasNeue Bold.otf")
+}
+@font-face {
+    font-family:"genesys";
+    src: url("fonts/Genesys_Icons_05.ttf")
+}
 svg text.nb {
  font-family:'Bebas Neue';
  font-size:4.6px;
