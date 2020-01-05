@@ -9,18 +9,17 @@ svg text.nb {
 }
 
 svg text.ranged_defense {
- text-anchor:start; 
 }
 
 svg text.melee_defense {
  text-anchor:end; 
 }
 
-.sep {
+svg .sep {
   fill:none;stroke-width:.127;stroke:#8793b5;
 }
 
-.deco {
+svg .deco {
   fill:#f79d38;paint-order:markers fill stroke;
 }
 
@@ -28,22 +27,38 @@ svg text.melee_defense {
   fill:#ffffff;font-family:'Bebas Neue';font-size:2.47px;stroke-width:.265;text-align:center;text-anchor:middle ;
 }
 
-.circle {
+svg .circle {
  fill:#fff;stroke-width:.596;stroke:#26548b ;
 }
 
-.polygon {
+svg .polygon {
   fill:#26548b;paint-order:markers fill stroke;stroke-width:.238;stroke:#8793b5;
 }
 
 svg {
   display: block; 
+  margin: 5px 0;
 }
 
 svg.level {
   margin-left: auto;
 }
 
+#card > header {
+  display :flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#name {
+  color:#3A68A5;
+  font-family:'Bebas Neue';
+  font-weight: normal;
+  font-variant: small-caps;
+  text-align: left;
+  font-size: 32px;
+}
 svg.caracteristic {
   margin: 20px;
 }
@@ -55,29 +70,108 @@ body {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
+  background: #FAF6F2;
+  font-family: "genesys", sans-serif;
+  /*font-family: 'Minion Pro', serif;*/
 }
 #card {
   position: sticky;
   top: 20px;
   max-width: 600px;
+  margin: 6px;
 }
 
 #defense{
   display: flex;
   justify-content: space-around;
 }
+
+/* table display*/
  table {
   border-collapse: collapse;
+  width: 100%;
 }
 
 table, th, td {
-  border: 1px solid black;
+  border: 1px solid #918F90;
+}
+
+td {
+  padding: 4px;
+}
+
+th {
+  background: #F68712;
+  color:#ffffff;
+  font-family:'Bebas Neue';
+  font-weight: bold;
+  text-align: left;
+  padding: 7px;
+  font-size: 24px;
+}
+
+td.icon {
+  border-right: none;
+  border-left: none;
+  width:1em;
+  text-align: right;
+}
+
+td.level {
+  border-left: none;
+  border-right: none;
+  width: 1em;
+}
+
+td.level + td.icon {
+  border-left: 1px solid #8793b5;
+}
+
+.select {
+  width: 10px;
+  padding: 0px;
+  white-space: nowrap;
+}
+
+input[type="radio"], input[type="checkbox"]{
+  margin: 4px;
+}
+/*
+tr:nth-child(even) {
+  background-color: #E6F7FE;
+} */
+
+tr:hover, .row:hover {
+  background-color: #E6F7FE;
+}
+legend {
+  font-family:'Bebas Neue';
+  font-weight: bold;
+  font-size: 32px; 
+  color: #294164;
+}
+
+fieldset {
+  margin: 14px 1px;
+  display: flex;
+  align-items: center;
 }
 
 #type {
   display: inline-block;
 }
 
+#filler {
+  flex-grow: 1;
+}
+
+input[type="text"]{
+  display: inline-block;
+}
+
+label ~ input[type="radio"]{
+  margin-left: 10px;
+}
 .section {
  font-weight:bold; 
 }
@@ -86,26 +180,8 @@ table, th, td {
     text-transform: capitalize;
 }
 
-.symbol.combat::before {
-  content: url(combat.svg); 
-}
-.symbol.social::before {
-  content: url(social.svg); 
-}
-.symbol.general::before {
-  content: url(general.svg); 
-}
-.symbol::before {
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 2px;
-}
-
-.symbol{
-  margin-right: 5px;
-}
-
 .desc {
   font-size: smaller;
 }
+
 

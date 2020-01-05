@@ -238,7 +238,7 @@
       },
       "ex": "The main villain in a story"
     }
-  ], 
+  ],
   "skills": [
     {
       "name": "Basic Creature",
@@ -1076,8 +1076,8 @@
     },
     {
       "ability": "Pack Fighter",
-      "desc": "If this adversary makes a successful combat check, the next ally making a combat check against the same target during the same round",
-      "ex": "adds \udb88\udeb4 \udb88\udeb4 to the results. Creatures that fight in groups",
+      "desc": "If this adversary makes a successful combat check, the next ally making a combat check against the same target during the same round adds \udb88\udeb4 \udb88\udeb4 to the results.",
+      "ex": "Creatures that fight in groups",
       "power_level": {
         "combat": 1,
         "social": 0,
@@ -1167,7 +1167,10 @@
       },
       "desc": "Manual laborers may be farmers, peasants, or others with access to pitchforks, shovels, sledgehammers, or other tools they can use as improvised weapons.",
       "weapons": "Large farming implement (Melee [Heavy]; Damage +3; Critical 5; Range [Engaged]; Cumbersome 3, Inferior).",
-      "equipment": "Heavy clothes (+1 soak)."
+      "equipment": "Heavy clothes (+1 soak).",
+      "defense": {
+        "soak": 1
+      }
     },
     {
       "name": "Basic Citizen",
@@ -1189,7 +1192,10 @@
       },
       "desc": "Those who build, repair, work outdoors, and work with their hands have access to various tools or scrap that can be used as a weapon in a pinch.",
       "weapons": "Improvised brawling weapon (Brawl; Damage +1; Critical 5; Range [Engaged]; Disorient 2, Inferior).",
-      "equipment": "Heavy clothing (+1 soak), tool belt full of tools (add \udb88\udeb3to checks this character makes to repair of fix something), wallet."
+      "equipment": "Heavy clothing (+1 soak), tool belt full of tools (add \udb88\udeb3to checks this character makes to repair of fix something), wallet.",
+      "defense": {
+        "soak": 1
+      }
     },
     {
       "name": "Traveler",
@@ -1200,7 +1206,11 @@
       },
       "desc": "Travelers may be traders, shepherds, or wanderers who spend their time walking and sleeping outdoors.",
       "weapons": "Walking staff (Melee [Heavy]; Damage +2; Critical 4; Range [Engaged]; Defensive 1, Disorient 2).",
-      "equipment": "Heavy cloak (1 defense), survival pack (removes \udb88\udeb8 from Survival or Perception checks this character makes), meager coin purse or wallet."
+      "equipment": "Heavy cloak (1 defense), survival pack (removes \udb88\udeb8 from Survival or Perception checks this character makes), meager coin purse or wallet.",
+      "defense": {
+        "ranged defense": 1,
+        "melee defense": 1
+      }
     },
     {
       "name": "Criminal",
@@ -1211,7 +1221,11 @@
       },
       "desc": "Muggers, bandits, and thieves are all possible criminals.",
       "weapons": "Concealable melee weapon (Melee [Light]; Damage +1; Critical 2; Range [Engaged]; Pierce 2).",
-      "equipment": "Dark clothing (2 defense, adds \udb88\udeb8 to Stealth checks this character makes), thieves\u2019 tools (add \udb88\udeb4 to Skulduggery checks this character makes to open locks), backpack, rope with grappling hook."
+      "equipment": "Dark clothing (2 defense, adds \udb88\udeb8 to Stealth checks this character makes), thieves\u2019 tools (add \udb88\udeb4 to Skulduggery checks this character makes to open locks), backpack, rope with grappling hook.",
+      "defense": {
+        "ranged defense": 2,
+        "melee defense": 2
+      }
     },
     {
       "name": "Doctor",
@@ -1222,7 +1236,7 @@
       },
       "desc": "This equipment array can be used for any sort of doctor or medical professional, from ancient barber-surgeons to modern general practitioners.",
       "weapons": "Sharp medical tool (Melee [Light]; Damage +0; Critical 1; Range [Engaged]).",
-      "equipment": "Clean clothing and face protection (add \udb88\udeb8 to Resilience checks made by this character to resist disease or airborne toxins), medicine kit (allows this character to perform Medicine checks to heal wounds and critical injuries without penalty; after this charac- ter makes a successful Medicine check to heal wounds, heal one additional wound), notebook."
+      "equipment": "Clean clothing and face protection (add \udb88\udeb8 to Resilience checks made by this character to resist disease or airborne toxins), medicine kit (allows this character to perform Medicine checks to heal wounds and critical injuries without penalty; after this character makes a successful Medicine check to heal wounds, heal one additional wound), notebook."
     },
     {
       "name": "Noble",
@@ -1233,7 +1247,7 @@
       },
       "desc": "Well-dressed, well-to-do members of society, nobles are typical of the aristocracy.",
       "weapons": "Dueling weapon (Melee [Light]; Damage +2; Critical 3; Range [Engaged]; Defensive 1).",
-      "equipment": "Fancy clothing (adds \udb88\udeb4 to any social skill checks this character makes), signet of authority (adds \udb88\udeb3 to any social checks this character makes when in- teracting with someone of a lesser social standing), im- portant documents, full coin purse or wallet."
+      "equipment": "Fancy clothing (adds \udb88\udeb4 to any social skill checks this character makes), signet of authority (adds \udb88\udeb3 to any social checks this character makes when interacting with someone of a lesser social standing), important documents, full coin purse or wallet."
     },
     {
       "name": "Basic Ranged Warrior",
@@ -1244,7 +1258,10 @@
       },
       "desc": "The ranged warrior array is ideal for medieval archers, modern infantry, and futuristic soldiers. It can also be used to equip characters who work in the wilderness.",
       "weapons": "Two-handed ranged weapon (Ranged; Damage 8; Critical 3; Range [Long]), one-handed backup weapon (Melee [Light]; Damage +2; Critical 3; Range [Engaged]; Vicious 1).",
-      "equipment": "Reinforced uniform or light armor (+1 soak), ammunition reload (may spend a maneuver to reload their ranged weapon after it runs out of ammo), survival pack (removes \udb88\udeb8 from Survival or Perception checks this character makes), 1 painkiller."
+      "equipment": "Reinforced uniform or light armor (+1 soak), ammunition reload (may spend a maneuver to reload their ranged weapon after it runs out of ammo), survival pack (removes \udb88\udeb8 from Survival or Perception checks this character makes), 1 painkiller.",
+      "defense": {
+        "soak": 1
+      }
     },
     {
       "name": "Heavy Ranged Warrior",
@@ -1254,8 +1271,11 @@
         "general": 0
       },
       "desc": "This equipment array represents warriors who use very powerful ranged weapons to support their fellows.  These might be scorpions or ballista in ancient times, modern machine guns, or futuristic rocket weapons.",
-      "weapons": "Heavy rapid-firing ranged weapon (Gun- nery; Damage 12; Critical 3; Range [Long]; Auto-Fire, Cumbersome 3, Vicious 2) or powerful single-shot ranged weapon (Gunnery; Damage 20; Critical 2; Range [Extreme]; Blast 10, Breach 2, Cumbersome 4, Limited Ammo 1, Prepare 1).",
-      "equipment": "Heavy defensive armor (+3 soak), ammu- nition reload (may spend a maneuver to reload their ranged weapon after it runs out of ammo), backpack."
+      "weapons": "Heavy rapid-firing ranged weapon (Gunnery; Damage 12; Critical 3; Range [Long]; Auto-Fire, Cumbersome 3, Vicious 2) or powerful single-shot ranged weapon (Gunnery; Damage 20; Critical 2; Range [Extreme]; Blast 10, Breach 2, Cumbersome 4, Limited Ammo 1, Prepare 1).",
+      "equipment": "Heavy defensive armor (+3 soak), ammunition reload (may spend a maneuver to reload their ranged weapon after it runs out of ammo), backpack.",
+      "defense": {
+        "soak": 3
+      }
     },
     {
       "name": "Basic Melee Warrior",
@@ -1265,8 +1285,11 @@
         "general": 0
       },
       "desc": "The basic melee warrior array can be used to equip the rank-and-file of ancient armies, modern riot cops, or even futuristic soldiers with powerful defenses.",
-      "weapons": "One-handed defensive melee weapon (Melee [Light]; Damage +2; Critical 4; Range [Engaged]; De- fensive 1), shield (Melee [Light]; Damage +0; Critical 6; Range [Engaged]; Defensive 1, Deflection 1, Inaccurate 1, Knockdown).",
-      "equipment": "Medium armor (+2 soak), satchel."
+      "weapons": "One-handed defensive melee weapon (Melee [Light]; Damage +2; Critical 4; Range [Engaged]; Defensive 1), shield (Melee [Light]; Damage +0; Critical 6; Range [Engaged]; Defensive 1, Deflection 1, Inaccurate 1, Knockdown).",
+      "equipment": "Medium armor (+2 soak), satchel.",
+      "defense": {
+        "soak": 2
+      }
     },
     {
       "name": "Heavy Melee Warrior",
@@ -1276,8 +1299,13 @@
         "general": 0
       },
       "desc": "This equips a character who relies on their armor to get close enough to bring heavy melee weapons to bear.  This could be used by a brave knight, a noble samurai, or a power-armored soldier with a plasma axe.",
-      "weapons": "Two-handed powerful melee weapon (Me- lee [Heavy]; Damage +4; Critical 3; Range [Engaged]; Cumbersome 3, Pierce 2, Vicious 1) or one-handed ver- satile melee weapon (Melee [Light]; Damage +3; Criti- cal 2; Range [Engaged]; Defensive 1) and shield (Melee [Light]; Damage +0; Critical 6; Range [Engaged]; De- fensive 1, Deflection 1, Inaccurate 1, Knockdown).",
-      "equipment": "Heavy armor (1 defense, +2 soak)."
+      "weapons": "Two-handed powerful melee weapon (Melee [Heavy]; Damage +4; Critical 3; Range [Engaged]; Cumbersome 3, Pierce 2, Vicious 1) or one-handed versatile melee weapon (Melee [Light]; Damage +3; Critical 2; Range [Engaged]; Defensive 1) and shield (Melee [Light]; Damage +0; Critical 6; Range [Engaged]; Defensive 1, Deflection 1, Inaccurate 1, Knockdown).",
+      "equipment": "Heavy armor (1 defense, +2 soak).",
+      "defense": {
+        "soak": 2,
+        "ranged defense": 1,
+        "melee defense": 1
+      }
     },
     {
       "name": "Versatile Warrior",
@@ -1287,8 +1315,13 @@
         "general": 0
       },
       "desc": "This equipment array works for characters who use a combination of melee and ranged weapons. This could represent a cavalry soldier who fights with saber and pistol, an officer with a sword and sidearm, or a noble in a militant culture.",
-      "weapons": "One-handed versatile melee weapon (Me- lee [Light]; Damage +3; Critical 2; Range [Engaged]; Defensive 1), one-handed ranged weapon (Ranged [Light]; Damage 5; Critical 3; Range [Medium])",
-      "equipment": "Reinforced clothing (1 defense, +1 soak)."
+      "weapons": "One-handed versatile melee weapon (Melee [Light]; Damage +3; Critical 2; Range [Engaged]; Defensive 1), one-handed ranged weapon (Ranged [Light]; Damage 5; Critical 3; Range [Medium])",
+      "equipment": "Reinforced clothing (1 defense, +1 soak).",
+      "defense": {
+        "soak": 1,
+        "ranged defense": 1,
+        "melee defense": 1
+      }
     },
     {
       "name": "Adventurer",
@@ -1299,7 +1332,10 @@
       },
       "desc": "Adventurers journey into danger with a smile on their face and a torch in their hand. This could represent an explorer, an airship crewmember, or even a pirate.",
       "weapons": "One-handed ranged weapon (Ranged [Light]; Damage 6; Critical 3; Range [Medium]; Accurate 1), backup brawling weapon (Brawl; Damage +1; Critical 4; Range [Engaged]; Disorient 3).",
-      "equipment": "Leather vest (+1 soak), backpack, length of rope, torch or other light source, and well-worn hat."
+      "equipment": "Leather vest (+1 soak), backpack, length of rope, torch or other light source, and well-worn hat.",
+      "defense": {
+        "soak": 1
+      }
     },
     {
       "name": "Bounty Hunter",
@@ -1309,8 +1345,11 @@
         "general": 0
       },
       "desc": "In nearly every setting there is a need for people who hunt down criminals, escaped prisoners, or other fugitives. Their equipment helps them in their task.",
-      "weapons": "Short-ranged entangling weapon (Ranged [Heavy]; Damage 4; Critical 5; Range [Short]; Disori- ent 3, Ensnare 3, Limited Ammo 1), stunning melee weapon (Melee [Light]; Damage +3; Critical 5; Range [Engaged]; Stun 4; Stun Damage).",
-      "equipment": "Medium armor (+2 soak), warrants for bounties, restraints."
+      "weapons": "Short-ranged entangling weapon (Ranged [Heavy]; Damage 4; Critical 5; Range [Short]; Disorient 3, Ensnare 3, Limited Ammo 1), stunning melee weapon (Melee [Light]; Damage +3; Critical 5; Range [Engaged]; Stun 4; Stun Damage).",
+      "equipment": "Medium armor (+2 soak), warrants for bounties, restraints.",
+      "defense": {
+        "soak": 2
+      }
     },
     {
       "name": "G ameHunter",
@@ -1319,9 +1358,13 @@
         "social": 0,
         "general": 0
       },
-      "desc": "Some individuals hunt from elevated tree-stands or blinds, waiting for prey to happen into range. This ar- ray could also be used for a sharpshooter or assassin.",
-      "weapons": "Long-ranged hunting weapon (Ranged [Heavy]; Damage 9; Critical 3; Range [Extreme]; Accu- rate 1, Limited Ammo 2; reduce the difficulty of com- bat checks made at long or extreme range by 1).",
-      "equipment": "Camouflage (2 defense, add \udb88\udeb8 to Stealth checks made by this character), survival pack (removes \udb88\udeb8 from Survival or Perception checks this character makes), ammunition reload (may spend a maneuver to reload their ranged weapon after it runs out of ammo)."
+      "desc": "Some individuals hunt from elevated tree-stands or blinds, waiting for prey to happen into range. This array could also be used for a sharpshooter or assassin.",
+      "weapons": "Long-ranged hunting weapon (Ranged [Heavy]; Damage 9; Critical 3; Range [Extreme]; Accurate 1, Limited Ammo 2; reduce the difficulty of combat checks made at long or extreme range by 1).",
+      "equipment": "Camouflage (2 defense, add \udb88\udeb8 to Stealth checks made by this character), survival pack (removes \udb88\udeb8 from Survival or Perception checks this character makes), ammunition reload (may spend a maneuver to reload their ranged weapon after it runs out of ammo).",
+      "defense": {
+        "ranged defense": 2,
+        "melee defense": 2
+      }
     },
     {
       "name": "Law Enforcement Officer",
@@ -1330,9 +1373,12 @@
         "social": 0,
         "general": 0
       },
-      "desc": "Law enforcement officials from modern cops to ancient town guards typically have some sort of protective cloth- ing and then a ranged or melee weapon of some sort.",
+      "desc": "Law enforcement officials from modern cops to ancient town guards typically have some sort of protective clothing and then a ranged or melee weapon of some sort.",
       "weapons": "One-handed ranged weapon (Ranged [Light]; Damage 5; Critical 3; Range [Medium]) or one-handed bludgeoning weapon (Melee [Light]; Damage +3; Critical 4; Range [Engaged]; Disorient 2)",
-      "equipment": "Light armor (+1 soak), badge of authority (adds \udb88\udeb8 to Coercion or Leadership checks this character makes), restraints, torch or other light source."
+      "equipment": "Light armor (+1 soak), badge of authority (adds \udb88\udeb8 to Coercion or Leadership checks this character makes), restraints, torch or other light source.",
+      "defense": {
+        "soak": 1
+      }
     },
     {
       "name": "Pilot",
@@ -1354,7 +1400,10 @@
       },
       "desc": "This array can equip a criminal with a flair for large, dramatic, and potentially impractical weapons. This person probably gives off a certain roguish charm.",
       "weapons": "Intimidating ranged weapon (Ranged [Light]; Damage 7; Critical 3; Range [Medium]; Inaccurate 1).",
-      "equipment": "Dashing coat with exposed holster (+1 soak, adds \udb88\udeb4 to the results of all Charm and Coercion checks this character makes), fancy cape or hat (removes \udb88\udeb8 from all social skill checks this character makes)."
+      "equipment": "Dashing coat with exposed holster (+1 soak, adds \udb88\udeb4 to the results of all Charm and Coercion checks this character makes), fancy cape or hat (removes \udb88\udeb8 from all social skill checks this character makes).",
+      "defense": {
+        "soak": 1
+      }
     },
     {
       "name": "Defensive Magic User",
@@ -1365,7 +1414,11 @@
       },
       "desc": "This equipment array is only useful for characters who have at least one magic skill, and represents characters who use their magic defensively. This works with characters who use any magic skill.",
       "weapons": "None.",
-      "equipment": "Magically enhanced robes (3 defense) augmenting magical implement (when the this character casts a spell, may add the Additional Target and Additional Summon effects without increasing the difficulty.  In addition, attack spells cast by this character increase their base damage by two), supernatural healing item (once per session, when this character heals wounds with a healing spell, increase the wounds healed by three)."
+      "equipment": "Magically enhanced robes (3 defense) augmenting magical implement (when the this character casts a spell, may add the Additional Target and Additional Summon effects without increasing the difficulty.  In addition, attack spells cast by this character increase their base damage by two), supernatural healing item (once per session, when this character heals wounds with a healing spell, increase the wounds healed by three).",
+      "defense": {
+        "ranged defense": 3,
+        "melee defense": 3
+      }
     },
     {
       "name": "Offensive Magic User",
@@ -1376,7 +1429,11 @@
       },
       "desc": "This equipment array is only useful for characters who have at least one magic skill, and represents characters who use their magic to attack. This works with characters who use any magic skill.",
       "weapons": "One-handed melee weapon (Melee [Light]; Damage +3; Critical 2; Range [Engaged]; Defensive 1).",
-      "equipment": "Robes (1 defense), offensive magical implement (when the this character casts a spell, the first Range effect they add doesn't increase the difficulty. In addition, attack spells cast by this character increase their base damage by four)."
+      "equipment": "Robes (1 defense), offensive magical implement (when the this character casts a spell, the first Range effect they add doesn't increase the difficulty. In addition, attack spells cast by this character increase their base damage by four).",
+      "defense": {
+        "ranged defense": 1,
+        "melee defense": 1
+      }
     }
   ],
   "defense": [
