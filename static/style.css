@@ -71,7 +71,7 @@ body {
   flex-direction: row-reverse;
   justify-content: space-between;
   background: #FAF6F2;
-  font-family: "genesys", sans-serif;
+  font-family: "genesys", serif;
   /*font-family: 'Minion Pro', serif;*/
 }
 #card {
