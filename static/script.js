@@ -167,9 +167,7 @@ function loading(){
   searchParams = new URLSearchParams(window.location.search);
 
   for (const [key, value] of searchParams) {
-    console.log('input[name=' + key + '][value=' + value + ']') ;
     var input = document.querySelector('input[name="' + key + '"][value="' + value + '"]') ;
-    console.log(input);
     if (input === null){
       // probably a text input
       var input = document.querySelector('input[name="' + key + '"]') ;

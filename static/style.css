@@ -164,6 +164,7 @@ td.level + td.icon {
 
 input[type="radio"], input[type="checkbox"]{
   margin: 4px;
+  pointer-events: none;
 }
 /*
 tr:nth-child(even) {
@@ -214,3 +215,12 @@ label ~ input[type="radio"]{
 }
 
 
+@media (max-width: 1000px) {
+    article {
+        flex-direction: column;
+    }
+    
+    #card {
+        position: relative;
+    }
+}
