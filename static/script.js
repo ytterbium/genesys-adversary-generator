@@ -28,7 +28,9 @@ function update(){
     "defense": {"strain_threshold": 0, "wound_threshold": 0, "soak": 0, "melee_defense": 0, "ranged_defense": 0},
     "skills": {},
     "talents" : [],
-    "abilities": []};
+    "abilities": [],
+    "caracteristics": {"brawn": 0, "agility": 0, "intellect": 0, "cunning": 0, "willpower": 0, "presence": 0},
+  };
 
   for (var i = 0, n = choices.length; i < n; i++)
     for (var item in choices[i]){
