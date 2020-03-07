@@ -12,7 +12,7 @@ function click_row(id){
 
 
 function update(){
-  var choices = [];
+  choices = [];
 
   // find all checked elements
   var inputs = document.querySelectorAll('table input')
@@ -66,7 +66,7 @@ function update(){
       }; 
     };
   
-  var adversary_type = document.querySelector('input[name=type]:checked').value;
+  adversary_type = document.querySelector('input[name=type]:checked').value;
   if (adversary_type == 'minion'){
     if (result.caracteristics.brawn == 1)
       result.defense["wound_threshold"] += 3
@@ -124,17 +124,17 @@ function update(){
     if (Object.values(talents).length == 0) 
       text.innerHTML = 'None.';
 
-    text = document.querySelector('.weapons'); 
-    if ('weapons' in result) 
-      text.textContent = talents = result['weapons']
-    else
-      text.innerHTML = 'None.';
+  text = document.querySelector('.weapons'); 
+  if ('weapons' in result) 
+    text.textContent = result['weapons']
+  else
+    text.innerHTML = 'None.';
 
   text = document.querySelector('.equipment');
-    if ('equipment' in result) 
-      text.textContent = talents = result['equipment']
-    else
-      text.innerHTML = 'None.';
+  if ('equipment' in result) 
+    text.textContent = result['equipment']
+  else
+    text.innerHTML = 'None.';
 
   var defense = result.defense;
   
@@ -144,6 +144,7 @@ function update(){
   };
   
   update_url();
+  warning();
 
 }; 
 
@@ -175,7 +176,54 @@ function loading(){
     } else 
       input.checked = true;
   };
-}
+};
+
+function warning(){
+  warnings = []
+
+  // find all checked defense elements
+  var defense_inputs = document.querySelectorAll('table input[name="defense"]');
+  var nb_checked = 0;
+  for (var i=0, n=defense_inputs.length, input; i < n; i++){
+    input = defense_inputs[i];
+    if (input.checked) 
+      nb_checked++
+  }
+
+  if (nb_checked > 2 || (nb_checked > 1 && adversary_type == 'minion'))
+    warnings.push('Too many defense options selected.');
+
+  if (result['defense']['soak'] > 7)
+    warnings.push('Soak should not be above 7.');
+
+  if (result['defense']['melee_defense'] > 4 || result['defense']['ranged_defense'] > 4)
+    warnings.push('A defense rating must not be above 4.');
+
+
+  // Check thresholds
+  //
+
+  if (Object.values(result['skills']).length > 8)
+    warnings.push('The maximum recommanded number of skills is 8; you may discard any unnescessary.');
+
+
+  // Check talents
+
+
+  // Affichage
+
+  if (warnings.length > 0) {
+    document.getElementById('warn').style.display = "initial";
+    var list = document.querySelector('.warnings');
+    list.innerHTML = "";
+    for (element of warnings) {
+      var li = document.createElement('li');
+      li.textContent = element;
+      list.appendChild(li);
+    };
+  } else document.getElementById('warn').style.display = "none";
+  
+};
   
 loading();
 update();

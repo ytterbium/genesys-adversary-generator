@@ -224,3 +224,11 @@ label ~ input[type="radio"]{
         position: relative;
     }
 }
+
+#warn p {
+    margin-bottom:0;
+}
+
+#warn ul {
+    margin-top: 0;
+}
