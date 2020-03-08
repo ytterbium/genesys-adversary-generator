@@ -162,7 +162,7 @@ td.level + td.icon {
   white-space: nowrap;
 }
 
-input[type="radio"], input[type="checkbox"]{
+table input {
   margin: 4px;
   pointer-events: none;
 }
