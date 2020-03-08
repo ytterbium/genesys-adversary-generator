@@ -163,8 +163,10 @@ td.level + td.icon {
 }
 
 table input {
-  margin: 4px;
   pointer-events: none;
+}
+input[type="radio"], input[type="checkbox"]{
+  margin: 4px;
 }
 /*
 tr:nth-child(even) {
