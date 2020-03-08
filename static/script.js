@@ -38,6 +38,7 @@ function update(){
 
       if (item == 'caracs'){
         result['caracteristics'] = values 
+        result['defense']['soak'] += values['brawn']
 
       } else if (item == 'power_level')
         for (var name in values)
