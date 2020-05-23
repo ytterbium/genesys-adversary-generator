@@ -232,7 +232,7 @@ function warning(){
 
 function template(){
   //if (display_template){
-  var content = ["{" + adversary_type];
+  var content = ["{{" + adversary_type];
   
   content.push("name=" + name_adver);
   
@@ -273,7 +273,7 @@ function template(){
 
   // Affichage
   var area = document.querySelector('textarea');
-  var templ = content.join('\n |') + "\n}";
+  var templ = content.join('\n |') + "\n}}";
   area.value = templ;
 
   area.style.height = "";
