@@ -234,3 +234,13 @@ label ~ input[type="radio"]{
 #warn ul {
     margin-top: 0;
 }
+
+/* Save buttons display */
+#save {
+    flex-direction: column;
+}
+
+#save textarea{
+    resize: none;
+    width: 100%;
+}

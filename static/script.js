@@ -10,7 +10,6 @@ function click_row(id){
   update()
 };
 
-
 function update(){
   choices = [];
 
@@ -148,6 +147,7 @@ function update(){
   
   update_url();
   warning();
+  template();
 
 }; 
 
@@ -160,11 +160,12 @@ function update_url(){
 };
 
 function update_name() {
-  var name = document.querySelector('input[placeholder="Name"]').value;
+  name_adver = document.querySelector('input[placeholder="Name"]').value;
   var field = document.getElementById('name');
-  field.innerText = (name == "") ? 'Name' : name;
+  field.innerText = (name_adver == "") ? 'Name' : name_adver;
   
-  update_url()
+  update_url();
+  //template();
 };
 
 function loading(){
@@ -199,6 +200,7 @@ function warning(){
   if (result['defense']['soak'] > 7)
     warnings.push('Soak should not be above 7.');
 
+
   if (result['defense']['melee_defense'] > 4 || result['defense']['ranged_defense'] > 4)
     warnings.push('A defense rating must not be above 4.');
 
@@ -227,9 +229,92 @@ function warning(){
   } else document.getElementById('warn').style.display = "none";
   
 };
+
+function template(){
+  //if (display_template){
+  var content = ["{" + adversary_type];
+  
+  content.push("name=" + name_adver);
+  
+  var caracs = result['caracteristics'];
+  for (var id in caracs){
+    content.push(id + "=" + caracs[id])
+  };
+
+  var level = result['power_level'];
+  for (var id in level)
+    content.push(id + "=" + level[id]);
+  
+  var skills = result['skills'];
+  if (Object.values(skills).length > 0) {
+    var skill_array = [];
+    for (name in skills)
+      skill_array.push(name + ' ' + skills[name]);
+    content.push('skills=' + skill_array.sort().join(', ') + '.');
+  };
+
+  var talents = result['talents'];
+  if (Object.values(talents).length > 0) 
+    content.push('talents=' + talents.sort().join(', ') + '.');
+
+  var talents = result['abilities'];
+  if (Object.values(talents).length > 0) 
+    content.push('abilities=' + talents.sort().join(', ') + '.');
+
+  if ('weapons' in result) 
+    content.push('weapons=' + result['weapons']);
+
+  if ('equipment' in result) 
+    content.push('equipment=' + result['equipment']);
+
+  var defense = result.defense;
+  for (var id in defense)
+    content.push(id + '=' + defense[id]);
+
+  // Affichage
+  var area = document.querySelector('textarea');
+  var templ = content.join('\n |') + "\n}";
+  area.value = templ;
+
+  area.style.height = "";
+  area.style.height = area.scrollHeight + "px";
+
+  return templ
+  //}
+}
+
+function toogle_template(){
+  if (typeof display_template === 'undefined')
+    display_template = false;
+  else 
+    display_template = !display_template;
+
+  var area = document.querySelector('textarea')
+  var copy_button =  document.getElementById('copy');
+  if (display_template) {
+    area.style.display = 'unset';
+    area.style.height = area.scrollHeight + "px";
+    area.focus();
+    //area.select();
+  copy_button.style.display = 'unset';
+      
+  } else {
+    area.style.display = 'none';
+  copy_button.style.display = 'none';
+  }
+  return area
+
+}
+
+function copy(){
+  var area = document.querySelector('textarea')
+  area.select();
+  document.execCommand("copy");
+  area.setSelectionRange(0, 0);
+}
   
 loading();
+toogle_template();
+update_name();
 update();
-update_name()
-
 
