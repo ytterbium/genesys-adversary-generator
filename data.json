@@ -711,276 +711,310 @@
   ],
   "talents": [
     {
-      "talent": "Adversary 1 (Core page 131)",
+      "talent": "Adversary 1",
       "power_level": {
         "combat": 0,
         "social": 0,
         "general": 0
-      }
+      },
+      "desc": "Passive; Upgrade the difficulty of all combat checks targeting this character once per rank of Adversary."
     },
     {
-      "talent": "Adversary 2 (Core page 131)",
+      "talent": "Adversary 2",
       "power_level": {
         "combat": 1,
         "social": 0,
         "general": 0
-      }
+      },
+      "desc": "Passive; Upgrade the difficulty of all combat checks targeting this character once per rank of Adversary."
     },
     {
-      "talent": "Adversary 3 (Core page 131)",
+      "talent": "Adversary 3",
       "power_level": {
         "combat": 2,
         "social": 0,
         "general": 0
-      }
+      },
+      "desc": "Passive; Upgrade the difficulty of all combat checks targeting this character once per rank of Adversary."
     },
     {
-      "talent": "Animal Companion (Core page 77)",
+      "talent": "Animal Companion",
       "power_level": {
         "combat": 1,
         "social": 0,
         "general": 1
-      }
+      },
+      "desc": "Passive; Your character creates a bond with a single animal approved by your GM. This animal must be silhouette 0 (no larger than a mid-sized dog). The bond persists as long as your character chooses, although at your GM’s discretion, the bond may also be broken due to abusive treatment or other extenuating circumstances.  As long as the bond persists, the animal follows your character, and you dictate the animal’s overall behavior (although, since the animal is only bonded with the character, not dominated, it may still perform inconvenient actions such as scratching furniture, consuming rations, and marking territory). Once per round in structured encounters, your character may spend one maneuver to direct their animal in performing one action and one maneuver during your character’s turn. The animal must be within hearing and visual range of your character (generally medium range) to do this. Otherwise, the animal does not contribute to the encounter. The specifics of its behavior are up to you and your GM.  For every additional rank of Animal Companion your character has, increase the allowed silhouette of the companion by one (this may mean your character gets a new companion, or their companion grows in size).  This talent can also change in flavor depending on the nature of your game setting. While an animal companion may make sense in many settings, in a futuristic setting it may make more sense for the “animal” to be a robot or drone, for example."
     },
     {
-      "talent": "Barrel Roll (Core page 77)",
+      "talent": "Barrel Roll",
       "power_level": {
         "combat": 1,
         "social": 0,
         "general": 0
-      }
+      },
+      "desc": "Active (Incidental, Out of Turn); Your character can only use this talent while piloting a starfighter or airplane of Silhouette 3 or less. When your vehicle suffers a hit from a ranged combat check, after damage is calculated but before armor is applied, your character may have their vehicle suffer 3 system strain to use this talent. Then, reduce the damage suffered by a number equal to their ranks in Piloting."
     },
     {
-      "talent": "Berserk (Core page 75)",
+      "talent": "Berserk",
       "power_level": {
         "combat": 0,
         "social": 0,
         "general": 0
-      }
+      },
+      "desc": "Activation: Active (Maneuver); Once per encounter, your character may use this talent.  Until the end of the encounter or until they are incapacitated, your character adds 󲊳 󲊴 󲊴 to all melee combat checks they make. However, opponents add 󲊳 to all combat checks targeting your character. While berserk, your character cannot make ranged combat checks.  At the end of the encounter (or when they are incapacitated), your character suffers 6 strain."
     },
     {
-      "talent": "Brilliant Casting (page 95)",
+      "talent": "Brilliant Casting",
       "power_level": {
         "combat": 1,
         "social": 0,
         "general": 0
-      }
+      },
+      "desc": "page 95"
     },
     {
-      "talent": "Clever Retort (Core page 73)",
+      "talent": "Clever Retort",
       "power_level": {
         "combat": 0,
         "social": 0,
         "general": 0
-      }
+      },
+      "desc": "Active (Incidental, Out of Turn); Once per encounter, your character may use this talent to add automatic 󲊱 󲊱 to another character’s social skill check"
     },
     {
-      "talent": "Coordinated Assault 3 (Core page 75)",
+      "talent": "Coordinated Assault 3",
       "power_level": {
         "combat": 1,
         "social": 0,
         "general": 0
-      }
+      },
+      "desc": "Active (Maneuver); Once per turn, your character may use this talent to have a number of allies engaged with your character equal to your ranks in Leadership add 󲊴 to all combat checks they make until the end of your character’s next turn. The range of this talent increases by one band per rank of Coordinated Assault beyond the first."
     },
     {
-      "talent": "Distinctive Style (Core page 78)",
+      "talent": "Distinctive Style",
       "power_level": {
         "combat": 0,
         "social": 0,
         "general": 1
-      }
+      },
+      "desc": "Active (Incidental); When making a Computers check to hack a system or break into a secured network, before rolling, your character may use this talent to add 󲊳 󲊳 󲊱 󲊱 to the results. Tier: 3 If you are using the optional hacking rules on page 232 and your check generates 󲊱 󲊱, your GM should spend it on the I Know You! option in Table I.2-22 on page 234."
     },
     {
-      "talent": "Dual Wielder (Core page 76)",
+      "talent": "Dual Wielder",
       "power_level": {
         "combat": 1,
         "social": 0,
         "general": 0
-      }
+      },
+      "desc": "Active (Maneuver); Your character may use this talent to decrease the difficulty of the next combined combat check (see Two-Weapon Combat, on page 108) they make during the same turn by one."
     },
     {
-      "talent": "Duelist (Core page 73)",
+      "talent": "Duelist",
       "power_level": {
         "combat": 0,
         "social": 0,
         "general": 0
-      }
+      },
+      "desc": "Passive; Your character adds 󲊸 to their melee combat checks while engaged with a single opponent. Your character adds 󲊸 to their melee combat checks while engaged with three or more opponents."
     },
     {
-      "talent": "Elementalist (page 95)",
+      "talent": "Elementalist",
       "power_level": {
         "combat": 0,
         "social": 0,
         "general": 0
-      }
+      },
+      "desc": "page 95"
     },
     {
-      "talent": "Explosive Casting (page 96)",
+      "talent": "Explosive Casting",
       "power_level": {
         "combat": 1,
         "social": 0,
         "general": 0
-      }
+      },
+      "desc": "page 96"
     },
     {
-      "talent": "Face of the Wild (page 97)",
+      "talent": "Face of the Wild",
       "power_level": {
         "combat": 1,
         "social": 0,
         "general": 1
-      }
+      },
+      "desc": "page 97"
     },
     {
-      "talent": "Field Commander (Core page 78)",
+      "talent": "Field Commander",
       "power_level": {
         "combat": 1,
         "social": 0,
         "general": 1
-      }
+      },
+      "desc": "Active (Action); Your character may use this talent to make an Average (󲊷 󲊷) Leadership check. If successful, a number of allies equal to your character’s Presence may immediately suffer 1 strain to perform one maneuver (out of turn). If there are any questions as to which allies take their maneuvers first, your character is the final arbiter."
     },
     {
-      "talent": "Flicker Step (page 97)",
+      "talent": "Flicker Step",
       "power_level": {
         "combat": 1,
         "social": 0,
         "general": 1
-      }
+      },
+      "desc": "page 97"
     },
     {
-      "talent": "Grenadier (Core page 78)",
+      "talent": "Grenadier",
       "power_level": {
         "combat": 1,
         "social": 0,
         "general": 0
-      }
+      },
+      "desc": "Active (Incidental); When your character makes a ranged combat check with a weapon that has the Blast item quality, you may spend one Story Point to use this talent to trigger the weapon’s Blast quality, instead of spending 󲊴 (even if the attack misses). In addition, your character treats grenades as having a range of medium."
     },
     {
-      "talent": "Hamstring Shot (Core page 73)",
+      "talent": "Hamstring Shot",
       "power_level": {
         "combat": 0,
         "social": 0,
         "general": 0
-      }
+      },
+      "desc": "Active (Action); Once per round, your character may use this talent to perform a ranged combat check against one non-vehicle target within range of the weapon used. If the check is successful, halve the damage inflicted by the attack (before reducing damage by the target’s soak). The target is immobilized until the end of its next turn."
     },
     {
-      "talent": "Improved Field Commander (Core page 80)",
+      "talent": "Improved Field Commander",
       "power_level": {
         "combat": 2,
         "social": 0,
         "general": 1
-      }
+      },
+      "desc": "Passive; When your character uses the Field Commander talent, your character affects a number of allies equal to twice the character’s Presence.  In addition, you may spend 󲊵 to allow one ally to suffer 1 strain to perform an action, instead of a maneuver."
     },
     {
-      "talent": "Improved Inspiring Rhetoric (Core pages 76 and 78)",
+      "talent": "Improved Inspiring Rhetoric",
       "power_level": {
         "combat": 0,
         "social": 0,
         "general": 1
-      }
+      },
+      "desc": "Active (Action); Your character may use this talent to make an Average (󲊷 󲊷) Leadership check. For each 󲊳 the check generates, one ally within short range heals one strain. For each 󲊴, one ally benefiting from Inspiring Rhetoric heals one additional strain. Allies affected by your character’s Inspiring Rhetoric add 󲊸 to all skill checks they make for a number of rounds equal to your character's rank in Leadership."
     },
     {
-      "talent": "Improved Parry (Core page 79)",
+      "talent": "Improved Parry",
       "power_level": {
         "combat": 1,
         "social": 0,
         "general": 0
-      }
+      },
+      "desc": "Active (Incidental, Out of Turn); When your character suffers a hit from a melee combat check and uses Parry to reduce the damage from that hit, after the attack is resolved, you may spend 󲊲 or 󲊱 󲊱 󲊱 from the attacker’s check to use this talent. Then, your character automatically hits the attacker once with a Brawl or Melee weapon your character is wielding. The hit deals the weapon’s base damage, plus any damage from applicable talents or abilities. Your character can’t use this talent if the original attack incapacitates them."
     },
     {
-      "talent": "Improved Scathing Tirade (Core pages 77 and 79)",
+      "talent": "Improved Scathing Tirade",
       "power_level": {
         "combat": 0,
         "social": 1,
         "general": 0
-      }
+      },
+      "desc": "Active (Action); Your character may use this talent to make an Average (󲊷 󲊷) Coercion check. For each 󲊳 the check generates, one enemy within short range suffers 1 strain. For each 󲊴, one enemy affected by Scathing Tirade suffers 1 additional strain. Enemies affected by your character’s Scathing Tirade add 󲊸 to all skill checks they make for a number of rounds equal to your character’s ranks in Coercion."
     },
     {
-      "talent": "Indomitable (Core page 81)",
+      "talent": "Indomitable",
       "power_level": {
         "combat": 1,
         "social": 1,
         "general": 0
-      }
+      },
+      "desc": "Active (Incidental, Out of Turn); Once per encounter, when your character would be incapacitated due to exceeding their wound or strain threshold, you may spend a Story Point to use this talent. Then, your character is not incapacitated until the end of their next turn. If your character reduces their strain or wounds to below their threshold before the end of their next turn, they are not incapacitated."
     },
     {
-      "talent": "Lucky Strike (Core page 76)",
+      "talent": "Lucky Strike",
       "power_level": {
         "combat": 1,
         "social": 0,
         "general": 0
-      }
+      },
+      "desc": "Active (Incidental); When your character purchases this talent, choose one characteristic. After your character makes a successful combat check, you may spend one Story Point to use this talent to add damage equal to your character’s ranks in that characteristic to one hit of the combat check."
     },
     {
-      "talent": "Master (Core page 81)",
-      "power_level": {
-        "combat": 1,
-        "social": 1,
-        "general": 1
-      }
-    },
-    {
-      "talent": "Masterful Casting (page 97)",
-      "power_level": {
-        "combat": 1,
-        "social": 0,
-        "general": 0
-      }
-    },
-    {
-      "talent": "Natural (Core page 79)",
+      "talent": "Master",
       "power_level": {
         "combat": 1,
         "social": 1,
         "general": 1
-      }
+      },
+      "desc": "Active (Incidental); When you purchase this talent for your character, choose one skill. Once per round, your character may suffer 2 strain to use this talent to reduce the difficulty of the next check they make using that skill by two, to a minimum of Easy (󲊷)."
     },
     {
-      "talent": "Parry 3 (Core page 74)",
+      "talent": "Masterful Casting",
       "power_level": {
         "combat": 1,
         "social": 0,
         "general": 0
-      }
+      },
+      "desc": "page 97"
     },
     {
-      "talent": "Quick Draw (Core page 74)",
+      "talent": "Natural",
+      "power_level": {
+        "combat": 1,
+        "social": 1,
+        "general": 1
+      },
+      "desc": "Active (Incidental); When your character purchases this talent, choose two skills. Once per session, your character may use this talent to reroll one skill check that uses one of those two skills."
+    },
+    {
+      "talent": "Parry 3",
+      "power_level": {
+        "combat": 1,
+        "social": 0,
+        "general": 0
+      },
+      "desc": "Active (Incidental, Out of Turn); When your character suffers a hit from a melee combat check, after damage is calculated but before soak is applied (so immediately after Step 3 of Perform a Combat check, page 102), your character may suffer 3 strain to use this talent to reduce the damage of the hit by two plus their ranks in Parry. This talent can only be used once per hit, and your character needs to be wielding a Melee weapon."
+    },
+    {
+      "talent": "Quick Draw",
       "power_level": {
         "combat": 0,
         "social": 0,
         "general": 0
-      }
+      },
+      "desc": "Active (Incidental); Once per round on your character’s turn, they may use this talent to draw or holster an easily accessible weapon or item as an incidental. Quick Draw also reduces a weapon’s Prepare rating by one, to a minimum of one."
     },
     {
-      "talent": "Ruinous Repartee (Core page 81)",
+      "talent": "Ruinous Repartee",
       "power_level": {
         "combat": 0,
         "social": 2,
         "general": 0
-      }
+      },
+      "desc": "Active (Action); Once per encounter, your character may use this talent to make an opposed Charm or Coercion versus Discipline check targeting one character within medium range (or within earshot). If successful, the target suffers strain equal to twice your character’s Presence, plus one additional strain per 󲊳. Your character heals strain equal to the strain inflicted."
     },
     {
-      "talent": "Second Wind 4 (Core page 74)",
+      "talent": "Second Wind 4",
       "power_level": {
         "combat": 0,
         "social": 1,
         "general": 0
-      }
+      },
+      "desc": "Active (Incidental); Once per encounter, your character may use this talent to heal an amount of strain equal to their ranks in Second Wind."
     },
     {
-      "talent": "Strength of Faith (page 97)",
+      "talent": "Strength of Faith",
       "power_level": {
         "combat": 1,
         "social": 0,
         "general": 1
-      }
+      },
+      "desc": "page 97"
     },
     {
-      "talent": "Surgeon 2 (Core page 74)",
+      "talent": "Surgeon 2",
       "power_level": {
         "combat": 0,
         "social": 0,
         "general": 1
-      }
+      },
+      "desc": "Passive; When your character makes a Medicine check to heal wounds, the target heals one additional wound per rank of Surgeon."
     }
   ],
   "abilities": [

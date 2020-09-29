@@ -123,6 +123,7 @@
             <tr>
               <th></th>
               <th>Talent</th>
+              <th>Description</th>
               <th colspan="6">Power levels</th>
             </tr>
 
@@ -132,6 +133,7 @@
             <tr onclick="click_row('{{id}}')">
               <td class="select"><input type="checkbox" id="talents{{loop.index0}}" name="talents" onchange="update()" value="{{loop.index0}}"></td>
               <td><label for="talents{{loop.index0}}">{{array['talent']}}</label></td>
+              <td><label for="talents{{loop.index0}}">{{array['desc']}}</label></td>
               {% for name, value in array['power_level'].items() %}<td class="icon"><label for="talents{{loop_outer.index0}}"><img src="static/{{name}}.svg" /></label></td><td class="level"><label for="talents{{loop_outer.index0}}">{{value}}</label></td>{% endfor %} 
             </tr>
             {% endfor %}

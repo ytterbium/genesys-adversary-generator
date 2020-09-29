@@ -50,7 +50,7 @@ function update(){
         }
 
       else if (item == 'talent')
-          result["talents"].push(values)
+        result["talents"].push(values + ' <span class="desc">(' + choices[i]['desc'] + ')</span>')
 
       else if (item == 'ability')
         result["abilities"].push(values + ' <span class="desc">(' + choices[i]['desc'] + ')</span>')
@@ -116,9 +116,9 @@ function update(){
 
   text = document.querySelector('.talents');
     var talents = result['talents'];
-    text.textContent = talents.sort().join(', ') + '.';
+    text.innerHTML = talents.sort().join(', ') + '.';
     if (Object.values(talents).length == 0) 
-      text.textContent = 'None.';
+      text.innerHTML = 'None.';
 
   text = document.querySelector('.abilities');
     var talents = result['abilities'];
