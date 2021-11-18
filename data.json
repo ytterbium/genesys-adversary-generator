@@ -5,8 +5,8 @@
       "caracs": {
         "brawn": 1,
         "agility": 2,
-        "intellect": 3,
-        "cunning": 1,
+        "intellect": 1,
+        "cunning": 3,
         "willpower": 1,
         "presence": 1
       },
@@ -22,8 +22,8 @@
       "caracs": {
         "brawn": 4,
         "agility": 2,
-        "intellect": 2,
-        "cunning": 1,
+        "intellect": 1,
+        "cunning": 2,
         "willpower": 1,
         "presence": 1
       },
@@ -39,8 +39,8 @@
       "caracs": {
         "brawn": 2,
         "agility": 3,
-        "intellect": 3,
-        "cunning": 1,
+        "intellect": 1,
+        "cunning": 3,
         "willpower": 1,
         "presence": 1
       },
@@ -107,8 +107,8 @@
       "caracs": {
         "brawn": 1,
         "agility": 2,
-        "intellect": 2,
-        "cunning": 3,
+        "intellect": 3,
+        "cunning": 2,
         "willpower": 2,
         "presence": 2
       },
@@ -175,8 +175,8 @@
       "caracs": {
         "brawn": 2,
         "agility": 1,
-        "intellect": 2,
-        "cunning": 5,
+        "intellect": 5,
+        "cunning": 2,
         "willpower": 2,
         "presence": 1
       },
@@ -192,8 +192,8 @@
       "caracs": {
         "brawn": 2,
         "agility": 2,
-        "intellect": 3,
-        "cunning": 2,
+        "intellect": 2,
+        "cunning": 3,
         "willpower": 3,
         "presence": 5
       },
@@ -209,8 +209,8 @@
       "caracs": {
         "brawn": 2,
         "agility": 4,
-        "intellect": 4,
-        "cunning": 2,
+        "intellect": 2,
+        "cunning": 4,
         "willpower": 2,
         "presence": 2
       },
@@ -744,7 +744,7 @@
         "social": 0,
         "general": 1
       },
-      "desc": "Passive; Your character creates a bond with a single animal approved by your GM. This animal must be silhouette 0 (no larger than a mid-sized dog). The bond persists as long as your character chooses, although at your GM’s discretion, the bond may also be broken due to abusive treatment or other extenuating circumstances.  As long as the bond persists, the animal follows your character, and you dictate the animal’s overall behavior (although, since the animal is only bonded with the character, not dominated, it may still perform inconvenient actions such as scratching furniture, consuming rations, and marking territory). Once per round in structured encounters, your character may spend one maneuver to direct their animal in performing one action and one maneuver during your character’s turn. The animal must be within hearing and visual range of your character (generally medium range) to do this. Otherwise, the animal does not contribute to the encounter. The specifics of its behavior are up to you and your GM.  For every additional rank of Animal Companion your character has, increase the allowed silhouette of the companion by one (this may mean your character gets a new companion, or their companion grows in size).  This talent can also change in flavor depending on the nature of your game setting. While an animal companion may make sense in many settings, in a futuristic setting it may make more sense for the “animal” to be a robot or drone, for example."
+      "desc": "Passive; Your character creates a bond with a single animal approved by your GM. This animal must be silhouette 0 (no larger than a mid-sized dog). The bond persists as long as your character chooses, although at your GM\u2019s discretion, the bond may also be broken due to abusive treatment or other extenuating circumstances.  As long as the bond persists, the animal follows your character, and you dictate the animal\u2019s overall behavior (although, since the animal is only bonded with the character, not dominated, it may still perform inconvenient actions such as scratching furniture, consuming rations, and marking territory). Once per round in structured encounters, your character may spend one maneuver to direct their animal in performing one action and one maneuver during your character\u2019s turn. The animal must be within hearing and visual range of your character (generally medium range) to do this. Otherwise, the animal does not contribute to the encounter. The specifics of its behavior are up to you and your GM.  For every additional rank of Animal Companion your character has, increase the allowed silhouette of the companion by one (this may mean your character gets a new companion, or their companion grows in size).  This talent can also change in flavor depending on the nature of your game setting. While an animal companion may make sense in many settings, in a futuristic setting it may make more sense for the \u201canimal\u201d to be a robot or drone, for example."
     },
     {
       "talent": "Barrel Roll",
@@ -762,7 +762,7 @@
         "social": 0,
         "general": 0
       },
-      "desc": "Activation: Active (Maneuver); Once per encounter, your character may use this talent.  Until the end of the encounter or until they are incapacitated, your character adds 󲊳 󲊴 󲊴 to all melee combat checks they make. However, opponents add 󲊳 to all combat checks targeting your character. While berserk, your character cannot make ranged combat checks.  At the end of the encounter (or when they are incapacitated), your character suffers 6 strain."
+      "desc": "Activation: Active (Maneuver); Once per encounter, your character may use this talent.  Until the end of the encounter or until they are incapacitated, your character adds \udb88\udeb3 \udb88\udeb4 \udb88\udeb4 to all melee combat checks they make. However, opponents add \udb88\udeb3 to all combat checks targeting your character. While berserk, your character cannot make ranged combat checks.  At the end of the encounter (or when they are incapacitated), your character suffers 6 strain."
     },
     {
       "talent": "Brilliant Casting",
@@ -780,7 +780,7 @@
         "social": 0,
         "general": 0
       },
-      "desc": "Active (Incidental, Out of Turn); Once per encounter, your character may use this talent to add automatic 󲊱 󲊱 to another character’s social skill check"
+      "desc": "Active (Incidental, Out of Turn); Once per encounter, your character may use this talent to add automatic \udb88\udeb1 \udb88\udeb1 to another character\u2019s social skill check"
     },
     {
       "talent": "Coordinated Assault 3",
@@ -789,7 +789,7 @@
         "social": 0,
         "general": 0
       },
-      "desc": "Active (Maneuver); Once per turn, your character may use this talent to have a number of allies engaged with your character equal to your ranks in Leadership add 󲊴 to all combat checks they make until the end of your character’s next turn. The range of this talent increases by one band per rank of Coordinated Assault beyond the first."
+      "desc": "Active (Maneuver); Once per turn, your character may use this talent to have a number of allies engaged with your character equal to your ranks in Leadership add \udb88\udeb4 to all combat checks they make until the end of your character\u2019s next turn. The range of this talent increases by one band per rank of Coordinated Assault beyond the first."
     },
     {
       "talent": "Distinctive Style",
@@ -798,7 +798,7 @@
         "social": 0,
         "general": 1
       },
-      "desc": "Active (Incidental); When making a Computers check to hack a system or break into a secured network, before rolling, your character may use this talent to add 󲊳 󲊳 󲊱 󲊱 to the results. Tier: 3 If you are using the optional hacking rules on page 232 and your check generates 󲊱 󲊱, your GM should spend it on the I Know You! option in Table I.2-22 on page 234."
+      "desc": "Active (Incidental); When making a Computers check to hack a system or break into a secured network, before rolling, your character may use this talent to add \udb88\udeb3 \udb88\udeb3 \udb88\udeb1 \udb88\udeb1 to the results. Tier: 3 If you are using the optional hacking rules on page 232 and your check generates \udb88\udeb1 \udb88\udeb1, your GM should spend it on the I Know You! option in Table I.2-22 on page 234."
     },
     {
       "talent": "Dual Wielder",
@@ -816,7 +816,7 @@
         "social": 0,
         "general": 0
       },
-      "desc": "Passive; Your character adds 󲊸 to their melee combat checks while engaged with a single opponent. Your character adds 󲊸 to their melee combat checks while engaged with three or more opponents."
+      "desc": "Passive; Your character adds \udb88\udeb8 to their melee combat checks while engaged with a single opponent. Your character adds \udb88\udeb8 to their melee combat checks while engaged with three or more opponents."
     },
     {
       "talent": "Elementalist",
@@ -852,7 +852,7 @@
         "social": 0,
         "general": 1
       },
-      "desc": "Active (Action); Your character may use this talent to make an Average (󲊷 󲊷) Leadership check. If successful, a number of allies equal to your character’s Presence may immediately suffer 1 strain to perform one maneuver (out of turn). If there are any questions as to which allies take their maneuvers first, your character is the final arbiter."
+      "desc": "Active (Action); Your character may use this talent to make an Average (\udb88\udeb7 \udb88\udeb7) Leadership check. If successful, a number of allies equal to your character\u2019s Presence may immediately suffer 1 strain to perform one maneuver (out of turn). If there are any questions as to which allies take their maneuvers first, your character is the final arbiter."
     },
     {
       "talent": "Flicker Step",
@@ -870,7 +870,7 @@
         "social": 0,
         "general": 0
       },
-      "desc": "Active (Incidental); When your character makes a ranged combat check with a weapon that has the Blast item quality, you may spend one Story Point to use this talent to trigger the weapon’s Blast quality, instead of spending 󲊴 (even if the attack misses). In addition, your character treats grenades as having a range of medium."
+      "desc": "Active (Incidental); When your character makes a ranged combat check with a weapon that has the Blast item quality, you may spend one Story Point to use this talent to trigger the weapon\u2019s Blast quality, instead of spending \udb88\udeb4 (even if the attack misses). In addition, your character treats grenades as having a range of medium."
     },
     {
       "talent": "Hamstring Shot",
@@ -879,7 +879,7 @@
         "social": 0,
         "general": 0
       },
-      "desc": "Active (Action); Once per round, your character may use this talent to perform a ranged combat check against one non-vehicle target within range of the weapon used. If the check is successful, halve the damage inflicted by the attack (before reducing damage by the target’s soak). The target is immobilized until the end of its next turn."
+      "desc": "Active (Action); Once per round, your character may use this talent to perform a ranged combat check against one non-vehicle target within range of the weapon used. If the check is successful, halve the damage inflicted by the attack (before reducing damage by the target\u2019s soak). The target is immobilized until the end of its next turn."
     },
     {
       "talent": "Improved Field Commander",
@@ -888,7 +888,7 @@
         "social": 0,
         "general": 1
       },
-      "desc": "Passive; When your character uses the Field Commander talent, your character affects a number of allies equal to twice the character’s Presence.  In addition, you may spend 󲊵 to allow one ally to suffer 1 strain to perform an action, instead of a maneuver."
+      "desc": "Passive; When your character uses the Field Commander talent, your character affects a number of allies equal to twice the character\u2019s Presence.  In addition, you may spend \udb88\udeb5 to allow one ally to suffer 1 strain to perform an action, instead of a maneuver."
     },
     {
       "talent": "Improved Inspiring Rhetoric",
@@ -897,7 +897,7 @@
         "social": 0,
         "general": 1
       },
-      "desc": "Active (Action); Your character may use this talent to make an Average (󲊷 󲊷) Leadership check. For each 󲊳 the check generates, one ally within short range heals one strain. For each 󲊴, one ally benefiting from Inspiring Rhetoric heals one additional strain. Allies affected by your character’s Inspiring Rhetoric add 󲊸 to all skill checks they make for a number of rounds equal to your character's rank in Leadership."
+      "desc": "Active (Action); Your character may use this talent to make an Average (\udb88\udeb7 \udb88\udeb7) Leadership check. For each \udb88\udeb3 the check generates, one ally within short range heals one strain. For each \udb88\udeb4, one ally benefiting from Inspiring Rhetoric heals one additional strain. Allies affected by your character\u2019s Inspiring Rhetoric add \udb88\udeb8 to all skill checks they make for a number of rounds equal to your character's rank in Leadership."
     },
     {
       "talent": "Improved Parry",
@@ -906,7 +906,7 @@
         "social": 0,
         "general": 0
       },
-      "desc": "Active (Incidental, Out of Turn); When your character suffers a hit from a melee combat check and uses Parry to reduce the damage from that hit, after the attack is resolved, you may spend 󲊲 or 󲊱 󲊱 󲊱 from the attacker’s check to use this talent. Then, your character automatically hits the attacker once with a Brawl or Melee weapon your character is wielding. The hit deals the weapon’s base damage, plus any damage from applicable talents or abilities. Your character can’t use this talent if the original attack incapacitates them."
+      "desc": "Active (Incidental, Out of Turn); When your character suffers a hit from a melee combat check and uses Parry to reduce the damage from that hit, after the attack is resolved, you may spend \udb88\udeb2 or \udb88\udeb1 \udb88\udeb1 \udb88\udeb1 from the attacker\u2019s check to use this talent. Then, your character automatically hits the attacker once with a Brawl or Melee weapon your character is wielding. The hit deals the weapon\u2019s base damage, plus any damage from applicable talents or abilities. Your character can\u2019t use this talent if the original attack incapacitates them."
     },
     {
       "talent": "Improved Scathing Tirade",
@@ -915,7 +915,7 @@
         "social": 1,
         "general": 0
       },
-      "desc": "Active (Action); Your character may use this talent to make an Average (󲊷 󲊷) Coercion check. For each 󲊳 the check generates, one enemy within short range suffers 1 strain. For each 󲊴, one enemy affected by Scathing Tirade suffers 1 additional strain. Enemies affected by your character’s Scathing Tirade add 󲊸 to all skill checks they make for a number of rounds equal to your character’s ranks in Coercion."
+      "desc": "Active (Action); Your character may use this talent to make an Average (\udb88\udeb7 \udb88\udeb7) Coercion check. For each \udb88\udeb3 the check generates, one enemy within short range suffers 1 strain. For each \udb88\udeb4, one enemy affected by Scathing Tirade suffers 1 additional strain. Enemies affected by your character\u2019s Scathing Tirade add \udb88\udeb8 to all skill checks they make for a number of rounds equal to your character\u2019s ranks in Coercion."
     },
     {
       "talent": "Indomitable",
@@ -933,7 +933,7 @@
         "social": 0,
         "general": 0
       },
-      "desc": "Active (Incidental); When your character purchases this talent, choose one characteristic. After your character makes a successful combat check, you may spend one Story Point to use this talent to add damage equal to your character’s ranks in that characteristic to one hit of the combat check."
+      "desc": "Active (Incidental); When your character purchases this talent, choose one characteristic. After your character makes a successful combat check, you may spend one Story Point to use this talent to add damage equal to your character\u2019s ranks in that characteristic to one hit of the combat check."
     },
     {
       "talent": "Master",
@@ -942,7 +942,7 @@
         "social": 1,
         "general": 1
       },
-      "desc": "Active (Incidental); When you purchase this talent for your character, choose one skill. Once per round, your character may suffer 2 strain to use this talent to reduce the difficulty of the next check they make using that skill by two, to a minimum of Easy (󲊷)."
+      "desc": "Active (Incidental); When you purchase this talent for your character, choose one skill. Once per round, your character may suffer 2 strain to use this talent to reduce the difficulty of the next check they make using that skill by two, to a minimum of Easy (\udb88\udeb7)."
     },
     {
       "talent": "Masterful Casting",
@@ -978,7 +978,7 @@
         "social": 0,
         "general": 0
       },
-      "desc": "Active (Incidental); Once per round on your character’s turn, they may use this talent to draw or holster an easily accessible weapon or item as an incidental. Quick Draw also reduces a weapon’s Prepare rating by one, to a minimum of one."
+      "desc": "Active (Incidental); Once per round on your character\u2019s turn, they may use this talent to draw or holster an easily accessible weapon or item as an incidental. Quick Draw also reduces a weapon\u2019s Prepare rating by one, to a minimum of one."
     },
     {
       "talent": "Ruinous Repartee",
@@ -987,7 +987,7 @@
         "social": 2,
         "general": 0
       },
-      "desc": "Active (Action); Once per encounter, your character may use this talent to make an opposed Charm or Coercion versus Discipline check targeting one character within medium range (or within earshot). If successful, the target suffers strain equal to twice your character’s Presence, plus one additional strain per 󲊳. Your character heals strain equal to the strain inflicted."
+      "desc": "Active (Action); Once per encounter, your character may use this talent to make an opposed Charm or Coercion versus Discipline check targeting one character within medium range (or within earshot). If successful, the target suffers strain equal to twice your character\u2019s Presence, plus one additional strain per \udb88\udeb3. Your character heals strain equal to the strain inflicted."
     },
     {
       "talent": "Second Wind 4",
