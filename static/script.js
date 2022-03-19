@@ -154,15 +154,17 @@ function update(){
 function update_url(){
   var form = document.getElementById('type');
   var params = new URLSearchParams(new FormData(form));
+
+  params.delete('locale'); // remove the locale paramaterers to the set to save
   
   var url = window.location.pathname + '?' + params.toString();
   history.replaceState("", "", url);
 };
 
 function update_name() {
-  name_adver = document.querySelector('input[placeholder="Name"]').value;
-  var field = document.getElementById('name');
-  field.innerText = (name_adver == "") ? 'Name' : name_adver;
+  name_adver = document.querySelector('input[name="name"]');
+  var template_field = document.getElementById('name');
+  template_field.innerText = (name_adver.value == "") ? name_adver.getAttribute('placeholder') : (name_adver.value);
   
   update_url();
   //template();
@@ -231,7 +233,7 @@ function warning(){
 };
 
 function template(){
-  //if (display_template){
+  // Update the template where the adversary is shown
   var content = ["{{" + adversary_type];
   
   content.push("name=" + name_adver);
@@ -284,6 +286,7 @@ function template(){
 }
 
 function toogle_template(){
+  // Display (or not) the wiki templates
   if (typeof display_template === 'undefined')
     display_template = false;
   else 
@@ -313,7 +316,25 @@ function copy(){
   area.setSelectionRange(0, 0);
 }
   
+function change_locale() {
+  // We change of translation
+  let new_locale = document.querySelector('select[name=locale]').value;
+
+  // Save the previous parameters
+  var form = document.getElementById('type');
+  var params = new URLSearchParams(new FormData(form));
+  params.delete('locale'); // remove the locale paramaterers to the set to save
+  
+  var url = new_locale + '?' + params.toString();
+  window.location.replace(url);
+
+  document.querySelector('select[name=locale]').value = new_locale;
+  console.log(document.querySelector('select[name=locale]').value);
+  
+}
+
 loading();
+console.log('loading')
 toogle_template();
 update_name();
 update();

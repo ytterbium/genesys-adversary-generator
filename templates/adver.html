@@ -13,7 +13,7 @@
     <div>
       <div id="card">
         <header>
-          <p id="name">Name<p>
+          <p id="name">{{ _("Name") }}</p>
               {% include 'power_level.svg' %}
         </header> 
         {% include "caracteristics.svg" %} 
@@ -24,34 +24,38 @@
           {% include "st.svg" %}
           {% include "defense.svg" %}
         </div> 
-        <p><span class="section">Skills: </span><span class="skills">None.</span></p>
-        <p><span class="section">Talents: </span><span class="talents">None.</span></p>
-        <p><span class="section">Abilities: </span><span class="abilities">None.</span></p>
-        <p><span class="section">Weapons: </span><span class="weapons">None.</span></p>
-        <p><span class="section">Equipment: </span><span class="equipment">None.</span></p>
-        <div id="warn"><p><span class="section">⚠️ Warnings: </span></p><ul class="warnings"></ul></div>
+        <p><span class="section">{{ _("Skills:") }} </span><span class="skills">{{ _("None.") }}</span></p>
+        <p><span class="section">{{ _("Talents:") }} </span><span class="talents">{{ _("None.") }}</span></p>
+        <p><span class="section">{{ _("Abilities:") }} </span><span class="abilities">{{ _("None.") }}</span></p>
+        <p><span class="section">{{ _("Weapons:") }} </span><span class="weapons">{{ _("None.") }}</span></p>
+        <p><span class="section">{{ _("Equipment:") }} </span><span class="equipment">{{ _("None.") }}</span></p>
+        <div id="warn"><p><span class="section">{{ _("⚠️ Warnings:") }} </span></p><ul class="warnings"></ul></div>
       </div>
     </div>
 
     <div id="main_box">
       <form id="type">
         <fieldset>
-          <input name="type" type="radio" onchange="update()" id="minion" value="minion"><label for="minion">Minion</label>
-          <input name="type" type="radio" onchange="update()" id="rival" value="rival" checked><label for="rival">Rival</label>
-          <input name="type" type="radio" onchange="update()" id="nemesis" value="nemesis"><label for="nemesis">Nemesis</label>
+          <input name="type" type="radio" onchange="update()" id="minion" value="minion"><label for="minion">{{ _("Minion") }}</label>
+          <input name="type" type="radio" onchange="update()" id="rival" value="rival" checked><label for="rival">{{ _("Rival") }}</label>
+          <input name="type" type="radio" onchange="update()" id="nemesis" value="nemesis"><label for="nemesis">{{ _("Nemesis") }}</label>
           <div id="filler"></div>
-          <input name="name" type="text" placeholder="Name" oninput="update_name()">
+          <input name="name" type="text" placeholder="{{ _("Name") }}" oninput="update_name()">
+          <div id="filler-locale"></div>
+          <select name="locale" onchange="change_locale()">
+            {% for lc in locales %} <option value="{{lc}}" {% if lc == selected_locale %}selected{% endif %}>{{lc|flag}}</option> {% endfor %}
+          </select>
         </fieldset>
 
         <fieldset>
-          <legend>Characteristic arrays</legend>
+          <legend>{{ _("Characteristic arrays") }}</legend>
           <table>
             <tr>
               <th></th>
-              <th>Name</th>
-              <th>Caracteristics</th>
-              <th colspan="6">Power levels</th>
-              <th>Examples</th>
+              <th>{{ _("Name") }}</th>
+              <th>{{ _("Caracteristics") }}</th>
+              <th colspan="6">{{ _("Power levels") }}</th>
+              <th>{{ _("Examples") }}</th>
             </tr>
             {% for array in caracteristics %}
             {% set loop_outer, id = loop, "caracteristics" ~ loop.index0 %}
@@ -69,14 +73,14 @@
         </fieldset>
 
         <fieldset>
-          <legend>Soak, defense, and wound and strain thresholds</legend>
+          <legend>{{ _("Soak, defense, and wound and strain thresholds") }}</legend>
           <table>
             <tr>
               <th></th>
-              <th>Name</th>
-              <th>Derived attribute</th>
-              <th colspan="6">Power levels</th>
-              <th>Examples</th>
+              <th>{{ _("Name") }}</th>
+              <th>{{ _("Derived attribute") }}</th>
+              <th colspan="6">{{ _("Power levels") }}</th>
+              <th>{{ _("Examples") }}</th>
             </tr> 
             {% for array in defense %}
             {% set loop_outer, id = loop, "defense" ~ loop.index0 %}
@@ -95,13 +99,13 @@
         </fieldset>
 
         <fieldset>
-          <legend>Skill packages</legend>
+          <legend>{{ _("Skill packages") }}</legend>
           <table>
             <tr>
               <th></th>
-              <th>Name</th>
-              <th>Skills</th>
-              <th colspan="6">Power levels</th>
+              <th>{{ _("Name") }}</th>
+              <th>{{ _("Skills") }}</th>
+              <th colspan="6">{{ _("Power levels") }}</th>
             </tr>
 
             {% for array in skills %}
@@ -119,13 +123,13 @@
         </fieldset>
 
         <fieldset>
-          <legend>Adversary talents</legend>
+          <legend>{{ _("Adversary talents") }}</legend>
           <table>
             <tr>
               <th></th>
-              <th>Talent</th>
-              <th>Description</th>
-              <th colspan="6">Power levels</th>
+              <th>{{ _("Talent") }}</th>
+              <th>{{ _("Description") }}</th>
+              <th colspan="6">{{ _("Power levels") }}</th>
             </tr>
 
             {% for array in talents %}
@@ -141,14 +145,14 @@
           </table>
         </fieldset>
         <fieldset>
-          <legend>Adversary special abilities</legend>
+          <legend>{{ _("Adversary special abilities") }}</legend>
           <table>
             <tr>
               <th></th>
-              <th>Special ability</th>
-              <th>Description</th>
-              <th colspan="6">Power levels</th>
-              <th>Examples</th>
+              <th>{{ _("Special ability") }}</th>
+              <th>{{ _("Description") }}</th>
+              <th colspan="6">{{ _("Power levels") }}</th>
+              <th>{{ _("Examples") }}</th>
             </tr>
 
             {% for array in abilities %}
@@ -164,18 +168,18 @@
           </table>
         </fieldset>
         <fieldset>
-          <legend>Equipment arrays</legend>
+          <legend>{{ _("Equipment arrays") }}</legend>
           <table>
             <thead>
               <tr>
                 <th rowspan=2></th>
-                <th rowspan=2>Name</th>
-                <th rowspan=2>Description</th>
-                <th rowspan=1>Weapons</th>
-                <th rowspan=2 colspan="6">Power levels</th>
+                <th rowspan=2>{{ _("Name") }}</th>
+                <th rowspan=2>{{ _("Description") }}</th>
+                <th rowspan=1>{{ _("Weapons") }}</th>
+                <th rowspan=2 colspan="6">{{ _("Power levels") }}</th>
               </tr>
               <tr>
-                <th rowspan=1>Equipment</th>
+                <th rowspan=1>{{ _("Equipment") }}</th>
               </tr>
             </thead>
             {% for array in equipment %}

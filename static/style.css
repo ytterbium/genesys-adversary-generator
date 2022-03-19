@@ -197,8 +197,16 @@ fieldset {
   flex-grow: 1;
 }
 
+#filler-locale {
+    width: 50px;
+}
+
 input[type="text"]{
   display: inline-block;
+}
+
+select {
+    width: 3em;
 }
 
 label ~ input[type="radio"]{
@@ -217,7 +225,7 @@ label ~ input[type="radio"]{
 }
 
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
     article {
         flex-direction: column;
     }
