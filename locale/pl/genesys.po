@@ -2,382 +2,384 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2022-03-19T17:15:00.222857\n"
+"POT-Creation-Date: 2023-05-21T19:16:25.757958\n"
 "PO-Revision-Date: 2022-03-19 17:15+0100\n"
 "Last-Translator:  <none@laposte.net>\n"
+"Language-Team: Polish <translation-team-pl@lists.sourceforge.net>\n"
+"Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language-Team: Polish <translation-team-pl@lists.sourceforge.net>\n"
-"Language: pl\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
 
 #: template L 16
 msgid "Name"
-msgstr ""
+msgstr "Nazwa lub imię"
 
 #: template L 27
 msgid "Skills:"
-msgstr ""
+msgstr "Umiejętności:"
 
 #: template L 27
 msgid "None."
-msgstr ""
+msgstr "Brak"
 
 #: template L 28
 msgid "Talents:"
-msgstr ""
+msgstr "Talenty:"
 
 #: template L 29
 msgid "Abilities:"
-msgstr ""
+msgstr "Zdolności:"
 
 #: template L 30
 msgid "Weapons:"
-msgstr ""
+msgstr "Broń:"
 
 #: template L 31
 msgid "Equipment:"
-msgstr ""
+msgstr "Wyposażenie:"
 
 #: template L 32
 msgid "⚠️ Warnings:"
-msgstr ""
+msgstr "⚠️ Ostrzeżenia:"
 
 #: template L 39
 msgid "Minion"
-msgstr ""
+msgstr "Pachołek"
 
 #: template L 40
 msgid "Rival"
-msgstr ""
+msgstr "Rywal"
 
 #: template L 41
 msgid "Nemesis"
-msgstr ""
+msgstr "Nemezis"
 
 #: template L 51
 msgid "Characteristic arrays"
-msgstr ""
+msgstr "Pakiety cech"
 
 #: template L 56
 msgid "Caracteristics"
-msgstr ""
+msgstr "Cechy"
 
 #: template L 57
 msgid "Power levels"
-msgstr ""
+msgstr "Poziomy mocy"
 
 #: template L 58
 msgid "Examples"
-msgstr ""
+msgstr "Przykłady"
 
 #: template L 76
 msgid "Soak, defense, and wound and strain thresholds"
-msgstr ""
+msgstr "Redukcja, obrona, progi ran i zmęczenia"
 
 #: template L 81
 msgid "Derived attribute"
-msgstr ""
+msgstr "Pochodny atrybut"
 
 #: template L 102
 msgid "Skill packages"
-msgstr ""
+msgstr "Pakiety umiejętności"
 
 #: template L 107
 msgid "Skills"
-msgstr ""
+msgstr "Umiejętności"
 
 #: template L 126
 msgid "Adversary talents"
-msgstr ""
+msgstr "Talenty przeciwnika"
 
 #: template L 130
 msgid "Talent"
-msgstr ""
+msgstr "Talent"
 
 #: template L 131
 msgid "Description"
-msgstr ""
+msgstr "Opis"
 
 #: template L 148
 msgid "Adversary special abilities"
-msgstr ""
+msgstr "Zdolności specjalne przeciwnika"
 
 #: template L 152
 msgid "Special ability"
-msgstr ""
+msgstr "Zdolność specjalna"
 
 #: template L 171
 msgid "Equipment arrays"
-msgstr ""
+msgstr "Pakiety wyposażenia"
 
 #: template L 178
 msgid "Weapons"
-msgstr ""
+msgstr "Uzbrojenie"
 
 #: template L 182
 msgid "Equipment"
-msgstr ""
+msgstr "Wyposażenie"
 
 #: caracteristics
 msgid "Small Creature"
-msgstr ""
+msgstr "Małe stworzenia"
 
 #: examples Small Creature
 msgid "Mouse, bird, snake, cat"
-msgstr ""
+msgstr "Mysz, ptak, wąż, kot"
 
 #: caracteristics
 msgid "Large Creature"
-msgstr ""
+msgstr "Duże stworzenia"
 
 #: examples Large Creature
 msgid "Bear, ox, horse, cow, ram"
-msgstr ""
+msgstr "Niedźwiedź, wół, koń, krowa, baran"
 
 #: caracteristics
 msgid "Stealthy Creature"
-msgstr ""
+msgstr "Ciche stworzenia"
 
 #: examples Stealthy Creature
 msgid "Puma, deer, shark"
-msgstr ""
+msgstr "Puma, jeleń, rekin"
 
 #: caracteristics
 msgid "Huge Creature"
-msgstr ""
+msgstr "Wielkie stworzenia"
 
 #: examples Huge Creature
 msgid "Elephant, dinosaur"
-msgstr ""
+msgstr "Słoń, dinozaur"
 
 #: caracteristics
 msgid "Average Person "
-msgstr ""
+msgstr "Przeciętniak"
 
 #: examples Average Person
 msgid "Any regular person"
-msgstr ""
+msgstr "Szary człowiek"
 
 #: caracteristics
 msgid "Tough Person"
-msgstr ""
+msgstr "Twardziel"
 
 #: examples Tough Person
 msgid "Laborer, mob tough, soldier"
-msgstr ""
+msgstr "Robotnik, zbir mafii, żołnierz"
 
 #: caracteristics
 msgid "Smart Person"
-msgstr ""
+msgstr "Bystrzak"
 
 #: examples Smart Person
 msgid "Student, medic, hacker"
-msgstr ""
+msgstr "Student, medyk, haker"
 
 #: caracteristics
 msgid "Sociable Person"
-msgstr ""
+msgstr "Lider"
 
 #: examples Sociable Person
 msgid "Politician, manager"
-msgstr ""
+msgstr "Polityk, kierownik"
 
 #: caracteristics
 msgid "Jack of All Trades"
-msgstr ""
+msgstr "Wszechstronny specjalista"
 
 #: examples Jack of All Trades
 msgid "Any competent person"
-msgstr ""
+msgstr "Osoba o szerokich kompetencjach"
 
 #: caracteristics
 msgid "Skilled Warrior"
-msgstr ""
+msgstr "Wyszkolony wojownik"
 
 #: examples Skilled Warrior
 msgid "Knight, berserker, veteran"
-msgstr ""
+msgstr "Rycerz, berserk, weteran"
 
 #: caracteristics
 msgid "Savant"
-msgstr ""
+msgstr "Intelektualista"
 
 #: examples Savant
 msgid "Scholar, researcher, surgeon"
-msgstr ""
+msgstr "Uczony, pracownik naukowy, chirurg"
 
 #: caracteristics
 msgid "Born Leader"
-msgstr ""
+msgstr "Urodzony przywódca"
 
 #: examples Born Leader
 msgid "President, ruler, general"
-msgstr ""
+msgstr "Prezydent, władca, generał"
 
 #: caracteristics
 msgid "Cunning Foe"
-msgstr ""
+msgstr "Przebiegły wróg"
 
 #: examples Cunning Foe
 msgid "Spy, assassin, military scout"
-msgstr ""
+msgstr "Szpieg, zabójca, wojskowy zwiadowca"
 
 #: caracteristics
 msgid "Mastermind"
-msgstr ""
+msgstr "Mózg operacji"
 
 #: examples Mastermind
 msgid "The main villain in a story"
-msgstr ""
+msgstr "Główny czarny charakter w opowieści"
 
 #: skills
 msgid "Basic Creature"
-msgstr ""
+msgstr "Zwykła istota"
 
 #: skills
 msgid "Ferocious Creature"
-msgstr ""
+msgstr "Okrutna istota"
 
 #: skills
 msgid "Predatory Creature"
-msgstr ""
+msgstr "Drapieżna istota"
 
 #: skills
 msgid "Territorial Creature"
-msgstr ""
+msgstr "Terytorialna istota"
 
 #: skills
 msgid "Soldier"
-msgstr ""
+msgstr "Żołnierz"
 
 #: skills
 msgid "Duelist"
-msgstr ""
+msgstr "Pojedynkowicz"
 
 #: skills
 msgid "Scout/Sniper"
-msgstr ""
+msgstr "Zwiadowca/snajper"
 
 #: skills
 msgid "Brawler/Laborer"
-msgstr ""
+msgstr "Awanturnik/robotnik"
 
 #: skills
 msgid "Gunslinger"
-msgstr ""
+msgstr "Rewolwerowiec"
 
 #: skills
 msgid "Sailor"
-msgstr ""
+msgstr "Żeglarz"
 
 #: skills
 msgid "Spy/Con Artist"
-msgstr ""
+msgstr "Szpieg/oszust"
 
 #: skills
 msgid "Thief/Assassin"
-msgstr ""
+msgstr "Złodziej/zabójca"
 
 #: skills
 msgid "Researcher"
-msgstr ""
+msgstr "Pracownik naukowy"
 
 #: skills
 msgid "Natural Philosopher"
-msgstr ""
+msgstr "Filozof przyrody"
 
 #: skills
 msgid "Doctor"
-msgstr ""
+msgstr "Doktor"
 
 #: skills
 msgid "Knight/Warrior Leader"
-msgstr ""
+msgstr "Rycerz/przywódca-wojownik"
 
 #: skills
 msgid "Captain of a Vessel"
-msgstr ""
+msgstr "Kapitan jednostki"
 
 #: skills
 msgid "Politician/Official"
-msgstr ""
+msgstr "Polityk/urzędnik"
 
 #: skills
 msgid "Mage"
-msgstr ""
+msgstr "Mag"
 
 #: skills
 msgid "Priest"
-msgstr ""
+msgstr "Kapłan"
 
 #: skills
 msgid "Druid"
-msgstr ""
+msgstr "Druid"
 
 #: skills
 msgid "Pilot/Driver/Rider"
-msgstr ""
+msgstr "Pilot/kierowca/jeździec"
 
 #: skills
 msgid "Merchant"
-msgstr ""
+msgstr "Kupiec"
 
 #: skills
 msgid "Crime Boss"
-msgstr ""
+msgstr "Szef organizacji przestępczej"
 
 #: skills
 msgid "Bureaucrat"
-msgstr ""
+msgstr "Biurokrata"
 
 #: skills
 msgid "Mechanic"
-msgstr ""
+msgstr "Mechanik"
 
 #: skills
 msgid "Hacker"
-msgstr ""
+msgstr "Haker"
 
 #: skills
 msgid "Criminal Tough"
-msgstr ""
+msgstr "Zatwardziały kryminalista"
 
 #: skills
 msgid "Investigator"
-msgstr ""
+msgstr "Śledczy"
 
 #: skills
 msgid "Wrangler/Survivalist"
-msgstr ""
+msgstr "Traper/surwiwalista"
 
 #: skills
 msgid "Cop/Town Guard"
-msgstr ""
+msgstr "Glina/strażnik miejski"
 
 #: talents
 msgid "Adversary 1"
-msgstr ""
+msgstr "Adwersarz 1"
 
 #: description Adversary 1
 msgid ""
 "Passive; Upgrade the difficulty of all combat checks targeting this "
 "character once per rank of Adversary."
 msgstr ""
+"Pasywny; za każdy poziom Adwersarza wzmocnij raz trudność testu walki, "
+"którego celem jest ta postać."
 
 #: talents
 msgid "Adversary 2"
-msgstr ""
+msgstr "Adwersarz 2"
 
 #: talents
 msgid "Adversary 3"
-msgstr ""
+msgstr "Adwersarz 3"
 
 #: talents
 msgid "Animal Companion"
-msgstr ""
+msgstr "Zwierzęcy Towarzysz"
 
 #: description Animal Companion
 msgid ""
@@ -402,10 +404,29 @@ msgid ""
 "make sense in many settings, in a futuristic setting it may make more sense "
 "for the “animal” to be a robot or drone, for example."
 msgstr ""
+"Twoja postać tworzy więź z jednym zwierzęciem zatwierdzonym przez MG. "
+"Zwierzę to musi mieć sylwetkę 0 (nie może być większe od średniej wielkości "
+"psa). Więź trwa tak długo, jak chce twoja postać, chociaż MG może uznać, że "
+"została zerwana w wyniku złego traktowania albo innych okoliczności ją "
+"osłabiających.  Dopóki więź trwa, zwierzę podąża za twoją postacią, a ty "
+"decydujesz o jego zachowaniu. Jednak zwierzę jest jedynie związane z "
+"postacią, a nie zdominowane przez nią, więc nadal może zachowywać się "
+"kłopotliwie, na przykład drapać meble, podjadać zapasy czy znaczyć teren. "
+"Raz na rundę w spotkaniach uporządkowanych postać może użyć jednego manewru, "
+"aby nakazać zwierzęciu wykonanie jednej akcji i jednego manewru podczas tury "
+"postaci. Aby to zrobić, zwierzę musi znajdować się w zasięgu słuchu i wzroku "
+"postaci (zazwyczaj jest to średni dystans). W przeciwnym razie zwierzę nie "
+"wnosi nic do spotkania. Szczegóły jego zachowania zależą od ciebie i od MG.  "
+"Za każdy dodatkowy poziom Zwierzęcego Towarzysza dozwolona sylwetka "
+"zwierzęcia zwiększa się o 1. (Może to oznaczać, że postać zdobywa nowego "
+"towarzysza albo że jej towarzysz rośnie).  Ten talent może mieć różne "
+"oblicze zależnie od uniwersum waszej gry. Choć zwierzęcy towarzysz może mieć "
+"sens w wielu realiach, w przypadku settingów futurystycznych zamiast "
+"zwierzęcia można wprowadzić robota albo dron."
 
 #: talents
 msgid "Barrel Roll"
-msgstr ""
+msgstr "Beczka"
 
 #: description Barrel Roll
 msgid ""
@@ -416,10 +437,16 @@ msgid ""
 "system strain to use this talent. Then, reduce the damage suffered by a "
 "number equal to their ranks in Piloting."
 msgstr ""
+"Aktywny (okazja, poza turą); Postać może użyć tego talentu tylko podczas "
+"pilotowania myśliwca kosmicznego albo samolotu o sylwetce 3 lub mniejszej. "
+"Kiedy twój pojazd otrzymuje trafienie w wyniku testu walki dystansowej, po "
+"określeniu obrażeń, ale przed zastosowaniem pancerza postać może przyjąć na "
+"pojazd 3 punkty obciążenia systemu, aby użyć tego talentu. Wówczas zmniejsza "
+"otrzymane obrażenia o liczbę równą poziomom Pilotażu."
 
 #: talents
 msgid "Berserk"
-msgstr ""
+msgstr "Berserk"
 
 #: description Berserk
 msgid ""
@@ -431,28 +458,36 @@ msgid ""
 "At the end of the encounter (or when they are incapacitated), your character "
 "suffers 6 strain."
 msgstr ""
+"Aktywacja: Aktywny (manewr); Postać może użyć tego talentu raz na "
+"spotkanie.  Do końca tego spotkania albo dopóki nie zostanie obezwładniona, "
+"dodaje 󲊳 󲊴 󲊴 do swoich testów walki wręcz. Jednocześnie przeciwnicy dodają 󲊳 "
+"do testów walki, których celem jest ta postać. W tym stanie postać nie może "
+"wykonywać testów walki dystansowej.  Pod koniec spotkania (albo gdy zostanie "
+"obezwładniona) postać otrzymuje 6 punktów zmęczenia."
 
 #: talents
 msgid "Brilliant Casting"
-msgstr ""
+msgstr "Genialne Czarowanie"
 
 #: description Brilliant Casting
 msgid "page 95"
-msgstr ""
+msgstr "Strona 95"
 
 #: talents
 msgid "Clever Retort"
-msgstr ""
+msgstr "Cięta Riposta"
 
 #: description Clever Retort
 msgid ""
 "Active (Incidental, Out of Turn); Once per encounter, your character may use "
 "this talent to add automatic 󲊱 󲊱 to another character’s social skill check"
 msgstr ""
+"Aktywny (okazja, poza turą); Raz na spotkanie postać może użyć tego talentu, "
+"aby dodać automatyczne 󲊱 󲊱 do testu umiejętności społecznej innej postaci."
 
 #: talents
 msgid "Coordinated Assault 3"
-msgstr ""
+msgstr "Skoordynowany Atak 3"
 
 #: description Coordinated Assault 3
 msgid ""
@@ -462,10 +497,15 @@ msgid ""
 "character’s next turn. The range of this talent increases by one band per "
 "rank of Coordinated Assault beyond the first."
 msgstr ""
+"Aktywny (manewr); Raz na turę twoja postać może użyć tego talentu, aby "
+"sprawić, że sojusznicy w jej zasięgu bezpośrednim w liczbie równej twoim "
+"poziomom Przywództwa dodają 󲊴 do swoich testów walki do końca twojej "
+"następnej tury. Zasięg tego talentu zwiększa się o jeden przedział za każdy "
+"z poziomów Skoordynowanego Ataku poza pierwszym."
 
 #: talents
 msgid "Distinctive Style"
-msgstr ""
+msgstr "Niepowtarzalny Styl"
 
 #: description Distinctive Style
 msgid ""
@@ -475,10 +515,15 @@ msgid ""
 "rules on page 232 and your check generates 󲊱 󲊱, your GM should spend it on "
 "the I Know You! option in Table I.2-22 on page 234."
 msgstr ""
+"Aktywny (okazja); Kiedy postać wykonuje test Komputerów, aby hakować system "
+"albo włamać się do zabezpieczonej sieci, może przed rzutem użyć tego "
+"talentu, aby dodać 󲊳 󲊳 󲊱 󲊱 do wyniku. Jeżeli korzystacie z zasad "
+"opcjonalnych ze strony 238, a w teście uzyskasz 󲊱 󲊱, to MG powinien zużyć je "
+"na opcję Tabeli III.2–22 na stronie 241."
 
 #: talents
 msgid "Dual Wielder"
-msgstr ""
+msgstr "Dwie Bronie"
 
 #: description Dual Wielder
 msgid ""
@@ -486,6 +531,9 @@ msgid ""
 "difficulty of the next combined combat check (see Two-Weapon Combat, on page "
 "108) they make during the same turn by one."
 msgstr ""
+"Aktywny (manewr); Postać może użyć tego talentu, aby zmniejszyć o 1 trudność "
+"następnego połączonego testu walki (zob. Walka dwiema broniami, str. 108), "
+"który wykona w tej samej turze."
 
 #: description Duelist
 msgid ""
@@ -493,30 +541,32 @@ msgid ""
 "with a single opponent. Your character adds 󲊸 to their melee combat checks "
 "while engaged with three or more opponents."
 msgstr ""
+"Postać dodaje 󲊸 do swoich testów walki wręcz podczas walki z pojedynczym "
+"przeciwnikiem, a 󲊸 podczas walki z co najmniej trzema przeciwnikami."
 
 #: talents
 msgid "Elementalist"
-msgstr ""
+msgstr "Elementalista"
 
 #: talents
 msgid "Explosive Casting"
-msgstr ""
+msgstr "Wybuchowe Czarowanie"
 
 #: description Explosive Casting
 msgid "page 96"
-msgstr ""
+msgstr "Strona 96"
 
 #: talents
 msgid "Face of the Wild"
-msgstr ""
+msgstr "Twarz Dziczy"
 
 #: description Face of the Wild
 msgid "page 97"
-msgstr ""
+msgstr "Strona 97"
 
 #: talents
 msgid "Field Commander"
-msgstr ""
+msgstr "Dowódca Polowy"
 
 #: description Field Commander
 msgid ""
@@ -526,14 +576,19 @@ msgid ""
 "(out of turn). If there are any questions as to which allies take their "
 "maneuvers first, your character is the final arbiter."
 msgstr ""
+"Aktywny (akcja); Postać może użyć tego talentu, aby wykonać Przeciętny (󲊷 󲊷) "
+"test Przywództwa. Jeśli test się powiedzie, sojusznicy w liczbie równej "
+"Prezencji twojej postaci mogą natychmiast przyjąć 1 punkt zmęczenia, aby "
+"wykonać po jednym manewrze (poza turą). Jeśli pojawią się wątpliwości co do "
+"kolejności wykonywania tych manewrów, rozstrzyga je twoja postać."
 
 #: talents
 msgid "Flicker Step"
-msgstr ""
+msgstr "Błyskawiczne Przemieszczanie"
 
 #: talents
 msgid "Grenadier"
-msgstr ""
+msgstr "Grenadier"
 
 #: description Grenadier
 msgid ""
@@ -543,10 +598,14 @@ msgid ""
 "(even if the attack misses). In addition, your character treats grenades as "
 "having a range of medium."
 msgstr ""
+"Aktywny (okazja); Kiedy twoja postać wykonuje test walki dystansowej bronią "
+"mającą właściwość Pole Rażenia, możesz wydać Punkt Opowieści, aby użyć tego "
+"talentu i wywołać efekt Pola Rażenia zamiast wydawać 󲊴 (nawet jeśli atak "
+"chybi). Ponadto dla twojej postaci granaty mają zasięg średni."
 
 #: talents
 msgid "Hamstring Shot"
-msgstr ""
+msgstr "Strzał w Kolano"
 
 #: description Hamstring Shot
 msgid ""
@@ -556,10 +615,15 @@ msgid ""
 "the attack (before reducing damage by the target’s soak). The target is "
 "immobilized until the end of its next turn."
 msgstr ""
+"Aktywny (akcja); Raz na rundę postać może użyć tego talentu, aby wykonać "
+"test walki dystansowej przeciw celowi niebędącemu pojazdem i znajdującemu "
+"się w zasięgu użytej broni. Jeżeli test się powiedzie, zmniejsz o połowę "
+"obrażenia zadane tym atakiem (przed uwzględnieniem redukcji celu). Cel jest "
+"unieruchomiony do końca swojej następnej tury."
 
 #: talents
 msgid "Improved Field Commander"
-msgstr ""
+msgstr "Dowódca Polowy (Ulepszony)"
 
 #: description Improved Field Commander
 msgid ""
@@ -568,10 +632,14 @@ msgid ""
 "addition, you may spend 󲊵 to allow one ally to suffer 1 strain to perform an "
 "action, instead of a maneuver."
 msgstr ""
+"Pasywny; Kiedy postać używa talentu Dowódca Polowy, obejmuje jego efektem "
+"sojuszników w liczbie równej dwukrotnej wartości swojej Prezencji. Ponadto "
+"możesz wydać 󲊵, aby umożliwić jednemu sojusznikowi przyjęcie 1 punktu "
+"zmęczenia i wykonanie akcji zamiast manewru."
 
 #: talents
 msgid "Improved Inspiring Rhetoric"
-msgstr ""
+msgstr "Inspirująca Przemowa (Ulepszona)"
 
 #: description Improved Inspiring Rhetoric
 msgid ""
@@ -582,10 +650,17 @@ msgid ""
 "Inspiring Rhetoric add 󲊸 to all skill checks they make for a number of "
 "rounds equal to your character's rank in Leadership."
 msgstr ""
+"Aktywny (akcja); Postać może użyć tego talentu, aby wykonać Przeciętny (󲊷 󲊷) "
+"test Przywództwa. Za każdy uzyskany 󲊳 jeden sojusznik maksymalnie w bliskim "
+"dystansie usuwa 1 punkt zmęczenia. Za każdą 󲊴 jeden sojusznik korzystający z "
+"Inspirującej Przemowy usuwa 1 dodatkowy punkt zmęczenia. Sojusznicy "
+"korzystający z Inspirującej Przemowy twojej postaci dodają 󲊸 do wszystkich "
+"wykonywanych testów umiejętności przez liczbę rund równą poziomom "
+"Przywództwa twojej postaci."
 
 #: talents
 msgid "Improved Parry"
-msgstr ""
+msgstr "Parada (Ulepszona)"
 
 #: description Improved Parry
 msgid ""
@@ -598,10 +673,18 @@ msgid ""
 "abilities. Your character can’t use this talent if the original attack "
 "incapacitates them."
 msgstr ""
+"Aktywny (okazja, poza turą); Kiedy postać otrzymuje trafienie w wyniku testu "
+"walki wręcz i używa Parady, by zredukować obrażenia, po rozstrzygnięciu tego "
+"ataku możesz wydać 󲊲 albo 󲊱 󲊱 󲊱 z testu napastnika, aby użyć tego talentu. "
+"Wówczas twoja postać automatycznie trafia atakującego za pomocą Bijatyki "
+"albo Broni Białej (trzymaną bronią). Trafienie to zadaje podstawowe "
+"obrażenia broni plus wszelkie dodatkowe obrażenia z odpowiednich talentów "
+"bądź zdolności. Postać nie może użyć tego talentu, jeśli otrzymany atak ją "
+"obezwładnił."
 
 #: talents
 msgid "Improved Scathing Tirade"
-msgstr ""
+msgstr "Zjadliwa Tyrada (Ulepszona)"
 
 #: description Improved Scathing Tirade
 msgid ""
@@ -612,10 +695,17 @@ msgid ""
 "add 󲊸 to all skill checks they make for a number of rounds equal to your "
 "character’s ranks in Coercion."
 msgstr ""
+"Aktywny (akcja); Postać może użyć tego talentu, aby wykonać Przeciętny (󲊷 󲊷) "
+"test Przymuszania. Za każdy 󲊳 w tym teście jeden wróg maksymalnie w bliskim "
+"dystansie otrzymuje 1 punkt zmęczenia. Za każdą 󲊴 jeden wróg będący pod "
+"wpływem Zjadliwej Tyrady otrzymuje 1 dodatkowy punkt zmęczenia. Wrogowie "
+"dotknięci efektem Zjadliwej Tyrady twojej postaci dodają 󲊸 do wszystkich "
+"wykonywanych testów umiejętności przez liczbę rund równą jej poziomom "
+"Przymuszania."
 
 #: talents
 msgid "Indomitable"
-msgstr ""
+msgstr "Nieugięty"
 
 #: description Indomitable
 msgid ""
@@ -626,10 +716,16 @@ msgid ""
 "their strain or wounds to below their threshold before the end of their next "
 "turn, they are not incapacitated."
 msgstr ""
+"Aktywny (okazja, poza turą); Raz na spotkanie, kiedy postać miałaby zostać "
+"obezwładniona na skutek przekroczenia progu zmęczenia albo progu ran, możesz "
+"wydać Punkt Opowieści, aby użyć tego talentu. Wówczas postać nie zostaje "
+"obezwładniona do końca swojej następnej tury. Jeżeli postać do tego czasu "
+"zmniejszy swoje zmęczenie albo rany poniżej progu, to nie zostanie "
+"obezwładniona."
 
 #: talents
 msgid "Lucky Strike"
-msgstr ""
+msgstr "Szczęśliwy Traf"
 
 #: description Lucky Strike
 msgid ""
@@ -638,10 +734,14 @@ msgid ""
 "may spend one Story Point to use this talent to add damage equal to your "
 "character’s ranks in that characteristic to one hit of the combat check."
 msgstr ""
+"Aktywny (okazja); Kiedy twoja postać kupuje ten talent, wybierz jedną cechę. "
+"Po wykonaniu przez postać udanego testu walki możesz wydać jeden Punkt "
+"Opowieści, aby użyć tego talentu i dodać do jednego trafienia z tego testu "
+"obrażenia równe wartości tej cechy."
 
 #: talents
 msgid "Master"
-msgstr ""
+msgstr "Mistrz"
 
 #: description Master
 msgid ""
@@ -650,14 +750,18 @@ msgid ""
 "this talent to reduce the difficulty of the next check they make using that "
 "skill by two, to a minimum of Easy (󲊷)."
 msgstr ""
+"Aktywny (okazja); Kiedy kupujesz ten talent, wybierz jedną umiejętność. Raz "
+"na rundę postać może przyjąć 2 punkty zmęczenia, aby użyć tego talentu i "
+"zmniejszyć trudność następnego testu tej umiejętności o 2, do minimum "
+"Łatwego (󲊷)."
 
 #: talents
 msgid "Masterful Casting"
-msgstr ""
+msgstr "Mistrzowskie Czarowanie"
 
 #: talents
 msgid "Natural"
-msgstr ""
+msgstr "Wrodzony Dar"
 
 #: description Natural
 msgid ""
@@ -665,10 +769,13 @@ msgid ""
 "skills. Once per session, your character may use this talent to reroll one "
 "skill check that uses one of those two skills."
 msgstr ""
+"Aktywny (okazja); Kiedy twoja postać kupuje ten talent, wybierz dwie "
+"umiejętności. Raz na sesję postać może użyć tego talentu, aby powtórzyć "
+"jeden test którejś z tych dwóch umiejętności."
 
 #: talents
 msgid "Parry 3"
-msgstr ""
+msgstr "Parada 3"
 
 #: description Parry 3
 msgid ""
@@ -679,10 +786,16 @@ msgid ""
 "hit by two plus their ranks in Parry. This talent can only be used once per "
 "hit, and your character needs to be wielding a Melee weapon."
 msgstr ""
+"Aktywny (okazja, poza turą); Kiedy postać otrzymuje trafienie w wyniku testu "
+"walki wręcz, po naliczeniu obrażeń, ale przed zastosowaniem redukcji (czyli "
+"natychmiast po Kroku 3 wykonywania testu walki, zob. str. 102) może przyjąć "
+"3 punkty zmęczenia, aby użyć tego talentu i zmniejszyć te obrażenia o 2 plus "
+"liczba poziomów Parady. Tego talentu można użyć tylko raz na trafienie, a "
+"postać musi trzymać broń białą."
 
 #: talents
 msgid "Quick Draw"
-msgstr ""
+msgstr "Szybkie Dobycie"
 
 #: description Quick Draw
 msgid ""
@@ -691,10 +804,13 @@ msgid ""
 "incidental. Quick Draw also reduces a weapon’s Prepare rating by one, to a "
 "minimum of one."
 msgstr ""
+"Aktywny (okazja); Raz na rundę podczas swojej tury postać może użyć tego "
+"talentu, aby w ramach okazji dobyć albo schować łatwo dostępną broń. Szybkie "
+"Dobycie zmniejsza też wartość Przygotowania broni o 1, do minimum 1."
 
 #: talents
 msgid "Ruinous Repartee"
-msgstr ""
+msgstr "Druzgocąca Riposta"
 
 #: description Ruinous Repartee
 msgid ""
@@ -704,38 +820,48 @@ msgid ""
 "suffers strain equal to twice your character’s Presence, plus one additional "
 "strain per 󲊳. Your character heals strain equal to the strain inflicted."
 msgstr ""
+"Aktywny (akcja); Raz na spotkanie twoja postać może użyć tego talentu, aby "
+"wykonać przeciwstawny test Uroku Osobistego albo Przymuszania przeciw "
+"Dyscyplinie, którego celem jest jedna postać maksymalnie w średnim dystansie "
+"(albo w zasięgu słuchu). Jeśli test się powiedzie, cel otrzymuje zmęczenie "
+"równe podwójnej wartości Prezencji twojej postaci plus 1 dodatkowy punkt "
+"zmęczenia za 󲊳. Twoja postać leczy zmęczenie równe spowodowanemu."
 
 #: talents
 msgid "Second Wind 4"
-msgstr ""
+msgstr "Drugi Oddech 4"
 
 #: description Second Wind 4
 msgid ""
 "Active (Incidental); Once per encounter, your character may use this talent "
 "to heal an amount of strain equal to their ranks in Second Wind."
 msgstr ""
+"Aktywny (okazja); Raz na spotkanie postać może użyć tego talentu, aby usunąć "
+"liczbę punktów zmęczenia równą liczbie posiadanych poziomów Drugiego Oddechu."
 
 #: talents
 msgid "Strength of Faith"
-msgstr ""
+msgstr "Siła Wiary"
 
 #: talents
 msgid "Surgeon 2"
-msgstr ""
+msgstr "Chirurg 2"
 
 #: description Surgeon 2
 msgid ""
 "Passive; When your character makes a Medicine check to heal wounds, the "
 "target heals one additional wound per rank of Surgeon."
 msgstr ""
+"Pasywny; Kiedy postać wykonuje test Medycyny, aby wyleczyć rany, leczy jedną "
+"dodatkową ranę za każdy posiadany poziom Chirurga."
 
 #: abilities
 msgid "Aquatic (or Amphibious)"
-msgstr ""
+msgstr "Wodny (lub Ziemno-wodny)"
 
 #: examples Aquatic (or Amphibious)
 msgid "Fish or sea-going creatures"
-msgstr ""
+msgstr "Ryby lub istoty morskie"
 
 #: description Aquatic (or Amphibious)
 msgid ""
@@ -743,26 +869,30 @@ msgid ""
 "for traveling through water, but cannot survive on land. (You may remove "
 "\"cannot survive on land\" to make this \"Amphibious\" instead.)"
 msgstr ""
+"Ten przeciwnik może oddychać pod wodą i nie otrzymuje kar do poruszania się "
+"w wodzie, ale nie może przetrwać na lądzie. (Można usunąć z opisu „nie może "
+"przetrwać na lądzie”, aby zmienić tę zdolność na „Ziemno-wodny”.)"
 
 #: abilities
 msgid "Flyer"
-msgstr ""
+msgstr "Latanie"
 
 #: examples Flyer
 msgid "Flying creatures"
-msgstr ""
+msgstr "Latające istoty"
 
 #: description Flyer
 msgid "This adversary can fly; see page 100 of the Genesys Core Rulebook."
 msgstr ""
+"Ten przeciwnik może latać; zob. str. 100 podręcznika podstawowego Genesys."
 
 #: abilities
 msgid "Ghostly"
-msgstr ""
+msgstr "Niematerialny"
 
 #: examples Ghostly
 msgid "Ghosts, spirits, or ethereal beings"
-msgstr ""
+msgstr "Duchy, upiory lub istoty eteryczne"
 
 #: description Ghostly
 msgid ""
@@ -771,14 +901,19 @@ msgid ""
 "soak, unless the attack came from a magical or supernatural source such as a "
 "spell, a blessed weapon, or another spirit."
 msgstr ""
+"Ten przeciwnik może przemieszczać się ponad terenem i przez niego (także "
+"przez drzwi i ściany) bez kar. Zmniejsz o połowę obrażenia zadane temu "
+"przeciwnikowi przed zastosowaniem redukcji, chyba że pochodzą z ataku "
+"magicznego lub nadprzyrodzonego źródła, takiego jak zaklęcie, broń magiczna "
+"lub atak upiora."
 
 #: abilities
 msgid "Know Your Foe"
-msgstr ""
+msgstr "Kto Wróg Twój"
 
 #: examples Know Your Foe
 msgid "Sentient rivals and nemeses designed for social encounters"
-msgstr ""
+msgstr "Inteligentni rywale i nemezis stworzone do spotkań społecznych."
 
 #: description Know Your Foe
 msgid ""
@@ -786,14 +921,17 @@ msgid ""
 "adversary inflicts strain on the opponent, the opponent suffers 3 additional "
 "strain."
 msgstr ""
+"Jeśli ten przeciwnik zna Motywację swojego oponenta (wybierz jeden aspekt), "
+"kiedy wywołuje u niego zmęczenie, dany oponent otrzymuje dodatkowo 3 punkty "
+"zmęczenia."
 
 #: abilities
 msgid "Loyal Followers"
-msgstr ""
+msgstr "Lojalni Wyznawcy"
 
 #: examples Loyal Followers
 msgid "Nemesis leaders with fanatical or devoted followers"
-msgstr ""
+msgstr "Przywódcy nemezis z fanatycznymi lub oddanymi zwolennikami"
 
 #: description Loyal Followers
 msgid ""
@@ -801,28 +939,33 @@ msgid ""
 "choose one ally within short range, and the attack then targets the ally "
 "instead of this adversary."
 msgstr ""
+"Raz na rundę, gdy ten przeciwnik jest celem testu walki, może wybrać jednego "
+"sojusznika znajdującego się maksymalnie w bliskim dystansie, który staje się "
+"celem ataku w jego zastępstwie."
 
 #: abilities
 msgid "Mechanical (or Undead)"
-msgstr ""
+msgstr "Maszyna (albo Nieumarły)"
 
 #: examples Mechanical (or Undead)
 msgid "Robots, drones, or undead adversaries"
-msgstr ""
+msgstr "Roboty, drony lub nieumarli przeciwnicy"
 
 #: description Mechanical (or Undead)
 msgid ""
 "This adversary does not need to breathe, eat, or drink, and can survive in a "
 "vacuum and underwater. They are immune to poisons and toxins."
 msgstr ""
+"Ten przeciwnik nie musi oddychać, jeść, pić i może przetrwać w próżni i pod "
+"wodą. Jest odporny na działanie trucizny i innych toksyn."
 
 #: abilities
 msgid "Mental Weakness"
-msgstr ""
+msgstr "Słabość Psychiczna"
 
 #: examples Mental Weakness
 msgid "Any character with a pronounced character flaw"
-msgstr ""
+msgstr "Dowolna postać z wyraźną wadą charakteru"
 
 #: description Mental Weakness
 msgid ""
@@ -830,28 +973,33 @@ msgid ""
 "opponent inflicts strain on the adversary, the adversary suffers 2 "
 "additional strain."
 msgstr ""
+"Jeśli oponent zna Motywację tego przeciwnika (wybierz jeden aspekt), kiedy "
+"wywołuje u niego zmęczenie, ten przeciwnik otrzymuje dodatkowo 2 punkty "
+"zmęczenia."
 
 #: abilities
 msgid "Ominous Reputation"
-msgstr ""
+msgstr "Paskudna Reputacja"
 
 #: examples Ominous Reputation
 msgid "Powerful nemeses with a fearsome reputation"
-msgstr ""
+msgstr "Potężne nemezis o przerażającej reputacji"
 
 #: description Ominous Reputation
 msgid ""
 "When an opponent targets this adversary with a check, the opponent suffers 2 "
 "strain."
 msgstr ""
+"Oponent, który bierze za cel testu tego przeciwnika, otrzymuje 2 punkty "
+"zmęczenia."
 
 #: abilities
 msgid "One Step Ahead"
-msgstr ""
+msgstr "O Krok przed Tobą"
 
 #: examples One Step Ahead
 msgid "Powerful nemeses who combat the PCs alone"
-msgstr ""
+msgstr "Potężna nemezis, która sama przeciwstawia się PG."
 
 #: description One Step Ahead
 msgid ""
@@ -859,14 +1007,16 @@ msgid ""
 "spend one Story Point to have this adversary perform an action or maneuver "
 "as an out-of-turn incidental."
 msgstr ""
+"Raz na rundę po tym, jak przeciwnik wykona akcję albo manewr, może wydać "
+"Punkt Opowieści, aby wykonać akcję albo manewr w ramach okazji poza turą."
 
 #: abilities
 msgid "Pack Fighter"
-msgstr ""
+msgstr "Przewaga Grupowa"
 
 #: examples Pack Fighter
 msgid "Creatures that fight in groups"
-msgstr ""
+msgstr "Istoty walczące w grupach"
 
 #: description Pack Fighter
 msgid ""
@@ -874,28 +1024,34 @@ msgid ""
 "combat check against the same target during the same round adds 󲊴 󲊴 to the "
 "results."
 msgstr ""
+"Jeśli ten przeciwnik wykona udany test walki, następny sojusznik wykonujący "
+"test walki przeciw temu samemu celowi w tej samej rundzie dodaje 󲊴 󲊴 do "
+"wyniku."
 
 #: abilities
 msgid "Pounce"
-msgstr ""
+msgstr "Skok"
 
 #: examples Pounce
 msgid "Fast creatures that can leap or lunge at foes"
-msgstr ""
+msgstr "Szybkie istoty, które potrafią skakać lub rzucać się na wrogów"
 
 #: description Pounce
 msgid ""
 "Once per turn, while at short range this adversary may perform the move "
 "maneuver to engage a target as an incidental."
 msgstr ""
+"Raz na turę, kiedy ten przeciwnik znajduje się w krótkim dystansie od celu, "
+"może w ramach okazji wykonać manewr, by przemieścić się i znaleźć się w "
+"bezpośrednim dystansie."
 
 #: abilities
 msgid "Swarm"
-msgstr ""
+msgstr "Rój"
 
 #: examples Swarm
 msgid "A single profile representing a swarm of bugs or vermin"
-msgstr ""
+msgstr "Pojedynczy profil reprezentujący rój owadów lub robactwa"
 
 #: description Swarm
 msgid ""
@@ -903,14 +1059,17 @@ msgid ""
 "attack has the Blast or Burn quality (regardless of whether the quality is "
 "activated)."
 msgstr ""
+"Zmniejsz obrażenia zadawane rojowi o połowę przed zastosowaniem redukcji, "
+"chyba że broń ma właściwości Pole Rażenia lub Zapalanie (niezależnie od tego "
+"czy właściwość została wywołana)."
 
 #: abilities
 msgid "Tactical Direction"
-msgstr ""
+msgstr "Dowodzenie Taktyczne"
 
 #: examples Tactical Direction
 msgid "Rivals and nemeses who lead or direct small groups"
-msgstr ""
+msgstr "Rywale lub nemezis rozkazujący grupie pachołków"
 
 #: description Tactical Direction
 msgid ""
@@ -918,29 +1077,35 @@ msgid ""
 "within medium range. That group may immediately perform a maneuver as an out-"
 "of-turn incidental or add 󲊸 to the next check they make."
 msgstr ""
+"Ten przeciwnik może wykorzystać manewr, aby pokierować jedną przyjazną grupą "
+"pachołków znajdującą się maksymalnie w średnim dystansie. Grupa ta może "
+"natychmiast wykonać darmowy manewr albo dodać 󲊸 do swojego następnego testu."
 
 #: abilities
 msgid "Environmental Vulnerability"
-msgstr ""
+msgstr "Wrażliwość Środowiskowa"
 
 #: examples Environmental Vulnerability
 msgid "Creatures adapted to living in certain climates"
-msgstr ""
+msgstr "Istoty przystosowane do życia w określonym klimacie"
 
 #: description Environmental Vulnerability
 msgid ""
 "When exposed to extreme heat, cold, or another environmental effect (pick "
 "one), this adversary adds 󲊸 󲊸 to all skill checks it makes."
 msgstr ""
+"Kiedy ten przeciwnik zostaje wystawiony na działanie ekstremalnego gorąca, "
+"ekstremalnego zimna lub innego szkodliwego czynnika środowiskowego (wybierz "
+"którego), dodaje 󲊸 󲊸 do wszystkich wykonywanych testów."
 
 #: abilities
 msgid "Terrifying"
-msgstr ""
+msgstr "Przerażający"
 
 #: examples Terrifying
 msgid ""
 "Large monsters, creatures, and individuals who are incredibly frightening"
-msgstr ""
+msgstr "Duże potwory, stworzenia i inne niezwykle przerażające jednostki"
 
 #: description Terrifying
 msgid ""
@@ -949,10 +1114,14 @@ msgid ""
 "Rulebook. If there are multiple sources of fear in the encounter, the "
 "opponents only make one fear check against the most terrifying enemy."
 msgstr ""
+"Na początku spotkania wszyscy przeciwnicy muszą wykonać Trudny (󲊷 󲊷 󲊷) test "
+"strachu w ramach okazji poza turą, zob. str. 250 podręcznika podstawowego "
+"Genesys. Jeśli w spotkaniu jest wiele czynników powodujących strach, to "
+"przeciwnicy wykonują jeden test przeciwko najstraszliwszemu z wrogów."
 
 #: equipments
 msgid "Small Beast or Creature"
-msgstr ""
+msgstr "Małe zwierzę albo istota"
 
 #: description Small Beast or Creature
 msgid ""
@@ -960,6 +1129,9 @@ msgid ""
 "We treat these attacks as equipment, and have provided a few options here. "
 "These profiles represent creatures that are human-sized or smaller."
 msgstr ""
+"Istoty i dzikie zwierzęta atakują pazurami, zębami, kłami lub kopytami. "
+"Traktujemy te ataki jako wyposażenie i zawarliśmy tu kilka opcji. Ten pakiet "
+"jest przeznaczony dla istot wielkości człowieka lub mniejszych."
 
 #: weapons Small Beast or Creature
 msgid ""
@@ -967,10 +1139,13 @@ msgid ""
 "or hooves and tusks (Brawl; Damage +2; Critical 4; Range [Engaged]; "
 "Knockdown, Stun 2)."
 msgstr ""
+"Uzbrojenie: Pazury i zęby (Bijatyka; Obrażenia +2; Krytyczność 3; Zasięg "
+"[Bezpośredni]; Morderczość 1) albo kopyta i kły (Bijatyka; Obrażenia +2; "
+"Krytyczność 4; Zasięg [Bezpośredni]; Ogłuszenie 2, Powalenie)."
 
 #: equipments
 msgid "Large Beast or Creature"
-msgstr ""
+msgstr "Duże zwierzę albo istota"
 
 #: description Large Beast or Creature
 msgid ""
@@ -978,6 +1153,9 @@ msgid ""
 "profiles represent creatures much larger than a human, such as an elephant "
 "or large dinosaur."
 msgstr ""
+"Duże istoty, podobnie jak małe, zawierają swoje ataki w wyposażeniu. Ten "
+"pakiet jest przeznaczony dla istot znacznie większych niż człowiek, takich "
+"jak słoń lub duży dinozaur."
 
 #: weapons Large Beast or Creature
 msgid ""
@@ -985,10 +1163,13 @@ msgid ""
 "Vicious 3), tentacles or thundering hooves (Brawl; Damage +5; Critical 4; "
 "Range [Engaged]; Knockdown, Concussive 1)."
 msgstr ""
+"Rozdziawiona paszcza lub zaostrzone pazury (Bijatyka; Obrażenia +4; "
+"Krytyczność 2; Zasięg [Bezpośredni]; Morderczość 3), macki lub grzmiące "
+"kopyta (Bijatyka; Obrażenia +5; Zasięg [Bezpośredni]; Powalenie, Wstrząs 1). "
 
 #: equipments
 msgid "Manual Laborer"
-msgstr ""
+msgstr "Pracownik fizyczny"
 
 #: description Manual Laborer
 msgid ""
@@ -996,20 +1177,25 @@ msgid ""
 "pitchforks, shovels, sledgehammers, or other tools they can use as "
 "improvised weapons."
 msgstr ""
+"Pracownicy fizyczni mogą być rolnikami, chłopami lub innymi osobami z "
+"dostępem do wideł, łopat, młotów dwuręcznych lub innych narzędzi, których "
+"mogą użyć jako broni improwizowanej."
 
 #: weapons Manual Laborer
 msgid ""
 "Large farming implement (Melee [Heavy]; Damage +3; Critical 5; Range "
 "[Engaged]; Cumbersome 3, Inferior)."
 msgstr ""
+"Duże narzędzie rolnicze (Broń Biała [Ciężka]; Obrażenia +3; Krytyczność 5; "
+"Zasięg [Bezpośredni]; Ciężar 3, Niska Jakość)."
 
 #: equipment Manual Laborer
 msgid "Heavy clothes (+1 soak)."
-msgstr ""
+msgstr "Ciężka odzież (redukcja +1)."
 
 #: equipments
 msgid "Basic Citizen"
-msgstr ""
+msgstr "Zwykły obywatel"
 
 #: description Basic Citizen
 msgid ""
@@ -1017,74 +1203,95 @@ msgid ""
 "their lives. This equipment package is for any character who has no reason "
 "to have weapons, armor, or specialized gear."
 msgstr ""
+"W każdym uniwersum jest mnóstwo zwykłych ludzi, którzy po prostu żyją "
+"własnym życiem. Ten pakiet wyposażenia jest przeznaczony dla każdej postaci, "
+"która nie ma powodu, aby posiadać broń, pancerz lub specjalistyczny sprzęt."
 
 #: weapons Basic Citizen
 msgid ""
 "Fists (Brawl; Damage +0; Critical 6; Range [Engaged]; Disorient 1, "
 "Knockdown)."
 msgstr ""
+"Pięści (Bijatyka; Obrażenia +0; Krytyczność 6; Zasięg [Bezpośredni]; "
+"Dezorientacja 1, Powalenie)."
 
 #: equipment Basic Citizen
 msgid "Clothing appropriate to the specific era, average coin purse or wallet."
 msgstr ""
+"Odzież odpowiednia dla danej epoki, zwykła sakiewka albo zwykły portfel."
 
 #: equipments
 msgid "Blue-Collar Worker"
-msgstr ""
+msgstr "Robotnik"
 
 #: description Blue-Collar Worker
 msgid ""
 "Those who build, repair, work outdoors, and work with their hands have "
 "access to various tools or scrap that can be used as a weapon in a pinch."
 msgstr ""
+"Ci, którzy budują, naprawiają i pracują na świeżym powietrzu własnymi "
+"rękami, mają dostęp do różnych narzędzi lub złomu, które mogą zostać użyte "
+"jako broń w razie potrzeby."
 
 #: weapons Blue-Collar Worker
 msgid ""
 "Improvised brawling weapon (Brawl; Damage +1; Critical 5; Range [Engaged]; "
 "Disorient 2, Inferior)."
 msgstr ""
+"Improwizowana broń do bijatyki (Bijatyka; Obrażenia +1; Krytyczność 5; "
+"Zasięg [Bezpośredni]; Dezorientacja 2, Niska Jakość)."
 
 #: equipment Blue-Collar Worker
 msgid ""
 "Heavy clothing (+1 soak), tool belt full of tools (add 󲊳to checks this "
 "character makes to repair of fix something), wallet."
 msgstr ""
+"Ciężka odzież (redukcja +1), pas narzędziowy (dodaj 󲊳 do testów, które "
+"wykonuje ta postać, aby coś naprawić), portfel."
 
 #: equipments
 msgid "Traveler"
-msgstr ""
+msgstr "Podróżny"
 
 #: description Traveler
 msgid ""
 "Travelers may be traders, shepherds, or wanderers who spend their time "
 "walking and sleeping outdoors."
 msgstr ""
+"Podróżni mogą być handlarzami, pasterzami albo wędrowcami, którzy spędzają "
+"czas chodząc i śpiąc na świeżym powietrzu."
 
 #: weapons Traveler
 msgid ""
 "Walking staff (Melee [Heavy]; Damage +2; Critical 4; Range [Engaged]; "
 "Defensive 1, Disorient 2)."
 msgstr ""
+"Podróżna laska (Broń Biała [Ciężka]; Obrażenia +2; Krytyczność 4; Zasięg "
+"[Bezpośredni]; Deozrientacja 2, Obrona 1)."
 
 #: equipment Traveler
 msgid ""
 "Heavy cloak (1 defense), survival pack (removes 󲊸 from Survival or "
 "Perception checks this character makes), meager coin purse or wallet."
 msgstr ""
+"Ciężki płaszcz (obrona 1), zestaw przetrwania (usuwa 󲊸 z testów Przetrwania "
+"lub Percepcji, które wykonuje ta postać), skromna sakiewka lub portfel."
 
 #: equipments
 msgid "Criminal"
-msgstr ""
+msgstr "Przestępca"
 
 #: description Criminal
 msgid "Muggers, bandits, and thieves are all possible criminals."
-msgstr ""
+msgstr "Rabusie, bandyci i złodzieje to różne przykłady przestępców."
 
 #: weapons Criminal
 msgid ""
 "Concealable melee weapon (Melee [Light]; Damage +1; Critical 2; Range "
 "[Engaged]; Pierce 2)."
 msgstr ""
+"Łatwa do ukrycia broń biała (Broń Biała [Lekka]; Obrażenia +1; Krytyczność "
+"2; Zasięg [Bezpośredni]; Przebicie 2)."
 
 #: equipment Criminal
 msgid ""
@@ -1092,17 +1299,25 @@ msgid ""
 "thieves’ tools (add 󲊴 to Skulduggery checks this character makes to open "
 "locks), backpack, rope with grappling hook."
 msgstr ""
+"Ciemna odzież (obrona 2, dodaje 󲊸 do testów Ukrywania się, które wykonuje ta "
+"postać), narzędzia złodziejskie (dodaj 󲊴 do testów Machlojek, które ta "
+"postać wykonuje w celu otwarcia zamków), plecak, lina z kotwiczką."
 
 #: description Doctor
 msgid ""
 "This equipment array can be used for any sort of doctor or medical "
 "professional, from ancient barber-surgeons to modern general practitioners."
 msgstr ""
+"Ten pakiet wyposażenia jest przeznaczony dla dowolnego lekarza lub innego "
+"członka personelu medycznego, od starodawnych cyrulików po współczesnych "
+"lekarzy pierwszego kontaktu."
 
 #: weapons Doctor
 msgid ""
 "Sharp medical tool (Melee [Light]; Damage +0; Critical 1; Range [Engaged])."
 msgstr ""
+"Ostre narzędzie medyczne (Broń Biała [Lekka]; Obrażenia +0; Krytyczność 1; "
+"Zasięg [Bezpośredni])."
 
 #: equipment Doctor
 msgid ""
@@ -1112,22 +1327,31 @@ msgid ""
 "without penalty; after this character makes a successful Medicine check to "
 "heal wounds, heal one additional wound), notebook."
 msgstr ""
+"Czysta odzież i ochrona twarzy (dodaje 󲊸 do testów Odporności wykonywanych "
+"przez tę postać, aby oprzeć się chorobom i toksynom unoszącym się w "
+"powietrzu), apteczka (pozwala postaci na wykonywanie testów Medycyny w celu "
+"leczenia ran i urazów krytycznych bez otrzymywania kar; jeśli test Medycyny "
+"się powiedzie, ulecz 1 dodatkową ranę), notatnik."
 
 #: equipments
 msgid "Noble"
-msgstr ""
+msgstr "Szlachcic"
 
 #: description Noble
 msgid ""
 "Well-dressed, well-to-do members of society, nobles are typical of the "
 "aristocracy."
 msgstr ""
+"Dobrze ubrani i dobrze sytuowani przedstawiciele szlachty należą do "
+"arystokracji."
 
 #: weapons Noble
 msgid ""
 "Dueling weapon (Melee [Light]; Damage +2; Critical 3; Range [Engaged]; "
 "Defensive 1)."
 msgstr ""
+"Broń pojedynkowa (Broń Biała [Lekka]; Obrażenia +2; Krytyczność 3; Zasięg "
+"[Bezpośredni]; Obrona 1)."
 
 #: equipment Noble
 msgid ""
@@ -1136,10 +1360,14 @@ msgid ""
 "interacting with someone of a lesser social standing), important documents, "
 "full coin purse or wallet."
 msgstr ""
+"Elegancka odzież (dodaje 󲊴 do wszystkich testów umiejętności społecznych, "
+"które wykonuje ta postać), sygnet władzy (dodaje 󲊳 do wszystkich testów "
+"społecznych, które postać wykonuje podczas interakcji z kimś o niższej "
+"pozycji społecznej), ważne dokumenty, pełna sakiewka albo pełen portfel."
 
 #: equipments
 msgid "Basic Ranged Warrior"
-msgstr ""
+msgstr "Zwykły wojownik dystansowy"
 
 #: description Basic Ranged Warrior
 msgid ""
@@ -1147,6 +1375,9 @@ msgid ""
 "futuristic soldiers. It can also be used to equip characters who work in the "
 "wilderness."
 msgstr ""
+"Pakiet wojownika dystansowego jest przeznaczony dla średniowiecznych "
+"łuczników, nowoczesnej piechoty i futurystycznych żołnierzy. Może on również "
+"służyć do wyposażenia postaci, które pracują w dziczy."
 
 #: weapons Basic Ranged Warrior
 msgid ""
@@ -1154,6 +1385,9 @@ msgid ""
 "handed backup weapon (Melee [Light]; Damage +2; Critical 3; Range [Engaged]; "
 "Vicious 1)."
 msgstr ""
+"Dwuręczna broń dystansowa (Broń Dystansowa; Obrażenia 8; Krytyczność 3; "
+"Zasięg [Daleki]), jednoręczna broń zapasowa (Broń Biała [Lekka]; Obrażenia "
+"+2; Krytyczność 3; Zasięg [Bezpośredni]; Morderczość 1)."
 
 #: equipment Basic Ranged Warrior
 msgid ""
@@ -1162,10 +1396,15 @@ msgid ""
 "pack (removes 󲊸 from Survival or Perception checks this character makes), 1 "
 "painkiller."
 msgstr ""
+"Wzmocniony mundur albo lekki pancerz (redukcja +1), przeładowanie amunicji "
+"(postać może wykorzystać manewr na przeładowanie broni i nadal z niej "
+"korzystać, jeśli skończy się w niej amunicja), zestaw przetrwania (usuwa 󲊸 z "
+"testów Przetrwania i Percepcji wykonywanych przez tę postać), 1 środek "
+"przeciwbólowy."
 
 #: equipments
 msgid "Heavy Ranged Warrior"
-msgstr ""
+msgstr "Ciężki wojownik dystansowy"
 
 #: description Heavy Ranged Warrior
 msgid ""
@@ -1173,6 +1412,10 @@ msgid ""
 "weapons to support their fellows.  These might be scorpions or ballista in "
 "ancient times, modern machine guns, or futuristic rocket weapons."
 msgstr ""
+"Ten pakiet jest przeznaczony dla wojowników, którzy używają potężnej broni "
+"dystansowej, aby wspierać swoich towarzyszy. Może być to machina bojowa z "
+"czasów starożytnych, taka jak skorpion lub balista, współczesny karabin "
+"maszynowy lub futurystyczna broń rakietowa."
 
 #: weapons Heavy Ranged Warrior
 msgid ""
@@ -1181,16 +1424,24 @@ msgid ""
 "weapon (Gunnery; Damage 20; Critical 2; Range [Extreme]; Blast 10, Breach 2, "
 "Cumbersome 4, Limited Ammo 1, Prepare 1)."
 msgstr ""
+"Ciężka szybkostrzelna broń dystansowa (Artyleria; Obrażenia 12; Krytyczność "
+"3; Zasięg [Daleki]; Ciężar 3, Morderczość 2, Seria) lub potężna zasięgowa "
+"broń jednostrzałowa (Artyleria; Obrażenia 20; Krytyczność 2; Zasięg "
+"[Ekstremalny]; Ciężar 4, Ograniczona Amunicja 1, Penetracja 2, Pole Rażenia "
+"10, Przygotowanie 1)."
 
 #: equipment Heavy Ranged Warrior
 msgid ""
 "Heavy defensive armor (+3 soak), ammunition reload (may spend a maneuver to "
 "reload their ranged weapon after it runs out of ammo), backpack."
 msgstr ""
+"Ciężki pancerz obronny (redukcja +3), przeładowanie amunicji (postać może "
+"wykorzystać manewr na przeładowanie broni i nadal z niej korzystać, jeśli "
+"skończy się w niej amunicja), plecak."
 
 #: equipments
 msgid "Basic Melee Warrior"
-msgstr ""
+msgstr "Zwykły wojownik walczący w zwarciu"
 
 #: description Basic Melee Warrior
 msgid ""
@@ -1198,6 +1449,9 @@ msgid ""
 "ancient armies, modern riot cops, or even futuristic soldiers with powerful "
 "defenses."
 msgstr ""
+"Pakiet zwykłego wojownika walczącego w zwarciu jest przeznaczony dla "
+"szeregowych żołnierzy starożytnych armii, współczesnych funkcjonariuszy "
+"prewencji, a nawet futurystycznych żołnierzy dysponujących potężną obroną."
 
 #: weapons Basic Melee Warrior
 msgid ""
@@ -1205,14 +1459,18 @@ msgid ""
 "Range [Engaged]; Defensive 1), shield (Melee [Light]; Damage +0; Critical 6; "
 "Range [Engaged]; Defensive 1, Deflection 1, Inaccurate 1, Knockdown)."
 msgstr ""
+"Jednoręczna defensywna broń biała (Broń Biała [Lekka]; Obrażenia +2; "
+"Krytyczność 4; Zasięg [Bezpośredni]; Obrona 1), tarcza (Broń Biała [Lekka]; "
+"Obrażenia +0; Krytyczność 6; Zasięg [Bezpośredni]; Niecelność 1, Obrona 1, "
+"Odbicie 1, Powalenie)."
 
 #: equipment Basic Melee Warrior
 msgid "Medium armor (+2 soak), satchel."
-msgstr ""
+msgstr "Średni pancerz (redukcja +2), torba."
 
 #: equipments
 msgid "Heavy Melee Warrior"
-msgstr ""
+msgstr "Ciężki wojownik walczący w zwarciu"
 
 #: description Heavy Melee Warrior
 msgid ""
@@ -1220,6 +1478,10 @@ msgid ""
 "bring heavy melee weapons to bear.  This could be used by a brave knight, a "
 "noble samurai, or a power-armored soldier with a plasma axe."
 msgstr ""
+"Ten pakiet przeznaczony jest dla postaci, która polega na swoim uzbrojeniu, "
+"aby zbliżyć się do przeciwnika i wykorzystać pełen potencjał ciężkiego "
+"oręża. Może to być dzielny rycerz, szlachetny samuraj lub futurystyczny "
+"żołnierz w pancerzu wspomaganym dzierżący topór plazmowy."
 
 #: weapons Heavy Melee Warrior
 msgid ""
@@ -1229,14 +1491,20 @@ msgid ""
 "Defensive 1) and shield (Melee [Light]; Damage +0; Critical 6; Range "
 "[Engaged]; Defensive 1, Deflection 1, Inaccurate 1, Knockdown)."
 msgstr ""
+"Dwuręczna potężna broń biała (Broń Biała [Ciężka]; Obrażenia +4; Krytyczność "
+"3; Zasięg [Bezpośredni]; Ciężar 3, Przebicie 2, Morderczość 1) lub "
+"jednoręczna wszechstronna broń biała (Broń Biała [Lekka]; Obrażenia +3; "
+"Krytyczność 2; Zasięg [Bezpośredni]; Obrona 1) i tarcza (Broń Biała [Lekka]; "
+"Obrażenia +0; Krytyczność 6; Zasięg [Bezpośredni], Niecelność 1, Obrona 1, "
+"Odbicie 1, Powalenie)."
 
 #: equipment Heavy Melee Warrior
 msgid "Heavy armor (1 defense, +2 soak)."
-msgstr ""
+msgstr "Ciężki pancerz (obrona 1, redukcja +2)."
 
 #: equipments
 msgid "Versatile Warrior"
-msgstr ""
+msgstr "Wszechstronny wojownik"
 
 #: description Versatile Warrior
 msgid ""
@@ -1245,6 +1513,10 @@ msgid ""
 "and pistol, an officer with a sword and sidearm, or a noble in a militant "
 "culture."
 msgstr ""
+"Ten pakiet wyposażenia przeznaczony jest dla postaci korzystających z "
+"kombinacji broni białych i dystansowych. Może to być żołnierz kawalerii "
+"walczący szablą i pistoletem, oficer z mieczem i bronią palną albo szlachcic "
+"w kulturze militarnej. "
 
 #: weapons Versatile Warrior
 msgid ""
@@ -1252,14 +1524,17 @@ msgid ""
 "Range [Engaged]; Defensive 1), one-handed ranged weapon (Ranged [Light]; "
 "Damage 5; Critical 3; Range [Medium])"
 msgstr ""
+"Jednoręczna wszechstronna broń biała (Broń Biała [Lekka]; Obrażenia +3; "
+"Krytyczność 2; Zasięg [Bezpośredni]; Obrona 1), jednoręczna broń dystansowa "
+"(Broń Dystansowa [Lekka]; Obrażenia 5; Krytyczność 3; Zasięg [Średni])."
 
 #: equipment Versatile Warrior
 msgid "Reinforced clothing (1 defense, +1 soak)."
-msgstr ""
+msgstr "Wzmocniona odzież (obrona 1, redukcja +1)."
 
 #: equipments
 msgid "Adventurer"
-msgstr ""
+msgstr "Adventurer"
 
 #: description Adventurer
 msgid ""
@@ -1267,6 +1542,9 @@ msgid ""
 "their hand. This could represent an explorer, an airship crewmember, or even "
 "a pirate."
 msgstr ""
+"Poszukiwacze przygód witają niebezpieczeństwo z uśmiechem na ustach i "
+"pochodnią w ręce. Ten profil może reprezentować odkrywcę, członka załogi "
+"sterowca lub nawet pirata."
 
 #: weapons Adventurer
 msgid ""
@@ -1274,16 +1552,22 @@ msgid ""
 "[Medium]; Accurate 1), backup brawling weapon (Brawl; Damage +1; Critical 4; "
 "Range [Engaged]; Disorient 3)."
 msgstr ""
+"Jednoręczna broń dystansowa (Broń Dystansowa [Lekka]; Obrażenia 6; "
+"Krytyczność 3; Zasięg [Średni]; Celność 1), zapasowa broń do bijatyki "
+"(Bijatyka; Obrażenia +1; Krytyczność 4; Zasięg [Bezpośredni]; Dezorientacja "
+"3)."
 
 #: equipment Adventurer
 msgid ""
 "Leather vest (+1 soak), backpack, length of rope, torch or other light "
 "source, and well-worn hat."
 msgstr ""
+"Skórzana kamizelka (redukcja +1), plecak, zwój liny, pochodnia lub inne "
+"źródło światła, znoszony kapelusz."
 
 #: equipments
 msgid "Bounty Hunter"
-msgstr ""
+msgstr "Łowca Nagród"
 
 #: description Bounty Hunter
 msgid ""
@@ -1291,6 +1575,9 @@ msgid ""
 "escaped prisoners, or other fugitives. Their equipment helps them in their "
 "task."
 msgstr ""
+"Prawie każde uniwersum potrzebuje ludzi polujących na przestępców, "
+"uciekinierów z więzienia czy innych zbiegów. Ten pakiet pomaga im w tym "
+"zadaniu."
 
 #: weapons Bounty Hunter
 msgid ""
@@ -1298,14 +1585,18 @@ msgid ""
 "[Short]; Disorient 3, Ensnare 3, Limited Ammo 1), stunning melee weapon "
 "(Melee [Light]; Damage +3; Critical 5; Range [Engaged]; Stun 4; Stun Damage)."
 msgstr ""
+"Broń usidlająca bliskiego zasięgu (Broń Dystansowa [Ciężka]; Obrażenia 4; "
+"Krytyczność 5; Zasięg [Bliski]; Dezorientacja 3, Ograniczona Amunicja 1, "
+"Usidlenie 3), ogłuszająca broń biała (Broń Biała [Lekka]; Obrażenia +3; "
+"Krytyczność 5; Zasięg [Bezpośredni]; Ogłuszenie 4; Obrażenia Ogłuszające)."
 
 #: equipment Bounty Hunter
 msgid "Medium armor (+2 soak), warrants for bounties, restraints."
-msgstr ""
+msgstr "Średni pancerz (redukcja +2), nakazy aresztowania, kajdanki."
 
 #: equipments
 msgid "Game Hunter"
-msgstr ""
+msgstr "Łowca zwierzyny"
 
 #: description Game Hunter
 msgid ""
@@ -1313,6 +1604,9 @@ msgid ""
 "to happen into range. This array could also be used for a sharpshooter or "
 "assassin."
 msgstr ""
+"Niektóre osoby polują ze szczytów drzew lub kryjówek, cierpliwie czekając, "
+"aż ofiara znajdzie się w ich zasięgu. Ten pakiet wyposażenia pasuje również "
+"do snajpera lub skrytobójcy."
 
 #: weapons Game Hunter
 msgid ""
@@ -1320,6 +1614,10 @@ msgid ""
 "[Extreme]; Accurate 1, Limited Ammo 2; reduce the difficulty of combat "
 "checks made at long or extreme range by 1)."
 msgstr ""
+"Broń myśliwska dalekiego zasięgu (Broń Dystansowa [Ciężka]; Obrażenia 9; "
+"Krytyczność 3; Zasięg [Ekstremalny]; Celność 1, Ograniczona Amunicja 2; "
+"zmniejsz trudność testów walki wykonywanych na dalekim lub ekstremalnym "
+"dystansie o 1)."
 
 #: equipment Game Hunter
 msgid ""
@@ -1328,10 +1626,15 @@ msgid ""
 "makes), ammunition reload (may spend a maneuver to reload their ranged "
 "weapon after it runs out of ammo)."
 msgstr ""
+"Kamuflaż (obrona 2, dodaj 󲊸 do testów Ukrywania się wykonywanych przez tę "
+"postać), zestaw przetrwania (usuń 󲊸 z testów Przetrwania i Percepcji "
+"wykonywanych przez tę postać), przeładowanie amunicji (postać może "
+"wykorzystać manewr na przeładowanie broni i nadal z niej korzystać, jeśli "
+"skończy się w niej amunicja)."
 
 #: equipments
 msgid "Law Enforcement Officer"
-msgstr ""
+msgstr "Funkcjonariusz organów ścigania"
 
 #: description Law Enforcement Officer
 msgid ""
@@ -1339,6 +1642,9 @@ msgid ""
 "have some sort of protective clothing and then a ranged or melee weapon of "
 "some sort."
 msgstr ""
+"Funkcjonariusze organów ścigania, od współczesnych gliniarzy po starodawną "
+"straż miejską, zwykle mają jakiś rodzaj odzieży ochronnej i broni "
+"dystansowej lub broni białej do walki w zwarciu."
 
 #: weapons Law Enforcement Officer
 msgid ""
@@ -1346,16 +1652,22 @@ msgid ""
 "[Medium]) or one-handed bludgeoning weapon (Melee [Light]; Damage +3; "
 "Critical 4; Range [Engaged]; Disorient 2)"
 msgstr ""
+"Jednoręczna broń dystansowa (Broń Dystansowa [Lekka]; Obrażenia 5; "
+"Krytyczność 3; Zasięg [Średni]) lub jednoręczna broń miażdżąca (Broń Biała "
+"[Lekka]; Obrażenia +3; Krytyczność 4; Zasięg [Bezpośredni]; Dezorientacja 2)"
 
 #: equipment Law Enforcement Officer
 msgid ""
 "Light armor (+1 soak), badge of authority (adds 󲊸 to Coercion or Leadership "
 "checks this character makes), restraints, torch or other light source."
 msgstr ""
+"Lekki pancerz (redukcja +1), odznaka władzy (dodaje 󲊸 do testów Przymuszania "
+"lub Przywództwa wykonywanych przez tę postać), kajdanki, pochodnia lub inne "
+"źródło światła."
 
 #: equipments
 msgid "Pilot"
-msgstr ""
+msgstr "Pilot"
 
 #: description Pilot
 msgid ""
@@ -1363,22 +1675,29 @@ msgid ""
 "hostile territory. In the appropriate setting, the flight outfit can be "
 "sealed against vacuum."
 msgstr ""
+"Piloci bojowi lub operatorzy pojazdów powietrznych muszą być zawsze gotowi "
+"do lądowania na wrogim terytorium. W odpowiednim uniwersum odzież lotnicza "
+"może być odpowiednio zabezpieczona przed działaniem próżni."
 
 #: weapons Pilot
 msgid ""
 "Concealable ranged weapon (Ranged [Light]; Damage 5; Critical 4; Range "
 "[Short])."
 msgstr ""
+"Łatwa do ukrycia broń zasięgowa (Broń Zasięgowa [Lekka]; Obrażenia 5; "
+"Krytyczność 4; Zasięg [Bliski])."
 
 #: equipment Pilot
 msgid ""
 "Flight outfit, emergency survival kit (removes 󲊸 from Survival or Perception "
 "checks this character makes), 1 painkiller."
 msgstr ""
+"Odzież lotnicza, zestaw ratunkowy (usuwa 󲊸 z testów Przetrwania lub "
+"Percepcji wykonywanych przez tę postać), 1 środek przeciwbólowy."
 
 #: equipments
 msgid "Flashy Outlaw"
-msgstr ""
+msgstr "Błyskotliwy banita"
 
 #: description Flashy Outlaw
 msgid ""
@@ -1386,12 +1705,17 @@ msgid ""
 "potentially impractical weapons. This person probably gives off a certain "
 "roguish charm."
 msgstr ""
+"Ten zestaw wyposażenia pasuje do przestępcy z zamiłowaniem do dużych, "
+"radykalnych i potencjalnie niepraktycznych broni. Taką osobę prawdopodobnie "
+"wyróżnia swego rodzaju szelmowski urok."
 
 #: weapons Flashy Outlaw
 msgid ""
 "Intimidating ranged weapon (Ranged [Light]; Damage 7; Critical 3; Range "
 "[Medium]; Inaccurate 1)."
 msgstr ""
+"Groźna broń dystansowa (Broń Dystansowa [Lekka]; Obrażenia 7; Krytyczność 3; "
+"Zasięg [Średni]; Niecelność 1)."
 
 #: equipment Flashy Outlaw
 msgid ""
@@ -1399,10 +1723,14 @@ msgid ""
 "Charm and Coercion checks this character makes), fancy cape or hat (removes "
 "󲊸 from all social skill checks this character makes)."
 msgstr ""
+"Fantazyjny płaszcz z odsłoniętą kaburą (redukcja +1, dodaje 󲊴 do wyników "
+"wszystkich testów Uroku Osobistego i Przymuszania, które wykonuje ta "
+"postać), elegancka peleryna albo elegancki kapelusz (usuwa 󲊸 ze wszystkich "
+"testów umiejętności społecznych, które wykonuje ta postać)."
 
 #: equipments
 msgid "Defensive Magic User"
-msgstr ""
+msgstr "Użytkownik magii defensywnej"
 
 #: description Defensive Magic User
 msgid ""
@@ -1410,6 +1738,10 @@ msgid ""
 "magic skill, and represents characters who use their magic defensively. This "
 "works with characters who use any magic skill."
 msgstr ""
+"Ten zestaw wyposażenia jest odpowiedni dla postaci z co najmniej jedną "
+"umiejętnością magiczną i reprezentuje postacie, które używają magii "
+"defensywnej. Działa z postaciami, które używają dowolnych umiejętności "
+"magicznych."
 
 #: equipment Defensive Magic User
 msgid ""
@@ -1420,10 +1752,16 @@ msgid ""
 "supernatural healing item (once per session, when this character heals "
 "wounds with a healing spell, increase the wounds healed by three)."
 msgstr ""
+"Magicznie wzmocnione szaty (obrona 3) ulepszone akcesoria magiczne (kiedy ta "
+"postać rzuca czar, może dodać efekty Dodatkowy cel i Dodatkowe przywołanie "
+"bez zwiększania trudności testu. Ponadto obrażenia podstawowe czarów ataku "
+"rzucanych przez tę postać są zwiększone o 2), nadzwyczajny przedmiot leczący "
+"(raz na sesję, kiedy postać leczy rany za pomocą czarów Uzdrowienia, zwiększ "
+"liczbę uleczonych ran o 3)."
 
 #: equipments
 msgid "Offensive Magic User"
-msgstr ""
+msgstr "Użytkownik magii ofensywnej"
 
 #: description Offensive Magic User
 msgid ""
@@ -1431,12 +1769,17 @@ msgid ""
 "magic skill, and represents characters who use their magic to attack. This "
 "works with characters who use any magic skill."
 msgstr ""
+"Ten zestaw wyposażenia jest odpowiedni dla postaci z co najmniej jedną "
+"umiejętnością magiczną i reprezentuje postacie, które używają magii do "
+"ataku. Działa z postaciami, które używają dowolnych umiejętności magicznych."
 
 #: weapons Offensive Magic User
 msgid ""
 "One-handed melee weapon (Melee [Light]; Damage +3; Critical 2; Range "
 "[Engaged]; Defensive 1)."
 msgstr ""
+"Jednoręczna broń biała (Broń Biała [Lekka]; Obrażenia +3; Krytyczność 2; "
+"Zasięg [Bezpośredni]; Obrona 1)."
 
 #: equipment Offensive Magic User
 msgid ""
@@ -1445,71 +1788,76 @@ msgid ""
 "difficulty. In addition, attack spells cast by this character increase their "
 "base damage by four)."
 msgstr ""
+"Szaty (obrona 1), ofensywne akcesoria magiczne (kiedy ta postać rzuca czar, "
+"pierwsze dodanie efektu Zasięg nie zwiększa trudności testu. Ponadto "
+"obrażenia podstawowe czarów ataku rzucanych przez tę postać są zwiększone o "
+"4)."
 
 #: defenses
 msgid "Tough Skin"
-msgstr ""
+msgstr "Twarda skóra"
 
 #: examples Tough Skin
 msgid "Minions, rivals, nemeses"
-msgstr ""
+msgstr "Pachołki, rywale, nemezis"
 
 #: defenses
 msgid "Armored Hide"
-msgstr ""
+msgstr "Opancerzona skóra"
 
 #: examples Armored Hide
 msgid "Rival or nemesis animals or non-humans"
-msgstr ""
+msgstr "Zwierzęta i inne istoty niebędące ludźmi jako rywale lub nemezis"
 
 #: defenses
 msgid "Dodgy"
-msgstr ""
+msgstr "Odskok"
 
 #: defenses
 msgid "Close Combatant"
-msgstr ""
+msgstr "Trzymanie gardy"
 
 #: examples Close Combatant
 msgid "Rivals, nemeses"
-msgstr ""
+msgstr "Rywale, nemezis"
 
 #: defenses
 msgid "Camouflaged"
-msgstr ""
+msgstr "Kamuflaż"
 
 #: defenses
 msgid "Hardy"
-msgstr ""
+msgstr "Wytrwały"
 
 #: defenses
 msgid "Very Tough"
-msgstr ""
+msgstr "Niestrudzony"
 
 #: examples Very Tough
 msgid "Rival animals or non-humans and all nemeses"
 msgstr ""
+"Zwierzęta i inne istoty nie będące ludźmi jako rywale oraz wszystkie nemezis"
 
 #: defenses
 msgid "Giant Body"
-msgstr ""
+msgstr "Olbrzymi"
 
 #: examples Giant Body
 msgid "Silhouette 3 or higher animal rivals and nemeses"
-msgstr ""
+msgstr "Zwierzęta o sylwetce 3 albo większej jako rywale lub nemezis"
 
 #: defenses
 msgid "Savvy"
-msgstr ""
+msgstr "Pomysłowy"
 
 #: examples Savvy
 msgid "Nemeses"
-msgstr ""
+msgstr "Nemezis"
 
 #: defenses
 msgid "Mental Giant"
-msgstr ""
+msgstr "Genialny umysł"
 
 #: examples Mental Giant
 msgid "Main character nemeses"
-msgstr ""
+msgstr "Główne postacie nemezis"

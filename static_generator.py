@@ -146,7 +146,7 @@ def write_template(template, data, locale=None):
     data_json = json.dumps(data, separators=(',', ':')).replace("'", "\\'").replace('\\"', '\\\\"') # correct escaping of quotations
     
     if locale:
-        file_name = f"adversary_{locale}.html"
+        file_name = f"{locale}.html"
     else:
        file_name = "adversary.html"
 
