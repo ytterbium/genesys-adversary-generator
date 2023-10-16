@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-05-21T19:16:13.217157\n"
+"POT-Creation-Date: 2023-09-10T08:39:29.600105\n"
 "PO-Revision-Date: 2022-03-19 17:15+0100\n"
 "Last-Translator:  <none@laposte.net>\n"
 "Language-Team: French <traduc@traduc.org>\n"
@@ -120,12 +120,52 @@ msgstr ""
 msgid "Equipment"
 msgstr ""
 
+#: template L 6
+msgid "wound threshold"
+msgstr ""
+
+#: template L 6
+msgid "strain threshold"
+msgstr ""
+
+#: template L 6
+msgid "soak"
+msgstr ""
+
+#: template L 6
+msgid "M/R defense"
+msgstr ""
+
 #: caracteristics
 msgid "Small Creature"
 msgstr ""
 
 #: examples Small Creature
 msgid "Mouse, bird, snake, cat"
+msgstr ""
+
+#: caracteristics
+msgid "brawn"
+msgstr ""
+
+#: caracteristics
+msgid "agility"
+msgstr ""
+
+#: caracteristics
+msgid "intellect"
+msgstr ""
+
+#: caracteristics
+msgid "cunning"
+msgstr ""
+
+#: caracteristics
+msgid "willpower"
+msgstr ""
+
+#: caracteristics
+msgid "presence"
 msgstr ""
 
 #: caracteristics
@@ -236,24 +276,72 @@ msgstr ""
 msgid "Basic Creature"
 msgstr ""
 
+#: skill name
+msgid "athletics"
+msgstr ""
+
+#: skill name
+msgid "brawl"
+msgstr ""
+
+#: skill name
+msgid "survival"
+msgstr ""
+
+#: skill name
+msgid "vigilance"
+msgstr ""
+
 #: skills
 msgid "Ferocious Creature"
+msgstr ""
+
+#: skill name
+msgid "perception"
 msgstr ""
 
 #: skills
 msgid "Predatory Creature"
 msgstr ""
 
+#: skill name
+msgid "coordination"
+msgstr ""
+
+#: skill name
+msgid "stealth"
+msgstr ""
+
 #: skills
 msgid "Territorial Creature"
+msgstr ""
+
+#: skill name
+msgid "resilience"
 msgstr ""
 
 #: skills
 msgid "Soldier"
 msgstr ""
 
+#: skill name
+msgid "discipline"
+msgstr ""
+
+#: skill name
+msgid "melee"
+msgstr ""
+
+#: skill name
+msgid "ranged"
+msgstr ""
+
 #: skills
 msgid "Duelist"
+msgstr ""
+
+#: skill name
+msgid "cool"
 msgstr ""
 
 #: skills
@@ -268,36 +356,96 @@ msgstr ""
 msgid "Gunslinger"
 msgstr ""
 
+#: skill name
+msgid "skulduggery"
+msgstr ""
+
 #: skills
 msgid "Sailor"
+msgstr ""
+
+#: skill name
+msgid "operating"
 msgstr ""
 
 #: skills
 msgid "Spy/Con Artist"
 msgstr ""
 
+#: skill name
+msgid "charm"
+msgstr ""
+
+#: skill name
+msgid "deception"
+msgstr ""
+
+#: skill name
+msgid "knowledge"
+msgstr ""
+
 #: skills
 msgid "Thief/Assassin"
+msgstr ""
+
+#: skill name
+msgid "streetwise"
 msgstr ""
 
 #: skills
 msgid "Researcher"
 msgstr ""
 
+#: skill name
+msgid "astrocartography"
+msgstr ""
+
+#: skill name
+msgid "computers"
+msgstr ""
+
 #: skills
 msgid "Natural Philosopher"
+msgstr ""
+
+#: skill name
+msgid "alchemy"
+msgstr ""
+
+#: skill name
+msgid "medicine"
+msgstr ""
+
+#: skill name
+msgid "negotiation"
 msgstr ""
 
 #: skills
 msgid "Doctor"
 msgstr ""
 
+#: skill name
+msgid "leadership"
+msgstr ""
+
 #: skills
 msgid "Knight/Warrior Leader"
 msgstr ""
 
+#: skill name
+msgid "driving"
+msgstr ""
+
+#: skill name
+msgid "riding"
+msgstr ""
+
 #: skills
 msgid "Captain of a Vessel"
+msgstr ""
+
+#: skill name
+msgid "coercion"
 msgstr ""
 
 #: skills
@@ -308,16 +456,32 @@ msgstr ""
 msgid "Mage"
 msgstr ""
 
+#: skill name
+msgid "arcana"
+msgstr ""
+
 #: skills
 msgid "Priest"
+msgstr ""
+
+#: skill name
+msgid "divine"
 msgstr ""
 
 #: skills
 msgid "Druid"
 msgstr ""
 
+#: skill name
+msgid "primal"
+msgstr ""
+
 #: skills
 msgid "Pilot/Driver/Rider"
+msgstr ""
+
+#: skill name
+msgid "piloting"
 msgstr ""
 
 #: skills
@@ -334,6 +498,10 @@ msgstr ""
 
 #: skills
 msgid "Mechanic"
+msgstr ""
+
+#: skill name
+msgid "mechanics"
 msgstr ""
 
 #: skills
@@ -1463,6 +1631,14 @@ msgstr ""
 
 #: defenses
 msgid "Dodgy"
+msgstr ""
+
+#: defense caracteristic
+msgid "melee defense"
+msgstr ""
+
+#: defense caracteristic
+msgid "ranged defense"
 msgstr ""
 
 #: defenses

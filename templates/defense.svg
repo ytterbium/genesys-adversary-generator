@@ -3,7 +3,7 @@
  <g transform="translate(-23.909 -114.26)">
   <path d="m32.04 121.62v-4.8004" style="fill:none;stroke-width:.52917;stroke:#902122"/>
   <path d="m24.062 114.38v1.5441l1.433 1.4325h13.158l1.4325-1.4325v-1.5441z" style="fill:#902122;"/>
-  <text transform="skewX(-15.041)" x="63.215553" y="116.73133" class="carac">M/R DEFENSE</text>
+  <text transform="skewX(-15.041)" x="63.215553" y="116.73133" class="carac">{{_("M/R defense") | capitalize}}</text>
   <path d="m24.033 114.38v4.4798l2.6355 2.6355h10.745l2.6355-2.6355v-4.4798z" style="fill:none;stroke-width:.24752;stroke:#fbdcb6"/>
   <text x="34.123478" y="120.90285" class="nb ranged_defense">0</text>
   <text x="30.9652" y="120.90285" class="nb melee_defense">0</text>

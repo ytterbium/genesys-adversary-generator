@@ -36,8 +36,10 @@ function update(){
       values = choices[i][item];
 
       if (item == 'caracs'){
-        result['caracteristics'] = values 
-        result['defense']['soak'] += values['brawn']
+        for (var carac in values) 
+          result['caracteristics'][carac] = values[carac][1];
+        
+        result['defense']['soak'] += values['brawn'][1];
 
       } else if (item == 'power_level')
         for (var name in values)
@@ -63,7 +65,7 @@ function update(){
         
       else if (item == "defense"){
         for (var name in values)
-          result["defense"][name.replace(' ', '_')] += values[name];
+          result["defense"][name.replace(' ', '_')] += values[name][1];
         
       }; 
     };

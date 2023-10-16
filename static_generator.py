@@ -117,9 +117,13 @@ def translate_data(data, T):
     for c in data['caracteristics']:
         c['name'] = T.gettext(c["name"], "caracteristics")
         c['ex'] = T.gettext(c["ex"], f"examples {c['name']}")
+        c['caracs'] = {carac: [T.gettext(carac, "caracteristics"), nb]
+                       for carac, nb in c['caracs'].items()}
 
     for s in data['skills']:
         s['name'] = T.gettext(s['name'], 'skills')
+        #s['skills'] = {carac: [T.gettext(carac, "skill name"), nb] for carac, nb in s['skills'].items()}
+        s['skills'] = {T.gettext(carac, "skill name"): nb for carac, nb in s['skills'].items()}
 
     for t in data['talents']:
         t['talent'] = T.gettext(t['talent'], 'talents')
@@ -139,6 +143,8 @@ def translate_data(data, T):
     for d in data['defense']:
         d['name'] = T.gettext(d["name"], "defenses")
         d['ex'] = T.gettext(d["ex"], f"examples {d['name']}")
+        d['defense'] = {carac: [T.gettext(carac, "defense caracteristic"), nb]
+                       for carac, nb in d['defense'].items()}
 
     return data
 
@@ -148,7 +154,7 @@ def write_template(template, data, locale=None):
     if locale:
         file_name = f"{locale}.html"
     else:
-       file_name = "adversary.html"
+       file_name = "en.html"
 
     with open(file_name, "w") as f:
         f.write(template.render(data=data_json, **data))
@@ -164,12 +170,13 @@ if __name__ == "__main__":
     
     # Pot extraction and generation of english template
     nT = PotTranslation()
-    for m in env.extract_translations(env.loader.get_source(env, "adver.html")[0]):
-        nT.gettext(m[2], f"template L {m[0]}")
+    for f in ['adver.html', 'wt.svg', 'st.svg', 'soak.svg', 'defense.svg']:
+        for m in env.extract_translations(env.loader.get_source(env, f)[0]):
+            nT.gettext(m[2], f"template L {m[0]}")
 
 
     data['selected_locale'] = 'en'
-    translate_data(data, nT)
+    data = translate_data(data, nT)
     nT.write_pot()
 
     env.install_null_translations()

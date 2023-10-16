@@ -62,7 +62,7 @@
             <tr onclick="click_row('{{id}}')">
               <td class="select"><input type="radio" id="caracteristics{{loop.index0}}" name="caracteristics" onchange="update()" value="{{loop.index0}}"></td>
               <td><label for="caracteristics{{loop.index0}}">{{array['name']}}</label></td>
-              <td><label for="caracteristics{{loop.index0}}">{% for name, value in array['caracs'].items() %} {{name|capitalize ~ ': ' ~ value}}{{", " if not loop.last}}{% endfor %}</label></td>
+              <td><label for="caracteristics{{loop.index0}}">{% for name, value in array['caracs'].values() %} {{name|capitalize ~ ': ' ~ value}}{{", " if not loop.last}}{% endfor %}</label></td>
               {% for name, value in array['power_level'].items() %}<td class="icon"><label for="{{id}}"><img src="static/{{name}}.svg" /></label></td>
               <td class="level"><label for="{{id}}">{{value}}</label></td>{% endfor %} 
               <td><label for="{{id}}">{{array['ex']}}</label></td>
@@ -88,7 +88,7 @@
               <td class="select"><input type="checkbox" id="defense{{loop.index0}}" name="defense" onchange="update()" value="{{loop.index0}}"></td>
               <td><label for="defense{{loop.index0}}">{{array['name']}}</label></td>
               <td><label for="defense{{loop.index0}}">
-                  {% for name, value in array['defense'].items() %}{{'{:+} '.format(value) ~ name}}{{", " if not loop.last}}{% endfor %}
+                  {% for name, value in array['defense'].values() %}{{'+{:} '.format(value) ~ name}}{{", " if not loop.last}}{% endfor %}
                 </label></td> 
                 {% for name, value in array['power_level'].items() %}<td class="icon"><label for="defense{{loop_outer.index0}}"><img src="static/{{name}}.svg" /></label></td>
                 <td class="level"><label for="defense{{loop_outer.index0}}">{{value}}</label></td>{% endfor %} 

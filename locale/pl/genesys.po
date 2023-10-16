@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2023-05-21T19:16:25.757958\n"
+"POT-Creation-Date: 2023-09-10T08:51:43.542593\n"
 "PO-Revision-Date: 2022-03-19 17:15+0100\n"
 "Last-Translator:  <none@laposte.net>\n"
 "Language-Team: Polish <translation-team-pl@lists.sourceforge.net>\n"
@@ -79,7 +79,7 @@ msgstr "Redukcja, obrona, progi ran i zmęczenia"
 
 #: template L 81
 msgid "Derived attribute"
-msgstr "Pochodny atrybut"
+msgstr "Atrybut pochodny"
 
 #: template L 102
 msgid "Skill packages"
@@ -121,17 +121,57 @@ msgstr "Uzbrojenie"
 msgid "Equipment"
 msgstr "Wyposażenie"
 
+#: template L 6
+msgid "wound threshold"
+msgstr "próg ran"
+
+#: template L 6
+msgid "strain threshold"
+msgstr "próg zmęczenia"
+
+#: template L 6
+msgid "soak"
+msgstr "redukcja"
+
+#: template L 6
+msgid "M/R defense"
+msgstr "Obrona Z/D"
+
 #: caracteristics
 msgid "Small Creature"
-msgstr "Małe stworzenia"
+msgstr "Mała istota"
 
 #: examples Small Creature
 msgid "Mouse, bird, snake, cat"
 msgstr "Mysz, ptak, wąż, kot"
 
 #: caracteristics
+msgid "brawn"
+msgstr "krzepa"
+
+#: caracteristics
+msgid "agility"
+msgstr "zwinność"
+
+#: caracteristics
+msgid "intellect"
+msgstr "intelekt"
+
+#: caracteristics
+msgid "cunning"
+msgstr "spryt"
+
+#: caracteristics
+msgid "willpower"
+msgstr "wola"
+
+#: caracteristics
+msgid "presence"
+msgstr "prezencja"
+
+#: caracteristics
 msgid "Large Creature"
-msgstr "Duże stworzenia"
+msgstr "Duża istota"
 
 #: examples Large Creature
 msgid "Bear, ox, horse, cow, ram"
@@ -139,7 +179,7 @@ msgstr "Niedźwiedź, wół, koń, krowa, baran"
 
 #: caracteristics
 msgid "Stealthy Creature"
-msgstr "Ciche stworzenia"
+msgstr "Ukryta istota"
 
 #: examples Stealthy Creature
 msgid "Puma, deer, shark"
@@ -147,7 +187,7 @@ msgstr "Puma, jeleń, rekin"
 
 #: caracteristics
 msgid "Huge Creature"
-msgstr "Wielkie stworzenia"
+msgstr "Wielka istota"
 
 #: examples Huge Creature
 msgid "Elephant, dinosaur"
@@ -155,11 +195,11 @@ msgstr "Słoń, dinozaur"
 
 #: caracteristics
 msgid "Average Person "
-msgstr "Przeciętniak"
+msgstr "Przeciętny człowiek"
 
 #: examples Average Person
 msgid "Any regular person"
-msgstr "Szary człowiek"
+msgstr "Dowolna osoba"
 
 #: caracteristics
 msgid "Tough Person"
@@ -237,25 +277,73 @@ msgstr "Główny czarny charakter w opowieści"
 msgid "Basic Creature"
 msgstr "Zwykła istota"
 
+#: skill name
+msgid "athletics"
+msgstr "atletyka"
+
+#: skill name
+msgid "brawl"
+msgstr "bijatyka"
+
+#: skill name
+msgid "survival"
+msgstr "sztuka przetrwania"
+
+#: skill name
+msgid "vigilance"
+msgstr "czujność"
+
 #: skills
 msgid "Ferocious Creature"
 msgstr "Okrutna istota"
+
+#: skill name
+msgid "perception"
+msgstr "percepcja"
 
 #: skills
 msgid "Predatory Creature"
 msgstr "Drapieżna istota"
 
+#: skill name
+msgid "coordination"
+msgstr "koordynacja"
+
+#: skill name
+msgid "stealth"
+msgstr "ukrywanie się"
+
 #: skills
 msgid "Territorial Creature"
 msgstr "Terytorialna istota"
+
+#: skill name
+msgid "resilience"
+msgstr "odporność"
 
 #: skills
 msgid "Soldier"
 msgstr "Żołnierz"
 
+#: skill name
+msgid "discipline"
+msgstr "dyscyplina"
+
+#: skill name
+msgid "melee"
+msgstr "broń biała"
+
+#: skill name
+msgid "ranged"
+msgstr "broń dystansowa"
+
 #: skills
 msgid "Duelist"
 msgstr "Pojedynkowicz"
+
+#: skill name
+msgid "cool"
+msgstr "opanowanie"
 
 #: skills
 msgid "Scout/Sniper"
@@ -269,37 +357,97 @@ msgstr "Awanturnik/robotnik"
 msgid "Gunslinger"
 msgstr "Rewolwerowiec"
 
+#: skill name
+msgid "skulduggery"
+msgstr "machlojki"
+
 #: skills
 msgid "Sailor"
 msgstr "Żeglarz"
+
+#: skill name
+msgid "operating"
+msgstr "pojazdy załogowe"
 
 #: skills
 msgid "Spy/Con Artist"
 msgstr "Szpieg/oszust"
 
+#: skill name
+msgid "charm"
+msgstr "urok osobisty"
+
+#: skill name
+msgid "deception"
+msgstr "oszustwo"
+
+#: skill name
+msgid "knowledge"
+msgstr "wiedza"
+
 #: skills
 msgid "Thief/Assassin"
 msgstr "Złodziej/zabójca"
+
+#: skill name
+msgid "streetwise"
+msgstr "znajomość półświatka"
 
 #: skills
 msgid "Researcher"
 msgstr "Pracownik naukowy"
 
+#: skill name
+msgid "astrocartography"
+msgstr "astrokartografia"
+
+#: skill name
+msgid "computers"
+msgstr "komputery"
+
 #: skills
 msgid "Natural Philosopher"
 msgstr "Filozof przyrody"
+
+#: skill name
+msgid "alchemy"
+msgstr "alchemia"
+
+#: skill name
+msgid "medicine"
+msgstr "medycyna"
+
+#: skill name
+msgid "negotiation"
+msgstr "negocjacje"
 
 #: skills
 msgid "Doctor"
 msgstr "Doktor"
 
+#: skill name
+msgid "leadership"
+msgstr "przywództwo"
+
 #: skills
 msgid "Knight/Warrior Leader"
 msgstr "Rycerz/przywódca-wojownik"
 
+#: skill name
+msgid "driving"
+msgstr "prowadzenie pojazdów"
+
+#: skill name
+msgid "riding"
+msgstr "jeździectwo"
+
 #: skills
 msgid "Captain of a Vessel"
 msgstr "Kapitan jednostki"
+
+#: skill name
+msgid "coercion"
+msgstr "przymuszanie"
 
 #: skills
 msgid "Politician/Official"
@@ -309,17 +457,33 @@ msgstr "Polityk/urzędnik"
 msgid "Mage"
 msgstr "Mag"
 
+#: skill name
+msgid "arcana"
+msgstr "moc tajemna"
+
 #: skills
 msgid "Priest"
 msgstr "Kapłan"
+
+#: skill name
+msgid "divine"
+msgstr "moc boska"
 
 #: skills
 msgid "Druid"
 msgstr "Druid"
 
+#: skill name
+msgid "primal"
+msgstr "moc pierwotna"
+
 #: skills
 msgid "Pilot/Driver/Rider"
 msgstr "Pilot/kierowca/jeździec"
+
+#: skill name
+msgid "piloting"
+msgstr "pilotaż"
 
 #: skills
 msgid "Merchant"
@@ -336,6 +500,10 @@ msgstr "Biurokrata"
 #: skills
 msgid "Mechanic"
 msgstr "Mechanik"
+
+#: skill name
+msgid "mechanics"
+msgstr "mechanika"
 
 #: skills
 msgid "Hacker"
@@ -421,8 +589,8 @@ msgstr ""
 "zwierzęcia zwiększa się o 1. (Może to oznaczać, że postać zdobywa nowego "
 "towarzysza albo że jej towarzysz rośnie).  Ten talent może mieć różne "
 "oblicze zależnie od uniwersum waszej gry. Choć zwierzęcy towarzysz może mieć "
-"sens w wielu realiach, w przypadku settingów futurystycznych zamiast "
-"zwierzęcia można wprowadzić robota albo dron."
+"sens w wielu realiach, do futurystycznych zamiast zwierzęcia może bardziej "
+"pasować robot albo dron."
 
 #: talents
 msgid "Barrel Roll"
@@ -442,7 +610,7 @@ msgstr ""
 "Kiedy twój pojazd otrzymuje trafienie w wyniku testu walki dystansowej, po "
 "określeniu obrażeń, ale przed zastosowaniem pancerza postać może przyjąć na "
 "pojazd 3 punkty obciążenia systemu, aby użyć tego talentu. Wówczas zmniejsza "
-"otrzymane obrażenia o liczbę równą poziomom Pilotażu."
+"otrzymane obrażenia o liczbę równą posiadanym poziomom Pilotażu."
 
 #: talents
 msgid "Berserk"
@@ -460,9 +628,9 @@ msgid ""
 msgstr ""
 "Aktywacja: Aktywny (manewr); Postać może użyć tego talentu raz na "
 "spotkanie.  Do końca tego spotkania albo dopóki nie zostanie obezwładniona, "
-"dodaje 󲊳 󲊴 󲊴 do swoich testów walki wręcz. Jednocześnie przeciwnicy dodają 󲊳 "
+"dodaje󲊳 󲊴 󲊴 do swoich testów walki wręcz. Jednocześnie przeciwnicy dodają 󲊳 "
 "do testów walki, których celem jest ta postać. W tym stanie postać nie może "
-"wykonywać testów walki dystansowej.  Pod koniec spotkania (albo gdy zostanie "
+"wykonywać testów walki dystansowej. Pod koniec spotkania (albo gdy zostanie "
 "obezwładniona) postać otrzymuje 6 punktów zmęczenia."
 
 #: talents
@@ -1661,7 +1829,7 @@ msgid ""
 "Light armor (+1 soak), badge of authority (adds 󲊸 to Coercion or Leadership "
 "checks this character makes), restraints, torch or other light source."
 msgstr ""
-"Lekki pancerz (redukcja +1), odznaka władzy (dodaje 󲊸 do testów Przymuszania "
+"Lekki pancerz (redukcja +1), odznaka władzy (dodaje 󲊸do testów Przymuszania "
 "lub Przywództwa wykonywanych przez tę postać), kajdanki, pochodnia lub inne "
 "źródło światła."
 
@@ -1812,6 +1980,14 @@ msgstr "Zwierzęta i inne istoty niebędące ludźmi jako rywale lub nemezis"
 #: defenses
 msgid "Dodgy"
 msgstr "Odskok"
+
+#: defense caracteristic
+msgid "melee defense"
+msgstr "obrona w zwarciu"
+
+#: defense caracteristic
+msgid "ranged defense"
+msgstr "obrona na dystans"
 
 #: defenses
 msgid "Close Combatant"
