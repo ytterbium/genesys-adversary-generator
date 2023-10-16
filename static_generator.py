@@ -176,12 +176,12 @@ if __name__ == "__main__":
 
 
     data['selected_locale'] = 'en'
-    data = translate_data(data, nT)
+    data_pot = translate_data(data, nT)
     nT.write_pot()
 
     env.install_null_translations()
     template = env.get_template("adver.html")
-    write_template(template, data)
+    write_template(template, data_pot)
 
     # Generation of translated templates
     for lc in locales:
