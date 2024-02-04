@@ -244,3 +244,9 @@ label ~ input[type="radio"]{
     resize: none;
     width: 100%;
 }
+
+@media print {
+  #main_box {
+    display: none;
+  }
+}
